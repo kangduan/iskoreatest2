@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'home/manlift'
   get 'home/forklift'
   get 'home/tmi'
-  get 'home/printer
+  get 'home/printer'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
