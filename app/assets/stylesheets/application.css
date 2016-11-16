@@ -13,28 +13,3 @@
  *= require_tree .
  *= require_self
  */
- /*<!-- Libs and Plugins CSS -->*/
- vendor/assets/stylesheets/
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/bootstrap.min.css">
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/animate.min.css">
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/font-awesome.min.css"> <!-- Font Icons-->
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/owl.carousel.css">
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/owl.theme.css">
- /*<!-- Theme CSS-->*/
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/reset.css">
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/style.css">
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/mobile.css">
- /*<!-- Skin CSS-->*/
- <link rel="stylesheet" href="vendor/assets/stylesheets/css/cool-gray.css">
- /*<!-- fonts -->*/
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/fontawesome-webfont.eot">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/fontawesome-webfont.svg">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/fontawesome-webfont.ttf">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/fontawesome-webfont.woff">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/fontawesome-webfont.woff2">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/FontAwesome.otf">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/glyphicons-halflings-regular.eot">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/glyphicons-halflings-regular.svg">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/glyphicons-halflings-regular.woff">
- <link rel="stylesheet" href="vendor/assets/stylesheets/fonts/glyphicons-halflings-regular.woff2">
