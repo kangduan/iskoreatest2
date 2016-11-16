@@ -180,7 +180,7 @@ a, a:hover, a:focus {
 
 /* === Contact === */
 #contact-section {
-	background-color: #363940;
+	/*background-color: #363940;*/
 }
 #contact-section .contact .contact-form button {
 	background-color: #363940;
