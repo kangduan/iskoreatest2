@@ -21,7 +21,7 @@ class HomeController < ApplicationController
                   message_id = result['id']
                   message = result['message']
 
-            redirect_to "/home/index"
+            redirect_to "/"
   end
 
   def about
