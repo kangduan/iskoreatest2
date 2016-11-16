@@ -15,17 +15,17 @@
 //= require turbolinks
 //= require_tree .
 /*<!-- Theme JS-->*/
-<script src="js/theme.js"></script>
+<script src="vendor/assets/javascripts/js/theme.js"></script>
 /*<!-- Plugins JS-->*/
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jssor.slider.mini.js"></script>
+<script src="vendor/assets/javascripts/js/jquery-1.11.1.min.js"></script>
+<script src="vendor/assets/javascripts/js/bootstrap.min.js"></script>
+<script src="vendor/assets/javascripts/js/owl.carousel.min.js"></script>
+<script src="vendor/assets/javascripts/js/jquery.stellar.min.js"></script>
+<script src="vendor/assets/javascripts/js/wow.min.js"></script>
+<script src="vendor/assets/javascripts/js/waypoints.min.js"></script>
+<script src="vendor/assets/javascripts/js/isotope.pkgd.min.js"></script>
+<script src="vendor/assets/javascripts/js/classie.js"></script>
+<script src="vendor/assets/javascripts/js/jquery.easing.min.js"></script>
+<script src="vendor/assets/javascripts/js/jquery.counterup.min.js"></script>
+<script src="vendor/assets/javascripts/js/smoothscroll.js"></script>
+<script src="vendor/assets/javascripts/js/jssor.slider.mini.js"></script>
