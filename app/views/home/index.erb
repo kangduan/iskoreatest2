@@ -332,7 +332,7 @@
 
 
             <!-- Begin Portfolio -->
-            <section id="product" class="page bg-style1">
+<section id="product" class="page bg-style1">
                  <div class="page-header-wrapper">
                         <div class="container">
                             <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -463,7 +463,14 @@
 </div>
 
     </div>
-            </section>
+</section>    <!-- product section-->
+<script>
+$(document).ready(function() {
+    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+});
+</script>
+
             <!-- End portfolio -->
 
 
@@ -833,43 +840,43 @@
 
 
 
-<!-- Begin testimonials -->
-            <section id="testimonial-section">
-                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
-                    <div class="cover"></div>
-                    <!-- Begin page header-->
-                    <div class="page-header-wrapper">
-                        <div class="container">
-                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                                <h2>Our Location</h2>
-                                <div class="devider"></div>
-                                <p class="subtitle">Hanoi & Hochiminh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End page header-->
-                    <div class="container">
-                        <div class="testimonial-inner center-block text-center">
-                            <div id="owl-testimonial" class="owl-carousel">
-                                <div class="item">
-                                    <blockquote>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.397121886777!2d105.78198556501896!3d21.01679043600487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab54e29650c5%3A0x453b5c2a98dc5e98!2z6rK964KoIO2VmOuFuOydtCDrnpzrk5zrp4jtgawg7YOA7JuMIEtlYW5nbmFtLCBN4buFIFRyw6wsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504326355"
-					width="1500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                    </blockquote>
-                                </div>
-                                <div class="item">
-                                    <blockquote>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3806698532544!2d106.70350971489194!3d10.782128692317649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f494ab1a7ab%3A0xca5d3f36e8edd13!2zQ0ogQnVpbGRpbmcsIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504391172"
- 						width="1500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                    </blockquote>
-                                </div>
+			<!-- Begin testimonials -->
+			            <section id="testimonial-section">
+			                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
+			                    <div class="cover"></div>
+			                    <!-- Begin page header-->
+			                    <div class="page-header-wrapper">
+			                        <div class="container">
+			                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+			                                <h2>Our Location</h2>
+			                                <div class="devider"></div>
+			                                <p class="subtitle">Hanoi & Hochiminh</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                    <!-- End page header-->
+			                    <div class="container">
+			                        <div class="testimonial-inner center-block text-center">
+			                            <div id="owl-testimonial" class="owl-carousel">
+			                                <div class="item">
+			                                    <blockquote>
+			                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.397121886777!2d105.78198556501896!3d21.01679043600487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab54e29650c5%3A0x453b5c2a98dc5e98!2z6rK964KoIO2VmOuFuOydtCDrnpzrk5zrp4jtgawg7YOA7JuMIEtlYW5nbmFtLCBN4buFIFRyw6wsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504326355"
+								width="1500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			                                    </blockquote>
+			                                </div>
+			                                <div class="item">
+			                                    <blockquote>
+			                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3806698532544!2d106.70350971489194!3d10.782128692317649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f494ab1a7ab%3A0xca5d3f36e8edd13!2zQ0ogQnVpbGRpbmcsIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504391172"
+			 						width="1500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			                                    </blockquote>
+			                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End testimonials -->
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+			            </section>
+			            <!-- End testimonials -->
 
 
 
@@ -995,13 +1002,7 @@
 
         </div><!-- body ends -->
 
-    <!-- product section-->
-<script>
-$(document).ready(function() {
-    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
-    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
-});
-</script>
+
   </body>
 
 
