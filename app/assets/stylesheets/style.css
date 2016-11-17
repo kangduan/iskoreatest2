@@ -1151,17 +1151,6 @@ header span.glyphicon{color:#000; text-shadow:2px 2px #111 !important;filter:blu
 -moz-filter: blur(2px);
 -o-filter: blur(2px);
 -ms-filter: blur(2px);} /*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/
-/*product*/
-@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-
-/*********************************************
-        		Theme Elements
-*********************************************/
-
-.gold{
-	color: #FFBF00;
-}
-
 /*********************************************
 					PRODUCTS
 *********************************************/
