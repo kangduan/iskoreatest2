@@ -6,7 +6,7 @@ Master Stylesheet
 	Author:		 imransdesign.com
 	URL:		 http://imransdesign.com/
     Designed By: https://www.behance.net/poljakova
-	Version:	1.0	
+	Version:	1.0
 
 ---------------------------------------------------------------------------------*/
 
@@ -41,7 +41,7 @@ body .body {
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0 !important;
 }
-*:focus { 
+*:focus {
 	outline: none !important;
 	box-shadow: none !important;
 }
@@ -94,7 +94,7 @@ section {
 .devider {
 	width: 100%;
 	height: 23px;
-	background: url('../img/devider.png') no-repeat center center;
+	background: url('..assets/img/devider.png') no-repeat center center;
 	margin: 5px 0 10px;
 }
 .thumbnail {
@@ -539,7 +539,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	z-index: 5;
 	margin-bottom:30px;
 	overflow:hidden;
-	
+
 }
 .portfolio_single_content:hover img{
 	 -o-transform: scale(2);
@@ -648,7 +648,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 /* ===== Begin team ===== */
 .team-item {
 	height: 120px;
-}	
+}
 .team-item .team-triangle {
 	width: 120px;
 	height: 120px;
