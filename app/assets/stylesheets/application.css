@@ -10,6 +10,26 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require animate.min
+ *= require bootstrap.min
+ *= require cool-gray
+ *= require font-awesome.min
+ *= require mobile
+ *= require owl.carousel
+ *= require owl.theme
+ *= require reset
+ *= require style
+ *= require fontawesome-webfont.eot
+ *= require fontawesome-webfont.svg
+ *= require fontawesome-webfont.ttf
+ *= require fontawesome-webfont.woff
+ *= require fontawesome-webfont.woff2
+ *= require FontAwesome.otf
+ *= require glyphicons-halflings-regular.eot
+ *= require glyphicons-halflings-regular.svg
+ *= require glyphicons-halflings-regular.ttf
+ *= require glyphicons-halflings-regular.woff
+ *= require glyphicons-halflings-regular.woff2
  *= require_tree .
  *= require_self
  */
