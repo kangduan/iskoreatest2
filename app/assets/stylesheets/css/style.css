@@ -822,13 +822,12 @@ ul.social-list li a i {
 /* ===== Begin contact ===== */
 #contact-section {
 	position: relative;
-	color: #000;
 }
 #contact-section h4 {
-	font-weight: 400;
+	font-weight: 500;
 }
 #contact-section .cover {
-	background-color: rgba(5, 8, 11, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
