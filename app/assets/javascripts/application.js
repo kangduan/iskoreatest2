@@ -10,10 +10,6 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
 //= require bootstrap.min
 //= require classie
 //= require isotope.pkgd.min
@@ -27,3 +23,7 @@
 //= require theme
 //= require waypoints.min
 //= require wow.min
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
