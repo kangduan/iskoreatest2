@@ -801,6 +801,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 #social-section {
 	padding: 80px 0;
 }
+#social-section .cover {
+	background-color: rgba(5, 8, 11, 0.3);
+}
 ul.social-list {
 	text-align: center;
 	margin: 0 auto;
@@ -1141,3 +1144,10 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
+/*recruit*/
+article img{margin:0 1.5em 1.5em 0;box-shadow:0 0 8px 4px black;border:.5em groove #fff;}
+article {border:.5em outset #aac !important; border-radius:1em !important; box-shadow:0 0 23px #000 !important;}
+header span.glyphicon{color:#000; text-shadow:2px 2px #111 !important;filter:blur(2px);-webkit-filter: blur(2px);
+-moz-filter: blur(2px);
+-o-filter: blur(2px);
+-ms-filter: blur(2px);} /*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/
