@@ -16,7 +16,7 @@
 //= require jquery-1.11.1.min
 //= require jquery.counterup.min
 //= require jquery.easing.min
-//= require jquery.stellar.min//= require
+//= require jquery.stellar.min
 //= require jssor.slider.mini
 //= require owl.carousel.min
 //= require smoothscroll
