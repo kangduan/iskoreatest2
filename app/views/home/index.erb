@@ -399,9 +399,9 @@
                                 <div class="page-header-wrapper">
                                     <div class="container">
                                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                                            <h2>Our Works</h2>
+                                            <h2>Rental Products</h2>
                                             <div class="devider"></div>
-                                            <p class="subtitle">What we are proud of</p>
+                                            <p class="subtitle">Rent to easily & Reasonably</p>
                                         </div>
                                     </div>
                                 </div>
@@ -521,10 +521,17 @@
 		</div>
 </div>
 </div>
-                        </div><!-- id product -->
+  </div><!-- id product -->
 
-            </section>
-            <!-- End portfolio -->
+  </section>
+        <!-- End portfolio -->
+						<!-- product section-->
+<script>
+$(document).ready(function() {
+    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+});
+</script>
 
 
 
