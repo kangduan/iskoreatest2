@@ -12,4 +12,14 @@
  *
  *= require_tree .
  *= require_self
+ *= require animate
+ *= require bootstrap
+ *= require bootstrap.min
+ *= require cool-gray
+ *= require font-awesome.min
+ *= require mobile
+ *= require owl.carousel
+ *= require owl.theme
+ *= require reset
+ *= require style
  */
