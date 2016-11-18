@@ -1321,3 +1321,29 @@ header span.glyphicon{color:#000; text-shadow:2px 2px #111 !important;filter:blu
     background: #FFFFFF;
     border-color: #FFFFFF;
 }
+.container .credit {
+  margin: 0 0;
+  padding: 8px 0 4px 0;
+}
+
+.caret-up {
+    /* Safari */
+    -webkit-transform: rotate(-180deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-180deg);
+
+    /* IE */
+    -ms-transform: rotate(-180deg);
+
+    /* Opera */
+    -o-transform: rotate(-180deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);
+
+}
+.drop-up {
+    top: auto;
+    bottom: 100% !important;
+}
