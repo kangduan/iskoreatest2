@@ -536,6 +536,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 .testimonial .cover {
 	background-color: rgba(0, 7, 11, 0.2);
 }
+.testimonial .cover-about {
+	background-color: rgba(0, 7, 11, 0.93);
+}
 .testimonial-inner {
 	position: relative;
 	max-width: 800px;
@@ -697,6 +700,11 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .counter-up .fact-inner .counter {
 	font-size: 30px;
+}
+.counter-up-a {
+	position: relative;
+	background-color: #171717;
+	padding: 80px 0 50px 0;
 }
 /* ===== End Counter-Up ===== */
 
