@@ -558,6 +558,35 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	font-size: 1.5em;
 }
 
+.testimonial2 {
+	position: relative;
+	overflow: hidden;
+	padding: 80px 0;
+}
+.testimonial2 .cover {
+	/*background-color: rgba(0, 7, 11, 0.2);*/
+}
+.testimonial2-inner {
+	position: relative;
+	max-width: 800px;
+	z-index: 9;
+}
+.testimonial2-inner .heading {
+	margin-bottom: 20px;
+}
+.testimonial2-inner blockquote {
+	border: none;
+}
+.testimonial2-inner blockquote p {
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+.testimonial2-inner blockquote cite {
+	font-style: normal;
+	color: #fff;
+	font-size: 1.5em;
+}
+
 /* ===== End testimonial ===== */
 
 
