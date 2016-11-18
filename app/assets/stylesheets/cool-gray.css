@@ -23,7 +23,7 @@ a, a:hover, a:focus {
 	color: #a9a9a9;
 }
 .navbar-default.navbar-shrink .navbar-nav > li > a:hover, .navbar-default.navbar-shrink .navbar-nav > li > a:focus, .navbar-default.navbar-shrink .navbar-nav > li.active > a {
-	color: #fff;
+	/*color: #fff;*/
 }
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	-webkit-box-shadow: inset 0 3px #fff !important;
@@ -37,17 +37,17 @@ a, a:hover, a:focus {
 	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a.active, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-	color: #ffff;
+	color: #fff;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 	color: #fff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
-	
+
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
-	
+
 }
 /* Navbar inverse */
 .navbar-inverse {
@@ -211,7 +211,7 @@ a, a:hover, a:focus {
 
 
 /* === Buttons === */
-.btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active { 
+.btn-default, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	background: #363940;
 	color: #fff;
 }
