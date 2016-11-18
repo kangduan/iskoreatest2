@@ -535,7 +535,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .testimonial .cover {
-	*background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 .testimonial-inner {
 	position: relative;
