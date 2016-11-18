@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.3
 */
 
@@ -21,7 +21,7 @@
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-	background: #869791;
+	/*background: #869791;*/
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
 }
@@ -77,4 +77,3 @@
 	min-height: 150px;
 	background: url(AjaxLoader.gif) no-repeat center center
 }
-
