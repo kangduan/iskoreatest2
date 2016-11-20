@@ -8,7 +8,7 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 .navbar-default .navbar-brand:hover {
-	color: #fff;
+	/*color: #fff;*/
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
   background-color: #363940;
