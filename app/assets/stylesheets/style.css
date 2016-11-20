@@ -137,7 +137,6 @@ section {
 .navbar {
 	margin: 0;
 	border-bottom:1px solid #dddddd;
-	position: fixed;
 	/*border: none;*/
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
