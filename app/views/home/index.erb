@@ -68,53 +68,81 @@
 						<!-- End Navbar -->
 				</header>
 				<!-- ========= END HEADER =========-->
-
-								<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1600px; height: 500px; overflow: hidden;">
-
-										<!-- Loading Screen -->
-										<div u="loading" style="position: absolute; top: 0px; left: 0px;">
-												<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
-
-												background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
-												</div>
-												<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
-
-												top: 0px; left: 0px;width: 100%;height:100%;">
-												</div>
-										</div>
-
-										<!-- Slides Container -->
-										<div u="slides" style="position: absolute; left: 0px; top: 0px; width: 1600px; height: 500px;
-										overflow: hidden;">
-												<div>
-														<img u="image" src2="../img/slide/innovate.png" />
-
-												</div>
-												<div>
-														<img u="image" src2="../img/slide/create.png" />
-
-												</div>
-												<div>
-														<img u="image" src2="../img/slide/best.png" />
-
-												</div>
-										</div>
-										<!-- bullet navigator container -->
-										<div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
-												<!-- bullet navigator item prototype -->
-												<div u="prototype"></div>
-										</div>
-
-
-										<!-- Arrow Left -->
-										<span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
-										</span>
-										<!-- Arrow Right -->
-										<span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
-										</span>
-										<!--#endregion Arrow Navigator Skin End -->
-
-								</div>
+				<div class="row">
+						<!-- Carousel -->
+				    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+							  	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol>
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+							    <div class="item active">
+							    	<img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide">
+				                    <!-- Static Header -->
+				                    <div class="header-text hidden-xs">
+				                        <div class="col-md-12 text-center">
+				                            <h2>
+				                            	<span>Welcome to <strong>LOREM IPSUM</strong></span>
+				                            </h2>
+				                            <br>
+				                            <h3>
+				                            	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+				                            </h3>
+				                            <br>
+				                            <div class="">
+				                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+				                        </div>
+				                    </div><!-- /header-text -->
+							    </div>
+							    <div class="item">
+							    	<img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Second slide">
+							    	<!-- Static Header -->
+				                    <div class="header-text hidden-xs">
+				                        <div class="col-md-12 text-center">
+				                            <h2>
+				                                <span>Welcome to LOREM IPSUM</span>
+				                            </h2>
+				                            <br>
+				                            <h3>
+				                            	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+				                            </h3>
+				                            <br>
+				                            <div class="">
+				                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+				                        </div>
+				                    </div><!-- /header-text -->
+							    </div>
+							    <div class="item">
+							    	<img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Third slide">
+							    	<!-- Static Header -->
+				                    <div class="header-text hidden-xs">
+				                        <div class="col-md-12 text-center">
+				                            <h2>
+				                                <span>Welcome to LOREM IPSUM</span>
+				                            </h2>
+				                            <br>
+				                            <h3>
+				                            	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+				                            </h3>
+				                            <br>
+				                            <div class="">
+				                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+				                        </div>
+				                    </div><!-- /header-text -->
+							    </div>
+							</div>
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						    	<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						    	<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div><!-- /carousel -->
+					</div>
 								<!-- Jssor Slider End -->
 								<!-- jssor slider scripts-->
 						    <!-- use jssor.slider.debug.js for debug -->
