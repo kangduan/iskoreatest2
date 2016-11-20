@@ -252,6 +252,7 @@ section {
 .navbar-transparent {
 	background-color: rgba(0, 0, 0, 0);
 }
+/*
 .navbar-fixed-top.navbar-transparent .container {
 	padding-top: 30px;
 	padding-bottom: 0;
@@ -260,6 +261,7 @@ section {
 	padding-top: 0;
 	padding-bottom: 30px;
 }
+*/
 .navbar-transparent .navbar-nav > li > a {
 	color: #FFF;
 }
