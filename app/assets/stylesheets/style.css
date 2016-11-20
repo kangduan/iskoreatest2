@@ -135,8 +135,9 @@ section {
 /* Navigation
 /* ===== Begin navbar ===== */
 .navbar {
-	margin-bottom: 100px;
-	border: none;
+	margin: 0;
+	border-bottom:1px solid #dddddd;
+	/*border: none;*/
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -266,7 +267,7 @@ section {
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
 }
-/* ===== End navbar ===== */
+/* ===== End navbar ===== /*
 
 
 
