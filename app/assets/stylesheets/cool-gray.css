@@ -11,7 +11,7 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #363940;
+  background-color: #fff;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #a9a9a9;
@@ -43,7 +43,7 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: transparent;
+	/*background-color: transparent;*/
 
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
