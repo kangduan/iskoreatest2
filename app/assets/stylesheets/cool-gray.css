@@ -17,13 +17,13 @@ a, a:hover, a:focus {
 	color: #a9a9a9;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav>.active>a {
-	/*color: #fff !important;*/
+	color: #fff !important;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
 	/*color: #a9a9a9;*/
 }
 .navbar-default.navbar-shrink .navbar-nav > li > a:hover, .navbar-default.navbar-shrink .navbar-nav > li > a:focus, .navbar-default.navbar-shrink .navbar-nav > li.active > a {
-	/*color: #fff;*/
+	color: #fff;
 }
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	-webkit-box-shadow: inset 0 3px #fff !important;
@@ -104,10 +104,10 @@ a, a:hover, a:focus {
 }
 
 .navbar-fixed-top.navbar-shrink .navbar-brand, .navbar-fixed-top.navbar-shrink .navbar-brand:focus, body.boxed .body .navbar-inverse.navbar-transparent.navbar-shrink .navbar-brand {
-	color: #CCC;
+	/*color: #CCC;*/
 }
 .navbar-fixed-top.navbar-shrink .navbar-brand:hover {
-	color: #111;
+	/*color: #111;*/
 }
 
 
