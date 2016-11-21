@@ -242,8 +242,8 @@ section {
 	padding-bottom: 0 !important;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
-	padding-top: 24px;
-	padding-bottom: 24px;
+	/*padding-top: 24px;
+	padding-bottom: 24px;*/
 }
 
 /* Navbar transparent */
