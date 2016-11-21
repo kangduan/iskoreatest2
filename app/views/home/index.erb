@@ -691,9 +691,11 @@ $(document).ready(function() {
 								<div class="pull-left">
 
 								<ul class="nav nav-tabs">
-									<li class="active"><a href="#letters" data-toggle="tab"><i class="glyphicon glyphicon-print"></i> Business Management (HR / ACCOUNTING)</a></li>
-									<li><a href="#emails" data-toggle="tab"><i class="glyphicon glyphicon-send"></i> Sales</a></li>
-									<li><a href="#loglist" data-toggle="tab"><i class="glyphicon glyphicon-list"></i> Logs</a></li>
+									<li class="active"><a href="#business" data-toggle="tab"><i class="fa fa-user"></i> Business Management (HR / ACCOUNTING)</a></li>
+									<li><a href="#sales" data-toggle="tab"><i class="fa fa-user"></i> Sales (PhotoCopier / Manlift / Car)</a></li>
+									<li><a href="#copy" data-toggle="tab"><i class="fa fa-user"></i> PhotoCopier Engineer</a></li>
+									<li><a href="#man" data-toggle="tab"><i class="fa fa-user"></i> Man-lift Engineer</a></li>
+									<li><a href="#driver" data-toggle="tab"><i class="fa fa-user"></i> Driver</a></li>
 								</ul>
 
 								</div>
@@ -701,7 +703,7 @@ $(document).ready(function() {
 								<div class="btn-group pull-right">
 									<div class="btn-group">
 										<a href="#" class="btn  dropdown-toggle" data-toggle="dropdown">
-											<span class="glyphicon glyphicon-cog"></span>
+											<span class="fa fa-user"></span>
 										</a>
 										<ul class="dropdown-menu" role="menu">
 											<li><a href="#">Action 1</a></li>
@@ -719,12 +721,9 @@ $(document).ready(function() {
 						</div>
 
 						<div class="panel-body">
-
-
 							<div class="tab-content">
 
-                <div class="tab-pane fade in active" id="letters">
-									<h3>Business Management (HR / ACCOUNTING)</h3>
+                <div class="tab-pane fade in active" id="business">
 								 <form>
 									<inpput type="hidden" name="FormName" value="PrintLetters">
 									<table class="table table-striped">
@@ -750,31 +749,116 @@ $(document).ready(function() {
 									 </tr>
 									</TBODY>
 									</TABLE>
-									Select events and click below<BR><BR>
 
 								</FORM>
 								</div>
 
 
-							<div class="tab-pane fade" id="emails">
-								<h3>Emails</h3>
-								 <FORM ACTION="" METHOD="post">
+							<div class="tab-pane fade" id="sales">
+
+								 <FORM >
 									<INPUT TYPE="hidden" NAME="FormName" VALUE="PrintLetters">
 									<TABLE class="table table-striped">
 									<THEAD>
-										<TR><TH>Print</TH><TH style="text-align:left">Subscription</TH><TH style="text-align:left">Venue</TH><TH>Date/Time</TH><TH>Quantity</TH></TR>
+										<TR><TH>Department</TH><TH style="text-align:left">Qualification</TH><TH style="text-align:left">Preference</TH><TH>Working Condition</TH></TR>
 									</THEAD>
 									<TBODY>
-										<TR><TD><INPUT TYPE="checkbox" NAME="EventCode" VALUE=588031></TD><TD>Season Subscription (Winter)</TD><TD>Downtown Theater</TD><TD>1/1/2015 12:00 PM</TD><TD>8</TD></TR>
-										<TR><TD><INPUT TYPE="checkbox" NAME="EventCode" VALUE=588031></TD><TD>Season Subscription (Spring)</TD><TD>Downtown Theater</TD><TD>1/1/2015 12:00 PM</TD><TD>8</TD></TR>
-										<TR><TD><INPUT TYPE="checkbox" NAME="EventCode" VALUE=588031></TD><TD>Season Subscription (Summer)</TD><TD>Downtown Theater</TD><TD>1/1/2015 12:00 PM</TD><TD>8</TD></TR>
-										<TR><TD><INPUT TYPE="checkbox" NAME="EventCode" VALUE=588031></TD><TD>Season Subscription (Fall)</TD><TD>Downtown Theater</TD><TD>1/1/2015 12:00 PM</TD><TD>8</TD></TR>
+										<tr>
+																							 <td>PhotoCopier / PC  Sales</td>
+																							 <td>University Graduate / Major independent , Using Office Programs</td>
+																							 <td>Computer Technology Majors, Related Work Experience</td>
+																							 <td>Working Area: Hanoi / Hochiminh Office
+																								 <br>Working 5 days a week
+																							 </td>
+																					 </tr>
+																					 <tr>
+				 																			<td>Car Sales</td>
+				 																			<td>University Graduate / Major independent , Using Office Programs</td>
+				 																			<td>Automobile Majors, Related Work Experience</td>
+				 																			<td>Working Area: Hanoi / Hochiminh Office
+				 																				<br>Working 5 days a week
+				 																			</td>
+				 																	</tr>
+																					<tr>
+																						 <td>Man-Lift Sales</td>
+																						 <td>University Graduate / Major independent , Using Office Programs</td>
+																						 <td>Related Work Experience</td>
+																						 <td>Working Area: Hanoi / Hochiminh Office
+																							 <br>Working 5 days a week
+																						 </td>
+																				 </tr>
 									</TBODY>
 									</TABLE>
-									Select events and click below<BR><BR>
-									<INPUT TYPE="submit" CLASS="btn btn-outline btn-default" VALUE="Submit">
+
 								</FORM>
 								</div>
+
+								<div class="tab-pane fade" id="copy">
+
+									 <FORM ACTION="" METHOD="post">
+										<INPUT TYPE="hidden" NAME="FormName" VALUE="PrintLetters">
+										<TABLE class="table table-striped">
+										<THEAD>
+											<TR><TH>Department</TH><TH style="text-align:left">Qualification</TH><TH style="text-align:left">Preference</TH><TH>Working Condition</TH></TR>
+										</THEAD>
+										<TBODY>
+																						<tr>
+																								<td>PhotoCopier Engineer</td>
+																								<td>University Graduate / Major independent</td>
+																								<td>Manufacturers Work Experience, Related Work Experience</td>
+																								<td>Working Area: Hanoi / Hochiminh Office
+																									<br>Working 6 days a week
+																								</td>
+																						</tr>
+										</TBODY>
+										</TABLE>
+
+									</FORM>
+									</div>
+									<div class="tab-pane fade" id="man">
+
+										 <FORM ACTION="" METHOD="post">
+											<INPUT TYPE="hidden" NAME="FormName" VALUE="PrintLetters">
+											<TABLE class="table table-striped">
+											<THEAD>
+												<TR><TH>Department</TH><TH style="text-align:left">Qualification</TH><TH style="text-align:left">Preference</TH><TH>Working Condition</TH></TR>
+											</THEAD>
+											<TBODY>
+												<tr>
+														<td>Man-Lift Engineer</td>
+														<td>High School Graduate / Major independent</td>
+														<td>Maintenance License Holders, Related Work Experience</td>
+														<td>Working Area: Outdoor Parking lot
+															<br>Working 6 days a week
+														</td>
+												</tr>
+											</TBODY>
+											</TABLE>
+
+										</FORM>
+										</div>
+										<div class="tab-pane fade" id="driver">
+
+											 <FORM ACTION="" METHOD="post">
+												<INPUT TYPE="hidden" NAME="FormName" VALUE="PrintLetters">
+												<TABLE class="table table-striped">
+												<THEAD>
+													<TR><TH>Department</TH><TH style="text-align:left">Qualification</TH><TH style="text-align:left">Preference</TH><TH>Working Condition</TH></TR>
+												</THEAD>
+												<TBODY>
+													<tr>
+																										 <td>Driver</td>
+																										 <td>More than 2 years driving experience, 25 years over</td>
+																										 <td>Level D Licensing Holdings, Driving Experience 5 years over, Rental Car Driver Work Experience</td>
+																										 <td>Working Area: Depending on the customer's request
+																											 <br>Working 6 days a week and Providing OT
+																										 </td>
+																								 </tr>
+												</TBODY>
+												</TABLE>
+
+											</FORM>
+											</div>
 
 							</div>
 
