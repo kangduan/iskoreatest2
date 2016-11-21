@@ -177,6 +177,9 @@ section {
 .main-section{
 	padding:90px 0 110px;
 }
+.res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
+	color: #7cc576 !important;
+}
 
 /* ===== End navbar ===== */
 
