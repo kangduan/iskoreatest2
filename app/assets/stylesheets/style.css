@@ -133,109 +133,84 @@ section {
 .text-dark { color: #000; }
 
 /* ===== Begin navbar ===== */
-.navbar-default .navbar-nav > li > a:hover {
-  color: #02bdd5;
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
 }
-.navbar.navbar-default {
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
+.navbar-custom .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-.navbar.navbar-default .navbar-toggle {
-  margin-top: 32px;
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
 }
-.navbar-header .navbar-brand {
-  padding: 5px 0;
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
 }
-.navbar-header .navbar-brand a {
-  height: auto;
-  display: inline-block;
-  margin-top: 8px;
-}
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle {
-  background: #444;
-}
-#top-bar {
-  background: #fff;
-  color: #fff;
-  -webkit-transition: all 0.2s ease-out 0s;
-  transition: all 0.2s ease-out 0s;
-  padding: 15px 0;
-  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #dedede;
-}
-#top-bar .navbar-nav > li > a:hover {
-  background: transparent;
-}
-#top-bar.animated-header {
-  padding: 20px 0;
-  background: #ffffff;
-  box-shadow: none;
-}
-#top-bar .main-menu li > a {
-  color: #444;
-}
-#top-bar .main-menu li {
-  position: relative;
-}
-#top-bar .main-menu li a {
-  font-size: 14px;
-  font-weight: 500;
-  border-bottom: 2px solid transparent;
-  -webkit-transition: .3s all;
-  -o-transition: .3s all;
-  transition: .3s all;
+.navbar-custom .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  color: white;
+  font-size: 12px;
 }
-#top-bar .main-menu li a:hover {
-  color: #02bdd5;
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #fed136;
 }
-.navbar-custom .nav li > a {
-  position: relative;
-  color: #000;
-}
-.navbar-right .dropdown-menu {
-  right: auto;
-  left: 0;
-}
-.navbar-custom .dropdown-menu {
-  position: absolute;
-  display: block;
-  visibility: hidden;
-  opacity: 0;
-}
-.navbar-toggle .icon-bar {
-  background: #fff;
-}
-.navbar-toggle {
-  background: #000;
-}
-.dropdown-menu > ul {
-  list-style: none;
-  padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-top: -5px;
-  background: #fff;
-  background-color: rgba(0, 0, 0, 0.95);
-  box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
-}
-.nav .open > a,
-.nav .open > a:focus {
-  background-color: transparent;
-}
-#top-bar .dropdown-menu > ul > li > a {
-  display: block;
-  font-size: 13px;
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
   font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-  padding: 8px 0;
-  color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fed136;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #fed136;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #fec503;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
 }
 /* ===== End navbar ===== */
 
