@@ -132,12 +132,10 @@ section {
 .text-off-white { color: #e7e7e7;}
 .text-dark { color: #000; }
 
-/* Navigation
 /* ===== Begin navbar ===== */
 .navbar {
 	margin: 0;
-	border-bottom:2px solid #000;
-	/*border: none;*/
+	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -152,7 +150,6 @@ section {
 
 /* Navbar brand (logo) */
 .navbar-brand {
-	align: center;
 	background-repeat: no-repeat;
 	background-position: left center;
 	width: 150px;
@@ -265,9 +262,9 @@ section {
 	color: #FFF;
 }
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
-	/*color: #FFF;*/
+	color: #FFF;
 }
-/* ===== End navbar ===== /*
+/* ===== End navbar ===== */
 
 
 
