@@ -183,15 +183,6 @@ $('.scrolltotop').click(function(){
     return false;
 });
 
-// Check to see if the window is top if not then display button
-$(window).scroll(function(){
-    if ($(this).scrollTop() > 100) {
-        $('.product-icon').fadeIn();
-    } else {
-        $('.product-icon').fadeOut();
-    }
-});
-
 
 
 ////////////////////////////////////////////////////////////////////
