@@ -3,7 +3,7 @@ a, a:hover, a:focus {
 	color: #676D75;
 }
 
-/* === Navbar === */
+/* === Navbar ===
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
 	color: #fff;
 }
@@ -48,8 +48,8 @@ a, a:hover, a:focus {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a {
 
-}
-/* Navbar inverse */
+}*/
+/* Navbar inverse
 .navbar-inverse {
 	background-color: #111;
 	color: #CCC;
@@ -67,7 +67,7 @@ a, a:hover, a:focus {
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li.active > a {
 	color: #111;
 }
-/* Navbar inverse dropdown */
+/* Navbar inverse dropdown
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
 	color: #111;
 }
@@ -82,14 +82,14 @@ a, a:hover, a:focus {
 .navbar-inverse .dropdown-menu > li > a:hover, .navbar-inverse .dropdown-menu > li > a:focus {
 	color: #111;
 }
-/* Navbar fixed */
+/* Navbar fixed
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-brand {
 	color: #fff;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-brand:hover {
 	color: #111;
 }
-/* Navbar fixed inverse */
+/* Navbar fixed inverse
 .navbar-inverse.navbar-fixed-top.navbar-shrink {
 	background-color: #111;
 }
@@ -109,7 +109,7 @@ a, a:hover, a:focus {
 .navbar-fixed-top.navbar-shrink .navbar-brand:hover {
 	color: #111;
 }
-
+*/
 
 
 /* === Text Carousel === */

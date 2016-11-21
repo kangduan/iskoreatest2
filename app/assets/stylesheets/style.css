@@ -134,7 +134,7 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar-custom {
-  background-color: #222222;
+  background-color: #000;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -205,7 +205,7 @@ section {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #000;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -213,8 +213,6 @@ section {
   }
 }
 /* ===== End navbar ===== */
-
-
 
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
