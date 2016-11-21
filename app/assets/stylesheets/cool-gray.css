@@ -11,7 +11,7 @@ a, a:hover, a:focus {
 	color: #fff;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #363940;
+  background-color: #000;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #a9a9a9;
@@ -35,8 +35,8 @@ a, a:hover, a:focus {
 .navbar-default .dropdown-menu {
 	border: 1px solid #fff;
 	border-top: 2px solid #fff;
-	-webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
-	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0);
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a.active, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
 	color: #fff;
