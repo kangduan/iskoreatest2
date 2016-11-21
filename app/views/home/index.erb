@@ -322,31 +322,45 @@
 
             <!-- Begin Portfolio -->
             <section id="product-section" class="page bg-style1">
-<div id="container">
+            	<div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio">
+                                <!-- Begin page header-->
+                                <div class="page-header-wrapper">
+                                    <div class="container">
+                                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                            <h2>Rental Products</h2>
+                                            <div class="devider"></div>
+                                            <p class="subtitle">Rent to easily & Reasonably</p>
+                                        </div>
+                                    </div>
+                                </div>
+																<div id="container">
   <!-- tab panes -->
   <div id="prod_wrapper">
     <div id="panes">
-      <div> <img src="img/demo/1.jpg" alt="">
+      <div> <img src="img/pc/NT200B5C.jpg" alt="">
         <h5>Mauris elementum</h5>
         <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
         <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
       </div>
-      <div> <img src="img/demo/2.jpg" alt="">
+      <div> <img src="img/pc/NT200B5C.jpg" alt="">
         <h5>Nulla hendrerit</h5>
         <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
         <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
       </div>
-      <div> <img src="img/demo/3.jpg" alt="">
+      <div> <img src="img/pc/NT200B5C.jpg" alt="">
         <h5>Mauris elementum</h5>
         <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
         <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
       </div>
-      <div> <img src="img/demo/4.jpg" alt="">
+      <div> <img src="img/pc/NT200B5C.jpg" alt="">
         <h5>Nam tempor nibh</h5>
         <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
         <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
       </div>
-      <div> <img src="img/demo/5.jpg" alt="">
+      <div> <img src="img/pc/NT200B5C.jpg" alt="">
         <p>Nulla hendrerit commodo tortor, vitae elementum magna convallis nec. Nam tempor nibh a purus aliquam et adipiscing elit gravida. Ut vitae nunc a libero volutpat gravida. Nullam egestas mi sit amet dui scelerisque eu laoreet nisi ultrices. Ut vitae nunc a libero volutpat gravida. Nam tempor nibh a purus aliquam. </p>
         <p style="text-align:right; margin-right: 16px"><a href="#" class="button">More Info</a> <a href="#" class="button">Buy Now</a></p>
       </div>
@@ -368,6 +382,11 @@
 
 </div>
 
+
+														</div>
+												</div>
+											</div>
+  								</div><!-- id product -->
   </section>
         <!-- End portfolio -->
 						<!-- product section-->
@@ -1046,23 +1065,24 @@ $(document).ready(function() {
 
 			<!-- Theme JS -->
 			<script src="/assets/theme.js"></script>
-			<script src="/assets/jquery.tools.min.js"></script>
-			<script>
-			$(function () {
-			    $("#prod_nav ul").tabs("#panes > div", {
-			        effect: 'fade',
-			        fadeOutSpeed: 400
-			    });
-			});
-			</script>
-			<script>
-			$(document).ready(function () {
-			    $(".pane-list li").click(function () {
-			        window.location = $(this).find("a").attr("href");
-			        return false;
-			    });
-			});
-			</script>
+			<!--JS FILES -->
+<script src="/assets/jquery.tools.min.js"></script>
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
 
     </body>
 
