@@ -1182,13 +1182,7 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
-/*recruit*/
-article img{margin:0 1.5em 1.5em 0;box-shadow:0 0 8px 4px black;border:.5em groove #fff;}
-article {border:.5em outset #000 !important; border-radius:1em !important; box-shadow:0 0 23px #000 !important;}
-header span.glyphicon{color:#000; text-shadow:2px 2px #111 !important;filter:blur(2px);-webkit-filter: blur(2px);
--moz-filter: blur(2px);
--o-filter: blur(2px);
--ms-filter: blur(2px);} /*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/
+
 /*********************************************
 					PRODUCTS
 *********************************************/
@@ -1249,79 +1243,7 @@ header span.glyphicon{color:#000; text-shadow:2px 2px #111 !important;filter:blu
 {
     margin: 0 0 11px;
 }
-/*button*/
 
-.btn-outlined {
-    border-radius: 0;
-    -webkit-transition: all 0.3s;
-       -moz-transition: all 0.3s;
-            transition: all 0.3s;
-}
-
-.btn-outlined.btn-theme {
-    background: none;
-    color: #6f5499;
-	border-color: #6f5499;
-}
-
-.btn-outlined.btn-theme:hover,
-.btn-outlined.btn-theme:active {
-    color: #FFF;
-    background: #6f5499;
-    border-color: #6f5499;
-}
-
-.btn-outlined.btn-black {
-    background: none;
-    color: #000000;
-	border-color: #000000;
-}
-
-.btn-outlined.btn-black:hover,
-.btn-outlined.btn-black:active {
-    color: #FFF;
-    background: #000000;
-    border-color: #000000;
-}
-
-.btn-outlined.btn-white {
-    background: none;
-    color: #FFFFFF;
-	border-color: #FFFFFF;
-}
-
-.btn-outlined.btn-white:hover,
-.btn-outlined.btn-white:active {
-    color: #6f5499;
-    background: #FFFFFF;
-    border-color: #FFFFFF;
-}
-.container .credit {
-  margin: 0 0;
-  padding: 8px 0 4px 0;
-}
-
-.caret-up {
-    /* Safari */
-    -webkit-transform: rotate(-180deg);
-
-    /* Firefox */
-    -moz-transform: rotate(-180deg);
-
-    /* IE */
-    -ms-transform: rotate(-180deg);
-
-    /* Opera */
-    -o-transform: rotate(-180deg);
-
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);
-
-}
-.drop-up {
-    top: auto;
-    bottom: 100% !important;
-}
 /*slider css*/
 
 
