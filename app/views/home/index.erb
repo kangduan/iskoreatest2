@@ -322,7 +322,7 @@
 
             <!-- Begin Portfolio -->
             <section id="product-section" class="page bg-style1">
-							<div id="container">
+<div id="container">
   <!-- tab panes -->
   <div id="prod_wrapper">
     <div id="panes">
@@ -1046,6 +1046,23 @@ $(document).ready(function() {
 
 			<!-- Theme JS -->
 			<script src="/assets/theme.js"></script>
+			<script src="/assets/jquery.tools.min.js"></script>
+			<script>
+			$(function () {
+			    $("#prod_nav ul").tabs("#panes > div", {
+			        effect: 'fade',
+			        fadeOutSpeed: 400
+			    });
+			});
+			</script>
+			<script>
+			$(document).ready(function () {
+			    $(".pane-list li").click(function () {
+			        window.location = $(this).find("a").attr("href");
+			        return false;
+			    });
+			});
+			</script>
 
     </body>
 
