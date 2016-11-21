@@ -134,7 +134,7 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar-custom {
-  background-color: #000;
+  background-color: #222222;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -205,8 +205,8 @@ section {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #000;
-    padding: 10px 0;
+    background-color: #222222;
+    /*padding: 10px 0;*/
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
