@@ -267,8 +267,8 @@
 @media only screen and (max-width : 480px) {
 
 	/* Team */
-	 #team-section .col-xs-12 {
-        width: 100%;
+	 #team-section .col-md-2 {
+        width: 50%;
     }
 
 }
