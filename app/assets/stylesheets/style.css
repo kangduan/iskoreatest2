@@ -124,8 +124,6 @@ section {
 #header {
 	 height: 78px;
 }
-
-
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
 .text-white { color: #FFF; }
@@ -295,7 +293,7 @@ section {
 /* End text carousel intro */
 /* ===== End intro ===== */
 
-/* ===== Begin roatet boxes ===== *
+/* ===== Begin roatet boxes ===== */
 /* Begin rotate box-1 */
 .rotate-box-1, .rotate-box-2 {
 	display: inline-block;
@@ -414,7 +412,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 /* End rotate box-2 */
 /* ===== End rotate boxes ===== */
-
 
 /* ===== Begin progress bar ===== */
 .skill-bar {
