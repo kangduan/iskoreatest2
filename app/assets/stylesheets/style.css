@@ -1458,3 +1458,9 @@ background-color: #ffffff;
 	padding:20px;
 	background-color:#ddd;
 }
+/*product button*/
+.btn-outlined.btn-theme {
+    background: none;
+    color: #6f5499;
+	border-color: #6f5499;
+}
