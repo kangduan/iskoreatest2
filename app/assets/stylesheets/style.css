@@ -295,26 +295,6 @@ section {
 /* End text carousel intro */
 /* ===== End intro ===== */
 
-
-/*about section*/
-#about-section {
-
-    min-height: 100%;
-    min-width: 1024px;
-
-    width: 100%;
-    height: auto;
-
-    top: 0;
-    left: 0;
-    }
-
-@media screen and (max-width: 1024px) {
-    #about-section{
-        left: 50%;
-        margin-left: -512px;
-            }
-    }
 /* ===== Begin roatet boxes ===== *
 /* Begin rotate box-1 */
 .rotate-box-1, .rotate-box-2 {
