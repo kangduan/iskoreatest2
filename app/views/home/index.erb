@@ -50,7 +50,7 @@
 								</div>
 
 								<!-- Collect the nav links, forms, and other content for toggling-->
-								<div class="collapse navbar-collapse.in" id="bs-example-navbar-collapse-1">
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 										<ul class="nav navbar-nav navbar-right">
 												<li><a class="page-scroll" href="header">Home</a></li>
@@ -68,6 +68,13 @@
 						<!-- End Navbar -->
 				</header>
 				<!-- ========= END HEADER =========-->
+				<script>
+				$(document).on('click','.navbar-collapse.in',function(e) {
+				    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+				        $(this).collapse('hide');
+				    }
+				});
+				</script>
 
 
         	<!-- Begin text carousel intro section --><!-- style="background-image: url(img/slider-bg.jpg);"-->
