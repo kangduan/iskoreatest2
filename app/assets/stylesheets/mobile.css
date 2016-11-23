@@ -74,12 +74,12 @@
 
 	/* Team */
 	.team-item .team-triangle {
-		width: 80px;
-		height: 80px;
+		width: 90px;
+		height: 90px;
 	}
 	.team-triangle .content {
-		width: 150px;
-		height: 150px;
+		width: 160px;
+		height: 160px;
 	}
 	.team-hover i {
 		margin-top: 50px;
@@ -95,7 +95,7 @@
     #team-section .col-md-2 {
         float: left;
         margin-bottom: 50px;
-        width: 40.3333%;
+        width: 33.3333%;
     }
 
 }
