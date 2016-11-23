@@ -45,7 +45,6 @@
 	#text-carousel-intro-section .caption h1 {
 		font-size: 50px;
 	}
-
 	/* Team */
 	.team-item .team-triangle {
 		width: 90px;
@@ -80,7 +79,7 @@
 	.team-hover i {
 		margin-top: 57px;
 	}
-	#team-section .col-md-2:nth-child(7n+4),
+	#team-section .col-md-2:nth-child(7n+5),
     #team-section .col-md-2:nth-child(7n+1){
         margin-left: 0 !important;
         clear: none !important;
@@ -214,7 +213,7 @@
 	}
 
 	/* Some Text Center Area */
-	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
+	#cta-section, #contact-section, #contact-section .contact .form-control {
 		text-align: center;
 	}
 
@@ -232,13 +231,6 @@
 		text-align: center;
 		margin-top: 0;
 	}
-
-  .team-item .team-triangle {
-		width: 60px;
-		height: 60px;
-	}
-  /* Team */
-
 
 	/* Prices */
 	.prices .price-box-featured .panel-footer {
@@ -266,15 +258,6 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-  .team-item .team-triangle {
-		width: 20px;
-		height: 20px;
-	}
-	/* Team */
-	 #team-section .col-md-2 {
-        width: 50%;
-
-    }
 
 }
 
