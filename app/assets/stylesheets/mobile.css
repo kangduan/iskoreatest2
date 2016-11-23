@@ -160,9 +160,7 @@
 	.counter-up .fact-inner .fa-3x {
 		font-size: 36px;
 	}
-  #partners-section .col-md-6 {
-      width: 50%;
-  }
+
 
 }
 
@@ -242,6 +240,10 @@
 	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
 		text-align: center;
 	}
+  #contact-section .col-md-6 {
+
+    width: 50%;
+  }
 
 	/* Rotate Box */
 	.rotate-box-1 .rotate-box-info {
