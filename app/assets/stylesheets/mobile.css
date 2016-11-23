@@ -51,9 +51,7 @@
       margin-bottom: 80px;
       width: 33.3333%;
   }
-  #about-section h4 {
-      font-size: 18px;
-  }
+
   #about-section p {
       font-size: 8px;
   }
@@ -62,13 +60,6 @@
       float: left;
       margin-bottom: 80px;
       width: 33.3333%;
-  }
-  .rotate-box-2 {
-    width: 45px;
-    height: 45px;
-  }
-  #services-section h4 {
-      font-size: 18px;
   }
   #services-section p {
       font-size: 8px;
@@ -267,6 +258,20 @@
 		text-align: center;
 		margin-top: 0;
 	}
+  /* Rotate Box */
+  .rotate-box-2 .rotate-box-info {
+    padding-left: 0;
+      text-align: center;
+  }
+  .rotate-box-2 .rotate-box-icon {
+    float: none ;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  a.rotate-box-2 {
+    text-align: center;
+    margin-top: 0;
+  }
 
 	/* Prices */
 	.prices .price-box-featured .panel-footer {
