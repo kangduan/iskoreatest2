@@ -235,9 +235,9 @@
 
 	/* Team */
 	 #team-section .col-md-2 {
-        width: 20%;
+        width: 11.3333%;
         float: left;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
 
 	/* Prices */
@@ -267,13 +267,11 @@
 @media only screen and (max-width : 480px) {
 
   /* Team */
-	 #team-section .col-xs-2 {
-        width: 50%;
+   #team-section .col-md-2 {
+        width: 3.3333%;
         float: left;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
-
-}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
