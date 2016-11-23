@@ -246,7 +246,7 @@
     height: 100px;
   }
   .team-hover i {
-    margin-top: 57px;
+    margin-top: 30px;
   }
   #team-section .col-md-2:nth-child(7n+5),
   #team-section .col-md-2:nth-child(7n+1){
@@ -256,7 +256,7 @@
     #team-section .col-md-2 {
         float: left;
         margin-bottom: 80px;
-        width: 33.3333%;
+        width: 11.3333%;
     }
 
 	/* Prices */
