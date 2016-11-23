@@ -80,7 +80,7 @@
 	.team-hover i {
 		margin-top: 57px;
 	}
-	#team-section .col-md-2:nth-child(7n+5),
+	#team-section .col-md-2:nth-child(7n+4),
     #team-section .col-md-2:nth-child(7n+1){
         margin-left: 0 !important;
         clear: none !important;
@@ -232,32 +232,13 @@
 		text-align: center;
 		margin-top: 0;
 	}
+
   .team-item .team-triangle {
 		width: 60px;
 		height: 60px;
 	}
   /* Team */
-  .team-item .team-triangle {
-    width: 60px;
-    height: 60px;
-  }
-  .team-triangle .content {
-    width: 100px;
-    height: 100px;
-  }
-  .team-hover i {
-    margin-top: 30px;
-  }
-  #team-section .col-md-2:nth-child(7n+5),
-  #team-section .col-md-2:nth-child(7n+1){
-        margin-left: 0 !important;
-        clear: none !important;
-    }
-    #team-section .col-md-2 {
-        float: left;
-        margin-bottom: 50px;
-        width: 23.3333%;
-    }
+
 
 	/* Prices */
 	.prices .price-box-featured .panel-footer {
