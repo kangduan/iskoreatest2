@@ -240,7 +240,7 @@
 	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
 		text-align: center;
 	}
-  #contact-section .col-md-6 {
+  #contact-section .contact-info, .contact-form {
 
     width: 50%;
   }
