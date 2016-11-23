@@ -58,12 +58,12 @@
   /*Services*/
   #services-section .col-md-4 {
       float: left;
-      margin-right: 5px;
+      margin-right: 2px;
       margin-bottom: 50px;
       width: 33.3333%;
   }
   #services-section p {
-      margin-right: 5px;
+      margin-right: 2px;
       font-size: 8px;
   }
 	/* Team */
