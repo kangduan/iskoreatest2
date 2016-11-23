@@ -58,10 +58,12 @@
   /*Services*/
   #services-section .col-md-4 {
       float: left;
+      margin-right: 5px;
       margin-bottom: 80px;
       width: 33.3333%;
   }
   #services-section p {
+      margin-right: 5px;
       font-size: 8px;
   }
   /*recruit*/
@@ -71,7 +73,9 @@
       width: 33.3333%;
   }
   /*client*/
-  #partners-section .col-md-6 {
+  #recruit-section .col-md-6 .fact  {
+      float: left;
+      margin-bottom: 80px;
       width: 33.3333%;
   }
 
