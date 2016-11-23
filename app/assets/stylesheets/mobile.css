@@ -240,10 +240,6 @@
 	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
 		text-align: center;
 	}
-  #contact-section .iframe {
-    width: 50%;
-    height: 50%;
-  }
 
 	/* Rotate Box */
 	.rotate-box-1 .rotate-box-info {
@@ -300,7 +296,10 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+  #contact-section .iframe {
+    width: 400px;
+    height: 400px;
+  }
 
 }
 
