@@ -48,7 +48,7 @@
   /*About*/
   #about-section .col-md-4 {
       float: left;
-      margin-bottom: 80px;
+      margin-bottom: 50px;
       width: 33.3333%;
   }
 
@@ -59,7 +59,7 @@
   #services-section .col-md-4 {
       float: left;
       margin-right: 5px;
-      margin-bottom: 80px;
+      margin-bottom: 50px;
       width: 33.3333%;
   }
   #services-section p {
@@ -68,12 +68,12 @@
   }
 	/* Team */
 	.team-item .team-triangle {
-		width: 90px;
-		height: 90px;
+		width: 70px;
+		height: 70px;
 	}
 	.team-triangle .content {
-		width: 160px;
-		height: 160px;
+		width: 140px;
+		height: 140px;
 	}
 	.team-hover i {
 		margin-top: 50px;
@@ -88,7 +88,7 @@
     }
     #team-section .col-md-2 {
         float: left;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         width: 33.3333%;
     }
 
@@ -291,10 +291,13 @@
 	#partners-section, footer {
 		text-align: center;
 	}
-  #partners-section .col-md-6 {
-		width: 33.3333%;
-	}
+  #partners-section .counter {
+      font-size: 30px;
+  }
+  #partners-section p {
 
+
+  }
 	/* Hiding elements */
 	.testimonial:before,
 	.owl-prev,
