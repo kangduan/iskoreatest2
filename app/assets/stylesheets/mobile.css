@@ -72,14 +72,6 @@
       margin-bottom: 80px;
       width: 33.3333%;
   }
-  /*client*/
-  #partners-section .col-md-6 .fact  {
-      float: left;
-      margin-bottom: 80px;
-      width: 33.3333%;
-  }
-
-
 	/* Team */
 	.team-item .team-triangle {
 		width: 90px;
@@ -135,6 +127,12 @@
         width: 33.3333%;
     }
 */
+/*client*/
+#partners-section .col-md-6 .owl-carousel  {
+    float: left;
+    margin-bottom: 80px;
+    width: 33.3333%;
+}
 	/* Prices */
 	.price-box-featured .panel {
 		box-shadow: none;
