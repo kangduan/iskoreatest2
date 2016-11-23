@@ -66,12 +66,6 @@
       margin-right: 5px;
       font-size: 8px;
   }
-  /*recruit*/
-  #recruit-section .col-md-12  {
-      float: left;
-      margin-bottom: 80px;
-      width: 33.3333%;
-  }
 	/* Team */
 	.team-item .team-triangle {
 		width: 90px;
@@ -127,12 +121,6 @@
         width: 33.3333%;
     }
 */
-/*client*/
-#partners-section .col-md-6 .owl-carousel  {
-    float: left;
-    margin-bottom: 80px;
-    width: 33.3333%;
-}
 	/* Prices */
 	.price-box-featured .panel {
 		box-shadow: none;
@@ -302,6 +290,9 @@
 	/* Partners & Foter */
 	#partners-section, footer {
 		text-align: center;
+	}
+  #partners-section .col-md-6 {
+		width: 33.3333%;
 	}
 
 	/* Hiding elements */
