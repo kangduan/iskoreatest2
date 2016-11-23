@@ -291,12 +291,12 @@
 	#partners-section, footer {
 		text-align: center;
 	}
-  #partners-section .counter {
+  #partners-section span {
       font-size: 30px;
   }
   #partners-section p {
-
-
+    text-align: center;
+    font-size: 10px;
   }
 	/* Hiding elements */
 	.testimonial:before,
