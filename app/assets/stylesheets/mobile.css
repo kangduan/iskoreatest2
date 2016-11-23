@@ -45,6 +45,12 @@
 	#text-carousel-intro-section .caption h1 {
 		font-size: 50px;
 	}
+  /*About*/
+  #about-section .col-md-4 {
+      float: left;
+      margin-bottom: 80px;
+      width: 33.3333%;
+  }
 	/* Team */
 	.team-item .team-triangle {
 		width: 90px;
@@ -213,7 +219,7 @@
 	}
 
 	/* Some Text Center Area */
-	#cta-section, #contact-section, #contact-section .contact .form-control {
+	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
 		text-align: center;
 	}
 
