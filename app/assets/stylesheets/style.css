@@ -130,7 +130,6 @@ section {
 .text-off-white { color: #e7e7e7;}
 .text-dark { color: #000; }
 
-
 /* ===== Begin navbar ===== */
 .navbar {
 	margin: 0;
@@ -166,16 +165,16 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo/is-logo.png);
+	background-image: url(../img/logo.png);
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/logo/is-logo.png);
+	background-image: url(../img/logo.png);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/logo/is-logo.png);
+	background-image: url(../img/logo.png);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo/is-logo.png);
+	background-image: url(../img/logo.png);
 }
 
 /* Navbar links */
@@ -264,7 +263,6 @@ section {
 	color: #FFF;
 }
 /* ===== End navbar ===== */
-
 
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
@@ -723,7 +721,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 .partners img {
 	max-width: 100%;
-	padding: 0 15px;
+	padding: 0 10px;
 }
 /* ===== End partners ===== */
 
