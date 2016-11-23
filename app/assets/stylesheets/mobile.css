@@ -68,18 +68,18 @@
   }
 	/* Team */
 	.team-item .team-triangle {
-		width: 70px;
-		height: 70px;
+		width: 90px;
+		height: 90px;
 	}
 	.team-triangle .content {
-		width: 140px;
-		height: 140px;
+		width: 170px;
+		height: 170px;
 	}
 	.team-hover i {
 		margin-top: 50px;
 	}
 	.team-hover p {
-		font-size: 14px;
+		font-size: 18px;
 	}
   #team-section .col-md-2:nth-child(7n+5),
     #team-section .col-md-2:nth-child(7n+1){
@@ -98,29 +98,21 @@
 @media only screen and (max-width : 992px) {
 
 
-	/* Team
+  /* Team */
 	.team-item .team-triangle {
-		width: 120px;
-		height: 120px;
+		width: 60px;
+		height: 60px;
 	}
 	.team-triangle .content {
-		width: 190px;
-		height: 190px;
+		width: 130px;
+		height: 130px;
 	}
 	.team-hover i {
-		margin-top: 57px;
+		margin-top: 50px;
 	}
-	#team-section .col-md-2:nth-child(7n+5),
-    #team-section .col-md-2:nth-child(7n+1){
-        margin-left: 0 !important;
-        clear: none !important;
-    }
-    #team-section .col-md-2 {
-        float: left;
-        margin-bottom: 80px;
-        width: 33.3333%;
-    }
-*/
+	.team-hover p {
+		font-size: 13px;
+	}
 	/* Prices */
 	.price-box-featured .panel {
 		box-shadow: none;
