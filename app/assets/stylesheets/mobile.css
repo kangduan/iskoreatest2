@@ -232,6 +232,12 @@
 		text-align: center;
 		margin-top: 0;
 	}
+  /* About */
+	 #about-section .col-md-4 {
+        width: 50%;
+        float: left;
+        margin-bottom: 80px;
+    }
 
 	/* Team */
 	 #team-section .col-md-2 {
