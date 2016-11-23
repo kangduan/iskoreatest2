@@ -63,6 +63,13 @@
   #services-section p {
       font-size: 8px;
   }
+  /*recruit*/
+  #recruit-section .col-md-12  {
+      float: left;
+      margin-bottom: 80px;
+      width: 33.3333%;
+  }
+
 
 	/* Team */
 	.team-item .team-triangle {
