@@ -87,26 +87,7 @@
 	.team-hover p {
 		font-size: 14px;
 	}
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-
-	/* Team */
-	.team-item .team-triangle {
-		width: 33.3333%;
-		height: 33.3333%;
-	}
-	.team-triangle .content {
-		width: 33.3333%;
-		height: 33.3333%;
-	}
-	.team-hover i {
-		margin-top: 57px;
-	}
-	  #team-section .col-md-2:nth-child(7n+5),
+  #team-section .col-md-2:nth-child(7n+5),
     #team-section .col-md-2:nth-child(7n+1){
         margin-left: 0 !important;
         clear: none !important;
@@ -117,6 +98,35 @@
         width: 33.3333%;
     }
 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+	/* Team
+	.team-item .team-triangle {
+		width: 120px;
+		height: 120px;
+	}
+	.team-triangle .content {
+		width: 190px;
+		height: 190px;
+	}
+	.team-hover i {
+		margin-top: 57px;
+	}
+	#team-section .col-md-2:nth-child(7n+5),
+    #team-section .col-md-2:nth-child(7n+1){
+        margin-left: 0 !important;
+        clear: none !important;
+    }
+    #team-section .col-md-2 {
+        float: left;
+        margin-bottom: 80px;
+        width: 33.3333%;
+    }
+*/
 	/* Prices */
 	.price-box-featured .panel {
 		box-shadow: none;
