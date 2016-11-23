@@ -96,17 +96,17 @@
 
 	/* Team */
 	.team-item .team-triangle {
-		width: 120px;
-		height: 120px;
+		width: 33.3333%;
+		height: 33.3333%;
 	}
 	.team-triangle .content {
-		width: 190px;
-		height: 190px;
+		width: 33.3333%;
+		height: 33.3333%;
 	}
 	.team-hover i {
 		margin-top: 57px;
 	}
-	#team-section .col-md-2:nth-child(7n+5),
+	  #team-section .col-md-2:nth-child(7n+5),
     #team-section .col-md-2:nth-child(7n+1){
         margin-left: 0 !important;
         clear: none !important;
@@ -261,11 +261,12 @@
   /* Rotate Box */
   .rotate-box-2 .rotate-box-info {
     padding-left: 0;
+      margin-right: 5px;
       text-align: center;
   }
   .rotate-box-2 .rotate-box-icon {
     float: none ;
-    margin-right: 0;
+    margin-right: 5px;
     margin-bottom: 30px;
   }
   a.rotate-box-2 {
