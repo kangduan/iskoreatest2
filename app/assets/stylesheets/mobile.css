@@ -54,6 +54,15 @@
   #about-section p {
       font-size: 8px;
   }
+  /*Services*/
+  #services-section .col-md-4 {
+      float: left;
+      margin-bottom: 80px;
+      width: 33.3333%;
+  }
+  #services-section p {
+      font-size: 8px;
+  }
 
 	/* Team */
 	.team-item .team-triangle {
