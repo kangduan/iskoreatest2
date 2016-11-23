@@ -233,14 +233,12 @@
 		margin-top: 0;
 	}
   .team-item .team-triangle {
-		width: 40px;
-		height: 40px;
+		width: 60px;
+		height: 60px;
 	}
 	/* Team */
 	 #team-section .col-md-2 {
         width: 11.3333%;
-        float: left;
-        margin-bottom: 50px;
     }
 
 	/* Prices */
@@ -270,14 +268,13 @@
 @media only screen and (max-width : 480px) {
 
   .team-item .team-triangle {
-		width: 12px;
-		height: 12px;
+		width: 20px;
+		height: 20px;
 	}
 	/* Team */
 	 #team-section .col-md-2 {
         width: 11.3333%;
-        float: left;
-        margin-bottom: 50px;
+
     }
 
 }
