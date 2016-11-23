@@ -273,7 +273,7 @@
 @media only screen and (max-width : 480px) {
 
   /* Team */
-	 #team-section .col-md-2 {
+	 #team-section .col-xs-2 {
         width: 30%;
         float: left;
         margin-bottom: 80px;
