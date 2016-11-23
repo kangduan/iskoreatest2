@@ -45,13 +45,16 @@
 	#text-carousel-intro-section .caption h1 {
 		font-size: 50px;
 	}
-  /*About
+  /*About*/
   #about-section .col-md-4 {
       float: left;
       margin-bottom: 80px;
       width: 33.3333%;
   }
-  */
+  #about-section p {
+      font-size: 8px;
+  }
+
 	/* Team */
 	.team-item .team-triangle {
 		width: 90px;
