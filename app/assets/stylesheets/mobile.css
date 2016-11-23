@@ -232,7 +232,10 @@
 		text-align: center;
 		margin-top: 0;
 	}
-
+  .team-item .team-triangle {
+		width: 40px;
+		height: 40px;
+	}
 	/* Team */
 	 #team-section .col-md-2 {
         width: 11.3333%;
@@ -266,9 +269,13 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-  /* Team */
+  .team-item .team-triangle {
+		width: 12px;
+		height: 12px;
+	}
+	/* Team */
 	 #team-section .col-md-2 {
-        width: 3.3333%;
+        width: 11.3333%;
         float: left;
         margin-bottom: 50px;
     }
