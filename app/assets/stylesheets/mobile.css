@@ -241,7 +241,7 @@
 		text-align: center;
 	}
   #contact-section .contact-info, .contact-form {
-
+    float: left;
     width: 50%;
   }
 
