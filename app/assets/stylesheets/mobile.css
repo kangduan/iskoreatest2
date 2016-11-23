@@ -242,7 +242,8 @@
 	}
   #contact-section .iframe {
     float: left;
-    width: 50%;
+    width: 400px;
+    height: 400px;
   }
 
 	/* Rotate Box */
