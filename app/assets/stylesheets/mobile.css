@@ -156,6 +156,7 @@
 	/* Facts (counter up) */
 	.counter-up .fact-inner .counter {
 		font-size: 42px;
+    width: 33.3333%;
 	}
 	.counter-up .fact-inner .fa-3x {
 		font-size: 36px;
@@ -283,13 +284,7 @@
 	#partners-section, footer {
 		text-align: center;
 	}
-  #partners-section span {
-      font-size: 30px;
-  }
-  #partners-section p {
-    text-align: center;
-    font-size: 10px;
-  }
+
 	/* Hiding elements */
 	.testimonial:before,
 	.owl-prev,
