@@ -821,7 +821,7 @@ ul.social-list li a i {
 	font-weight: 400;
 }
 #contact-section .cover {
-	background-color: rgba(5, 8, 11, 0.93);
+	background-color: rgba(5, 8, 11, 0.6);
 }
 #contact-section .contact .contact-form {
 	margin-bottom: 40px;
@@ -895,7 +895,7 @@ ul.imp-links li a {
 }
 /*copyright plus*/
 #footer {
-    border-top: 5px solid #CDB380;
+    border-top: 8px solid #CDB380;
     background: #000000 none repeat scroll 0% 0%;
     padding-top: 30px;
     clear: both;
