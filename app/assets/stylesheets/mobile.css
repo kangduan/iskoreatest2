@@ -63,13 +63,6 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
-  /*Contact*/
-  #contact-section .col-md-6 {
-      float: left;
-      margin-bottom: 30px;
-      width: 50.0000%;
-  }
-
 
 
 	/* Team */
@@ -318,6 +311,12 @@
   .counter-up .fact-inner .fa-3x {
     font-size: 30px;
   }
+  /*Contact*/
+  #contact-section .col-md-6 {
+      float: left;
+      width: 33.3333%;
+  }
+
 
 
 	/* Hiding elements */
