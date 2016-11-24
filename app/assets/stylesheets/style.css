@@ -1535,3 +1535,8 @@ background-color: #ffffff;
     color: #6f5499;
 	border-color: #6f5499;
 }
+@media (max-width: 768px) {
+  .hidden-sm-down {
+    display: none !important;
+  }
+}
