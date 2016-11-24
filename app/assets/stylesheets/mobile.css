@@ -69,12 +69,6 @@
       width: 50.0000%;
   }
   /*about page-group section*/
-  #group-section img {
-
-      width:auto;
-      height:auto;
-
-  }
   #history-section .col-md-3 {
       float: left;
       margin-bottom: 30px;
@@ -375,6 +369,13 @@
 
       width: 300px;
       height: 300px;
+  }
+  /*about page-group section*/
+  #group-section img {
+
+      width:300px;
+      height:300px;
+
   }
 }
 
