@@ -284,6 +284,13 @@
 	#partners-section, footer {
 		text-align: center;
 	}
+  #recruit-section .tab-pane{
+    font-size: 12px;
+  }
+  #recruit-section .li{
+    font-size: 15px;
+  }
+
 
 	/* Hiding elements */
 	.testimonial:before,
