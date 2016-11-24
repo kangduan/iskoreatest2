@@ -472,7 +472,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .testimonial .cover {
-	background-color: rgba(0, 7, 11, 0.87);
+	background-color: rgba(0, 7, 11, 0.2);
 }
 .testimonial-inner {
 	position: relative;
@@ -491,8 +491,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .testimonial-inner blockquote cite {
 	font-style: normal;
-	color: #fff;
-	font-size: 1.5em;
+	color: #000;
+	font-size: 30px;
 }
 /* ===== End testimonial ===== */
 
