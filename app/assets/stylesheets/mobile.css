@@ -48,29 +48,17 @@
   /*About*/
   #about-section .col-md-4 {
       float: left;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       width: 33.3333%;
   }
-  #about-section h4 {
-      font-size: 10px;
-  }
-  #about-section p {
-      font-size: 8px;
-  }
+
   /*Services*/
   #services-section .col-md-4 {
       float: left;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       width: 33.3333%;
   }
-  #services-section h4 {
 
-      font-size: 10px;
-  }
-  #services-section p {
-
-      font-size: 8px;
-  }
 	/* Team */
 	.team-item .team-triangle {
 		width: 90px;
@@ -284,7 +272,20 @@
 	ul.contact-address {
 		margin-bottom: 50px;
 	}
+  #about-section h4 {
+      font-size: 12px;
+  }
+  #about-section p {
+      font-size: 8px;
+  }
+  #services-section h4 {
 
+      font-size: 12px;
+  }
+  #services-section p {
+
+      font-size: 8px;
+  }
 	/* Partners & Foter */
 	#partners-section, footer {
 		text-align: center;
