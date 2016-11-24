@@ -90,6 +90,12 @@
         margin-bottom: 30px;
         width: 33.3333%;
     }
+    /*Contact*/
+    #contact-section iframe {
+
+        width: 450px;
+        height: 450px;
+    }
 
 }
 
