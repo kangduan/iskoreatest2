@@ -288,7 +288,7 @@
     font-size: 12px;
   }
   #recruit-section li{
-    font-size: 15px;
+    font-size: 13px;
   }
 
 
@@ -303,7 +303,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+  #recruit-section .tab-pane{
+    font-size: 10px;
+  }
+  #recruit-section li{
+    font-size: 11px;
+  }
 }
 
 /* Custom, iPhone Retina */
