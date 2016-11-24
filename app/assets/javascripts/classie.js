@@ -1,4 +1,4 @@
-/*!
+/*
  * classie v1.0.1
  * class helper functions
  * GitHub: https://github.com/desandro/classie
