@@ -160,6 +160,12 @@
 	.counter-up .fact-inner .fa-3x {
 		font-size: 36px;
 	}
+  /*Contact*/
+  #contact-section iframe {
+
+      width: 400px;
+      height: 400px;
+  }
 
 
 }
@@ -311,6 +317,12 @@
   }
   .counter-up .fact-inner .fa-3x {
     font-size: 30px;
+  }
+  /*Contact*/
+  #contact-section iframe {
+
+      width: 350px;
+      height: 350px;
   }
 
 
