@@ -74,6 +74,11 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
+  #history-section .col-md-3 {
+      float: left;
+      margin-bottom: 30px;
+      width: 25.0000%;
+  }
 
 
 	/* Team */
