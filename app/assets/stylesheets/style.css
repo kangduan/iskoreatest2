@@ -840,7 +840,7 @@ ul.social-list li a i {
 	color: #fff;
 }
 #contact-section .contact .form-control {
-	background-color: rgba(255, 255, 255, 0.06);
+	background-color: rgba(255, 255, 255, 0.02);
 	border-color: #2A2A2A;
 }
 #contact-section .contact .form-control:focus {
