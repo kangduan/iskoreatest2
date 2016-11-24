@@ -51,16 +51,21 @@
       margin-bottom: 50px;
       width: 33.3333%;
   }
-
+  #about-section h4 {
+      font-size: 10px;
+  }
   #about-section p {
       font-size: 8px;
   }
   /*Services*/
   #services-section .col-md-4 {
       float: left;
-
       margin-bottom: 50px;
       width: 33.3333%;
+  }
+  #services-section h4 {
+
+      font-size: 10px;
   }
   #services-section p {
 
@@ -258,12 +263,12 @@
   /* Rotate Box */
   .rotate-box-2 .rotate-box-info {
     padding-left: 0;
-      margin-right: 5px;
+      margin-right: 6px;
       text-align: center;
   }
   .rotate-box-2 .rotate-box-icon {
     float: none ;
-    margin-right: 5px;
+    margin-right: 6px;
     margin-bottom: 30px;
   }
   a.rotate-box-2 {
