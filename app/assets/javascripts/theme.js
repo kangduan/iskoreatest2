@@ -15,7 +15,7 @@ $('.page-scroll').bind('click', function(event) {
 ////////////////////////////////////////////////////////////////////////
 // On-Scroll Animated Header: https://github.com/codrops/AnimatedHeader
 ////////////////////////////////////////////////////////////////////////
-
+$(function(){
 var cbpAnimatedHeader = (function() {
 
     var docElem = document.documentElement,
@@ -50,6 +50,7 @@ var cbpAnimatedHeader = (function() {
     init();
 
 })();
+});
 
 
 
