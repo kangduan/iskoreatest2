@@ -57,6 +57,11 @@
       margin-bottom: 30px;
       width: 33.3333%;
   }
+  #product-section .col-md-3 {
+      float: left;
+      margin-bottom: 30px;
+      width: 25.0000%;
+  }
   /*Clients*/
   #partners-section .col-md-6 {
       float: left;
