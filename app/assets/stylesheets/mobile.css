@@ -311,11 +311,7 @@
   .counter-up .fact-inner .fa-3x {
     font-size: 30px;
   }
-  /*Contact*/
-  #contact-section iframe {
-      float: left;
-      width: 33.3333%;
-  }
+
 
 
 
@@ -343,6 +339,12 @@
   }
   .counter-up .fact-inner .fa-3x {
     font-size: 24px;
+  }
+  /*Contact*/
+  #contact-section iframe {
+
+      width: 300px;
+      height: 300px;
   }
 }
 
