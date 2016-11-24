@@ -312,7 +312,7 @@
     font-size: 30px;
   }
   /*Contact*/
-  #contact-section .col-md-6 {
+  #contact-section iframe {
       float: left;
       width: 33.3333%;
   }
