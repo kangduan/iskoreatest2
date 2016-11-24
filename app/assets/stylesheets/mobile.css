@@ -51,12 +51,17 @@
       margin-bottom: 30px;
       width: 33.3333%;
   }
-
   /*Services*/
   #services-section .col-md-4 {
       float: left;
       margin-bottom: 30px;
       width: 33.3333%;
+  }
+  /*Clients*/
+  #partners-section .col-md-6 {
+      float: left;
+      margin-bottom: 30px;
+      width: 50.0000%;
   }
 
 	/* Team */
