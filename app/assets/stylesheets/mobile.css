@@ -290,10 +290,10 @@
 	.owl-next {
 		display: none !important;
 	}
-  #recruit-section .tab-pane .table {
+  #recruit-section .nav-tabs {
 
-      width: 33.3333%;
-      font-size: 10px;
+    font-size: 20px;
+
   }
 
 
@@ -301,7 +301,11 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+  #recruit-section .tab-pane .table {
 
+      width: 50.3333%;
+      font-size: 10px;
+  }
 }
 
 /* Custom, iPhone Retina */
