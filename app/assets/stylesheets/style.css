@@ -886,6 +886,7 @@ ul.imp-links {
 	margin-top: 15px;
 }
 ul.imp-links li {
+	float:left;
 	padding: 5px 0;
 }
 ul.imp-links li a {
