@@ -234,8 +234,8 @@
 		padding-top: 30px;
 	}
 
-	/* Some Text Center Area */
-	#cta-section, #about-section, #contact-section, #contact-section .contact .form-control {
+	/* Some Text Center Area #contact-section .contact .form-control*/
+	#cta-section, #about-section, #contact-section {
 		text-align: center;
 	}
 
@@ -262,7 +262,6 @@
   .rotate-box-2 .rotate-box-icon {
     float: none ;
     margin-right: 6px;
-    margin-bottom: 30px;
   }
   a.rotate-box-2 {
     text-align: center;
@@ -278,14 +277,14 @@
 		margin-bottom: 50px;
 	}
   #about-section h4 {
-      font-size: 15px;
+      font-size: 13px;
   }
   #about-section p {
       font-size: 8px;
   }
   #services-section h4 {
 
-      font-size: 15px;
+      font-size: 13px;
   }
   #services-section p {
 
