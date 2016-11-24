@@ -894,36 +894,45 @@ ul.imp-links li a {
 	color: #fff;
 }
 /*copyright plus*/
-.bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
-.bottom_ul li { float:left; line-height:40px;}
-.bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
-.bottom_ul li a { color:#FFF;  font-size:12px;}
-.container .credit {
-  margin: 0 0;
-  padding: 8px 0 4px 0;
+#footer {
+    border-top: 5px solid #CDB380;
+    background: #033649 none repeat scroll 0% 0%;
+    padding-top: 30px;
+    margin-top: 60px;
+    clear: both;
+    color: #AAA;
+    display: block;
 }
 
-.caret-up {
-    /* Safari */
-    -webkit-transform: rotate(-180deg);
-
-    /* Firefox */
-    -moz-transform: rotate(-180deg);
-
-    /* IE */
-    -ms-transform: rotate(-180deg);
-
-    /* Opera */
-    -o-transform: rotate(-180deg);
-
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);
-
+#footer .widgettitle {
+    margin: 0px;
+    padding: 0px 0px 15px;
+    border-bottom: medium none;
 }
-.drop-up {
-    top: auto;
-    bottom: 100% !important;
+#footer h4 {
+    color: #FFF;
 }
+
+#footer ul {
+    list-style: outside none none;
+}
+
+#footer li {
+    padding: 7px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    margin: 0px;
+}
+
+#footer li a {
+    color: #DDD;
+}
+
+#sub-floor {
+    color: #AAA;
+    background: #031634 none repeat scroll 0% 0%;
+    padding: 10px 0px;
+}
+
 /*Widget2: subscribe form*/
 #subscribe #result {
     display: block;
