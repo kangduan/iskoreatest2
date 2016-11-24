@@ -1248,8 +1248,8 @@ border-bottom: 2px solid #F3F3F3;
 border-top: 2px solid #F3F3F3 !important;
 line-height: 1.42857;
 padding: 3px;
-vertical-align: top;
-table-layout: fixed;
+/*vertical-align: top;*/
+
 }
 .table2 > thead > tr > th,
 .table2 > tbody > tr > th,
