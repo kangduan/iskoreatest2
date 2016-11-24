@@ -896,7 +896,7 @@ ul.imp-links li a {
 /*copyright plus*/
 #footer {
     border-top: 5px solid #CDB380;
-    background: #033649 none repeat scroll 0% 0%;
+    background: #000000 none repeat scroll 0% 0%;
     padding-top: 30px;
     clear: both;
     color: #AAA;
@@ -931,6 +931,10 @@ ul.imp-links li a {
     background: #031634 none repeat scroll 0% 0%;
     padding: 10px 0px;
 }
+.bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+.bottom_ul li { float:left; line-height:40px;}
+.bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+.bottom_ul li a { color:#FFF;  font-size:12px;}
 
 /*Widget2: subscribe form*/
 #subscribe #result {
