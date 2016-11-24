@@ -58,12 +58,12 @@
   /*Services*/
   #services-section .col-md-4 {
       float: left;
-      margin-right: 2px;
+
       margin-bottom: 50px;
       width: 33.3333%;
   }
   #services-section p {
-      margin-right: 2px;
+
       font-size: 8px;
   }
 	/* Team */
@@ -89,6 +89,10 @@
     #team-section .col-md-2 {
         float: left;
         margin-bottom: 30px;
+        width: 33.3333%;
+    }
+    #recruit-section .tab-pane {
+
         width: 33.3333%;
     }
 
