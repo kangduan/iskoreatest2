@@ -844,7 +844,7 @@ ul.social-list li a i {
 	border-color: #2A2A2A;
 }
 #contact-section .contact .form-control:focus {
-	background-color: #171717;
+	background-color: #fff;
 	box-shadow: none;
 }
 
