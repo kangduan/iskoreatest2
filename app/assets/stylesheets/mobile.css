@@ -301,6 +301,13 @@
   #recruit-section li{
     font-size: 13px;
   }
+  /* Facts (counter up) */
+  .counter-up .fact-inner .counter {
+    font-size: 36px;
+  }
+  .counter-up .fact-inner .fa-3x {
+    font-size: 30px;
+  }
 
 
 	/* Hiding elements */
@@ -319,6 +326,14 @@
   }
   #recruit-section li{
     font-size: 11px;
+  }
+
+  /* Facts (counter up) */
+  .counter-up .fact-inner .counter {
+    font-size: 30px;
+  }
+  .counter-up .fact-inner .fa-3x {
+    font-size: 24px;
   }
 }
 
