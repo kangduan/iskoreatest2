@@ -63,6 +63,12 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
+  /*Contact*/
+  #contact-section .col-md-6 {
+      float: left;
+      margin-bottom: 30px;
+      width: 50.0000%;
+  }
 
 	/* Team */
 	.team-item .team-triangle {
