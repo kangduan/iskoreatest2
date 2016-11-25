@@ -9,13 +9,13 @@ $('.page-scroll').bind('click', function(event) {
     }, 1500, 'easeInOutExpo');
     event.preventDefault();
 });
-
+});
 
 
 ////////////////////////////////////////////////////////////////////////
 // On-Scroll Animated Header: https://github.com/codrops/AnimatedHeader
 ////////////////////////////////////////////////////////////////////////
-
+$(function() {
 var cbpAnimatedHeader = (function() {
 
     var docElem = document.documentElement,
@@ -50,18 +50,18 @@ var cbpAnimatedHeader = (function() {
     init();
 
 })();
-
+})();
 
 
 //////////////////////////////////////////////
 // Highlight the top nav as scrolling occurs
 //////////////////////////////////////////////
-
+$(function() {
 $('body').scrollspy({
     target: '.navbar',
     offset: 65
-})
-
+});
+});
 
 
 ///////////////////////////////////////////
@@ -69,17 +69,18 @@ $('body').scrollspy({
 ///////////////////////////////////////////
 
 // Wait for window load
+$(function() {
 $(window).load(function() {
     // Animate loader off screen
     $(".page-loader").fadeOut("slow");
 });
-
+});
 
 
 ////////////////////////////////////////////////////
 // OWL Carousel: http://owlgraphic.com/owlcarousel
 ////////////////////////////////////////////////////
-
+$(function() {
 // Intro text carousel
 $("#owl-intro-text").owlCarousel({
     singleItem : true,
@@ -109,18 +110,18 @@ $("#owl-testimonial").owlCarousel({
     autoHeight : true
 })
 
-
+});
 ////////////////////////////////////////////////////////////////////
 // Stellar (parallax): https://github.com/markdalgleish/stellar.js
 ////////////////////////////////////////////////////////////////////
-
+$(function() {
 $.stellar({
     // Set scrolling to be in either one or both directions
     horizontalScrolling: false,
     verticalScrolling: true,
 });
 
-
+});
 
 ///////////////////////////////////////////////////////////
 // WOW animation scroll: https://github.com/matthieua/WOW
@@ -133,17 +134,18 @@ new WOW().init();
 ////////////////////////////////////////////////////////////////////////////////////////////
 // Counter-Up (requires jQuery waypoints.js plugin): https://github.com/bfintal/Counter-Up
 ////////////////////////////////////////////////////////////////////////////////////////////
-
+$(function() {
 $('.counter').counterUp({
     delay: 10,
     time: 2000
 });
 
-
+});
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 // Isotop Package
 ////////////////////////////////////////////////////////////////////////////////////////////
+$(function() {
 $(window).load(function() {
 $('.portfolio_menu ul li').click(function(){
 	$('.portfolio_menu ul li').removeClass('active_prot_menu');
@@ -162,6 +164,7 @@ $('#filters').on( 'click', 'a', function() {
 });
 });
 
+});
 
 
 /////////////////////////
@@ -169,6 +172,7 @@ $('#filters').on( 'click', 'a', function() {
 /////////////////////////
 
 // Check to see if the window is top if not then display button
+$(function() {
 $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
         $('.scrolltotop').fadeIn();
@@ -183,12 +187,12 @@ $('.scrolltotop').click(function(){
     return false;
 });
 
-
+});
 
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
 ////////////////////////////////////////////////////////////////////
-
+$(function() {
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
         $(this).collapse('hide');
