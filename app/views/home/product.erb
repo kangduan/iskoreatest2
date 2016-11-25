@@ -23,7 +23,7 @@
             <header id="header" class="header-main">
 
                 <!-- Begin Navbar -->
-                <nav id="main-navbar" class="navbar navbar-default" style="border-radius:0px;" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+                <nav id="main-navbar-fixed-bottom" class="navbar navbar-default" style="border-radius:0px;" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
 
                   <div class="container">
 
@@ -58,88 +58,7 @@
 
             </header>
             <!-- ========= END HEADER =========-->
-						<nav class="navbar-fixed-bottom" style="border-radius:0px;" id="product-icon" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
 
-							<div class="container">
-
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-									<a class="navbar-brand page-scroll">IS_KOREARENTAL_VINA</a>
-								</div>
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<div class="btn-group btn-group-justified">
-										<div class="btn-group">
-												<button type="button" class="btn btn-nav">
-
-											<p><a href="http://52.78.131.9/">Home</a></p>
-												</button>
-										</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll" href="#car-section">CAR</a></p>
-					</button>
-			</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll" href="#pc-section">PC</a></p>
-					</button>
-			</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll" href="#copy-section">PHOTOCOPIER</a></p>
-					</button>
-			</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll" href="#manlift-section">MAN-LIFT</a></p>
-					</button>
-			</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll" href="#forklift-section">FORK-LIFT</a></p>
-					</button>
-			</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll" href="#tmi-section">TMI</a></p>
-					</button>
-			</div>
-			<div class="btn-group">
-					<button type="button" class="btn btn-nav">
-
-				<p><a class="page-scroll"href="#printer-section">PRINTER</a></p>
-					</button>
-			</div>
-	</div>
-								</div><!-- /.navbar-collapse -->
-							</div><!-- /.container -->
-						</nav>
-<script>
-var activeEl = 2;
-$(function() {
-    var items = $('.btn-nav');
-    $( items[activeEl] ).addClass('active');
-    $( ".btn-nav" ).click(function() {
-        $( items[activeEl] ).removeClass('active');
-        $( this ).addClass('active');
-        activeEl = $( ".btn-nav" ).index( this );
-    });
-});
-</script>
 
 
 
@@ -385,67 +304,84 @@ $(function() {
 							</section>
 
 
-            <!-- Begin footer -->
-            <footer class="text-off-white">
+							<!-- End contact section -->
+							<footer id="footer" class="clearfix">
+							      <div id="footer-widgets">
 
-                <div class="footer-top">
-                	<div class="container">
-                    	<div class="row wow bounceInLeft" data-wow-delay="0.4s">
+							        <div class="container">
 
-                            <div class="col-sm-6 col-md-4">
-                            	<img src="/img/logo/menu-logo.png">
-                                <ul class="imp-links">
-                                	<li><a href="">About</a></li>
-                                	<li><a href="">Services</a></li>
-                                	<li><a href="">Press</a></li>
-                                	<li><a href="">Copyright</a></li>
-                                	<li><a href="">Advertise</a></li>
-                                	<li><a href="">Legal</a></li>
-                                </ul>
-                            </div>
+							        <div id="footer-wrapper">
 
-                        	<div class="col-sm-6 col-md-4">
-                                <h4>Subscribe</h4>
-                            	<div id="footer_signup">
-                                    <div id="email">
-                                        <form id="subscribe" method="POST">
-                                            <input type="text" placeholder="Enter email address" name="email" id="address" data-validate="validate(required, email)"/>
-                                            <button type="submit">Submit</button>
-                                            <span id="result" class="section-description"></span>
-                                        </form>
-                                    </div>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
+							          <div class="row">
 
-                            <div class="col-sm-12 col-md-4">
-                                <h4>Recent Tweets</h4>
-                                <div class="single-tweet">
-                                    <div class="tweet-content"><span>@Unika</span> Excepteur sint occaecat cupidatat non proident</div>
-                                    <div class="tweet-date">1 Hour ago</div>
-                                </div>
-                                <div class="single-tweet">
-                                    <div class="tweet-content"><span>@Unika</span> Excepteur sint occaecat cupidatat non proident uku shumaru</div>
-                                    <div class="tweet-date">1 Hour ago</div>
-                                </div>
-                            </div>
+													<div class="col-md-4" style="margin-bottom:20px;">
+							              <div id="meta-3" class="widget widgetFooter widget_meta">
+							              <h4 class="widgettitle">Family Site :</h4>
+							              <ul>
+							    		  <li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL KOREA</a></li>
+										    <li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL CHINA</a></li>
+										    <li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> IS DONGSEO</a></li>
+												<li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> SAMHONG-TECH</a></li>
+												<li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> INUS</a></li>
+							             </ul>
+												 	</div>
+						             </div> <!-- end widget1 -->
 
-                        </div> <!-- /.row -->
-                    </div> <!-- /.container -->
-                </div>
+												 <div class="col-md-4">
+													 <div id="meta-3" class="widget widgetFooter widget_meta">
+													 <h4 class="widgettitle">Join Us :</h4>
+													 <ul>
+														 <ul class="social-list">
+			 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>
+			 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class="fa fa-twitter"></i></span></a></li>
+			 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.5s"><span class="rotate-box-icon"><i class="fa fa-google-plus"></i></span></a></li>
+			 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.6s"><span class="rotate-box-icon"><i class="fa fa-pinterest-p"></i></span></a></li>
+			 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.7s"><span class="rotate-box-icon"><i class="fa fa-tumblr"></i></span></a></li>
+			 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.8s"><span class="rotate-box-icon"><i class="fa fa-dribbble"></i></span></a></li>
+			 		                    </ul>
+													</ul>
+												 </div>
+												</div> <!-- end widget1 -->
 
-                <div class="footer">
-                    <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
-                        <p class="copyright">Copyright &copy; 2016 - IS_KOREARENTAL_VINA Corp.</p>
-                    </div>
-                </div>
+							  			 <div class="col-sm-6 col-md-4">
+							              		<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+							                    <h4 class="widgettitle">Scroll To Top :</h4>
+																	<ul class="bottom_ul">
+																	        <li><a href="#about">About</a></li>
+																	        <li><a href="#product">Rental Products</a></li>
+																	        <li><a href="#recruit">Recruitment</a></li>
+																	        <li><a href="#contact">Contact</a></li>
+																  </ul>
+									</div>
+								 </div> <!-- end widget1 -->
 
-            </footer>
-            <!-- End footer -->
 
-            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
 
-        </div><!-- body ends -->
+							          </div> <!-- end .row -->
+
+							        </div> <!-- end #footer-wrapper -->
+
+							        </div> <!-- end .container -->
+							      </div> <!-- end #footer-widgets -->
+
+							      <div id="sub-floor">
+							        <div class="container">
+							          <div class="row">
+							            <div class="col-md-8 copyright">
+							             © 2016 Copy right IS_KOREARENTAL_VINA Corp.
+							            </div>
+
+							          </div> <!-- end .row -->
+							        </div>
+							      </div>
+
+							    </footer>
+	            <!-- End footer -->
+
+	            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+
+	        </div><!-- body ends -->
+
 
 
 
