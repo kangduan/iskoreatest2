@@ -67,6 +67,14 @@
 						</nav>
 						<!-- End Navbar -->
 				</header>
+				<script>
+				$('ul.nav').find('a').click(function(){
+    var $href = $(this).attr('href');
+    var $anchor = $('#'+$href).offset();
+    window.scrollTo($anchor.left,$anchor.top);
+    return false;
+});
+</script>
 				<!-- ========= END HEADER =========-->
 
 
@@ -1006,7 +1014,7 @@ $(document).ready(function() {
 
 
 				<script src="/assets/jquery-1.11.1.min.js"></script>
-				<!--<script src="/assets/jquery.easing.min.js"></script>-->
+				<script src="/assets/jquery.easing.min.js"></script>
 				<script src="/assets/jssor.slider.mini.js"></script>
         <script src="/assets/owl.carousel.min.js"></script>
 				<script src="/assets/theme.js"></script>
