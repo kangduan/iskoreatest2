@@ -1337,25 +1337,25 @@ background-color: #ffffff;
 }
 
 .btn-nav {
-    background-color: #000;
-    border: 1px solid #6f5499;
+	  background: none;
+    color: #6f5499;
+    border-color: #6f5499;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .btn-nav:hover {
-    color: #e92d00;
+		color: #FFF;
+		background: #6f5499;
+		border-color: #6f5499;
     cursor: pointer;
     -webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
     transition: color 1s;
 }
 .btn-nav.active {
-    color: #e92d00;
-    padding: 2px;
-	border-top: 6px solid #e92d00;
-	border-bottom: 6px solid #e92d00;
-    border-left: 0;
-    border-right: 0;
+	color: #FFF;
+	background: #6f5499;
+	border-color: #6f5499;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -1372,7 +1372,7 @@ background-color: #ffffff;
 	position: absolute;
 	border-style: solid;
 	border-width: 4px 4px 0;
-	border-color: #e92d00 transparent;
+	border-color: #6f5499 transparent;
 	display: block;
 	width: 0;
 	z-index: 1;
@@ -1404,7 +1404,7 @@ background-color: #ffffff;
 @media (max-width: 600px) {
     .btn-nav .glyphicon {
         padding-top: 12px;
-        font-size: 26px;
+        font-size: 15px;
     }
 }
 /*product section*/
