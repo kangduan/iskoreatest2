@@ -89,7 +89,7 @@ section {
 	width: 100%;
 	height: 100%;
 	z-index: 99999;
-	background: #FFF url(../img/clock.gif) center center no-repeat;
+	background: #FFF url(../img/ring-loading.gif) center center no-repeat;
 }
 .devider {
 	width: 100%;
