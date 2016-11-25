@@ -1,6 +1,8 @@
 /////////////////////////////////////////////////////////////////////
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 /////////////////////////////////////////////////////////////////////
+;(function($){
+        // your code
 
 $('.page-scroll').bind('click', function(event) {
     var $anchor = $(this);
@@ -59,7 +61,7 @@ var cbpAnimatedHeader = (function() {
 //////////////////////////////////////////////
 
 $('body').scrollspy({
-    target: '.navbar-collapse',
+    target: '.navbar',
     offset: 65
 })
 
@@ -193,3 +195,4 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+})(jQuery);
