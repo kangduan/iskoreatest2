@@ -8,7 +8,7 @@
 //  - Michael Herf     (Pulse Algorithm)
 //  - Edwin Ang (optimzation and added support)
 
-$(function(){
+(function(){
 
 // Scroll Variables (tweakable)
 var defaultOptions = {
@@ -535,4 +535,4 @@ if (wheelEvent && isSupportedBrowser) {
     addEvent("load", init);
 }
 
-});
+})();
