@@ -68,83 +68,51 @@
 						<!-- End Navbar -->
 				</header>
 				<!-- ========= END HEADER =========-->
-				<p class="warning">Only works 100% in Chrome for now ;)</p>
-				<div id="scroller">
-				  <div class="nav2">
-				    <a class="prev2">&laquo;</a>
-				    <a class="next2">&raquo;</a>
-				  </div>
-				  <a class="item" href="#"><img src="http://i.imgur.com/5Mk3EfW.jpg" /></a>
-				  <a class="item" href="#"><img src="http://i.imgur.com/79aU67L.jpg" /></a>
-				  <a class="item" href="#"><img src="http://i.imgur.com/x3wSoFU.jpg" /></a>
-				  <a class="item" href="#"><img src="http://i.imgur.com/27fTqbA.jpg" /></a>
-				  <a class="item" href="#"><img src="http://i.imgur.com/RjdFV6n.jpg" /></a>
-				  <a class="item" href="#"><img src="http://i.imgur.com/6W8JOza.jpg" /></a>
-				  <a class="item" href="#"><img src="http://i.imgur.com/rwLY1JH.jpg" /></a>
+
+
+        	<!-- Begin text carousel intro section --><!-- style="background-image: url(img/slider-bg.jpg);"-->
+					<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 442px; overflow: hidden;">
+
+				<!-- Loading Screen -->
+				<div u="loading" style="position: absolute; top: 0px; left: 0px;">
+						<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+
+						background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
+						</div>
+						<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+
+						top: 0px; left: 0px;width: 100%;height:100%;">
+						</div>
 				</div>
-				<script>
-				/* Create an array to hold the different image positions */
-var itemPositions = [];
-var numberOfItems = $('#scroller .item').length;
 
-/* Assign each array element a CSS class based on its initial position */
-function assignPositions() {
-    for (var i = 0; i < numberOfItems; i++) {
-        if (i === 0) {
-            itemPositions[i] = 'left-hidden';
-        } else if (i === 1) {
-            itemPositions[i] = 'left';
-        } else if (i === 2) {
-            itemPositions[i] = 'middle';
-        } else if (i === 3) {
-            itemPositions[i] = 'right';
-        } else {
-            itemPositions[i] = 'right-hidden';
-        }
-    }
-    /* Add each class to the corresponding element */
-    $('#scroller .item').each(function(index) {
-        $(this).addClass(itemPositions[index]);
-    });
-}
+				<!-- Slides Container -->
+				<div u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 442px;
+				overflow: hidden;">
+						<div>
+								<img u="image" src2="../img/slide/innovate.png" />
+						</div>
+						<div>
+								<img u="image" src2="../img/slide/create.png" />
+						</div>
+						<div>
+							<img u="image" src2="../img/slide/challenge.png" />
+						</div>
+				</div>
 
-/* To scroll, we shift the array values by one place and reapply the classes to the images */
-function scroll(direction) {
-    if (direction === 'prev2') {
-        itemPositions.push(itemPositions.shift());
-    } else if (direction === 'next2') {
-        itemPositions.unshift(itemPositions.pop());
-    }
-    $('#scroller .item').removeClass('left-hidden left middle right right-hidden').each(function(index) {
-        $(this).addClass(itemPositions[index]);
-    });
-}
+				<!-- bullet navigator container -->
+				<div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
+						<!-- bullet navigator item prototype -->
+						<div u="prototype"></div>
+				</div>
 
-/* Do all this when the DOMs ready */
-$(document).ready(function() {
-
-    assignPositions();
-    var autoScroll = window.setInterval("scroll('next2')", 4000);
-
-    /* Hover behaviours */
-    $('#scroller').hover(function() {
-        window.clearInterval(autoScroll);
-        $('.nav').stop(true, true).fadeIn(200);
-    }, function() {
-        autoScroll = window.setInterval("scroll('next2')", 4000);
-        $('.nav').stop(true, true).fadeOut(200);
-    });
-
-    /* Click behaviours */
-    $('.prev').click(function() {
-        scroll('prev2');
-    });
-    $('.next').click(function() {
-        scroll('next2');
-    });
-
-});
-				</script>
+				<!-- Arrow Left -->
+				<span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
+				</span>
+				<!-- Arrow Right -->
+				<span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
+				</span>
+		</div>
+		<!-- Jssor Slider End -->
 
 		<!-- Begin about section -->
 					<section id="about-section" class="page bg-style1">
@@ -1101,6 +1069,7 @@ $(document).ready(function() {
 				</script>
 				<script src="/assets/jquery-1.11.1.min.js"></script>
 				<script src="/assets/jquery.easing.min.js"></script>
+				<script src="/assets/jssor.slider.mini.js"></script>
         <script src="/assets/owl.carousel.min.js"></script>
 				<script src="/assets/theme.js"></script>
 				<script src="/assets/jquery.stellar.min.js"></script>
@@ -1111,7 +1080,7 @@ $(document).ready(function() {
 				<script src="/assets/jquery.counterup.min.js"></script>
 				<script src="/assets/smoothscroll.js"></script>
 				<script src="/assets/bootstrap.min.js"></script>
-				<script src="/assets/jssor.slider.mini.js"></script>
+
 
 
 <!--
