@@ -1,8 +1,6 @@
 /////////////////////////////////////////////////////////////////////
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 /////////////////////////////////////////////////////////////////////
-;(function($){
-        // your code
 
 $('.page-scroll').bind('click', function(event) {
     var $anchor = $(this);
@@ -17,7 +15,7 @@ $('.page-scroll').bind('click', function(event) {
 ////////////////////////////////////////////////////////////////////////
 // On-Scroll Animated Header: https://github.com/codrops/AnimatedHeader
 ////////////////////////////////////////////////////////////////////////
-$(function(){
+
 var cbpAnimatedHeader = (function() {
 
     var docElem = document.documentElement,
@@ -52,7 +50,7 @@ var cbpAnimatedHeader = (function() {
     init();
 
 })();
-});
+
 
 
 
@@ -195,4 +193,3 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
-})(jQuery);

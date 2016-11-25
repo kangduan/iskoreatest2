@@ -535,4 +535,4 @@ if (wheelEvent && isSupportedBrowser) {
     addEvent("load", init);
 }
 
-})();
+});
