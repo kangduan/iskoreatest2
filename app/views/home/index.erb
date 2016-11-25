@@ -70,9 +70,9 @@
 				<!-- ========= END HEADER =========-->
 				<p class="warning">Only works 100% in Chrome for now ;)</p>
 				<div id="scroller">
-				  <div class="nav">
-				    <a class="prev">&laquo;</a>
-				    <a class="next">&raquo;</a>
+				  <div class="nav2">
+				    <a class="prev2">&laquo;</a>
+				    <a class="next2">&raquo;</a>
 				  </div>
 				  <a class="item" href="#"><img src="http://i.imgur.com/5Mk3EfW.jpg" /></a>
 				  <a class="item" href="#"><img src="http://i.imgur.com/79aU67L.jpg" /></a>
@@ -110,9 +110,9 @@ function assignPositions() {
 
 /* To scroll, we shift the array values by one place and reapply the classes to the images */
 function scroll(direction) {
-    if (direction === 'prev') {
+    if (direction === 'prev2') {
         itemPositions.push(itemPositions.shift());
-    } else if (direction === 'next') {
+    } else if (direction === 'next2') {
         itemPositions.unshift(itemPositions.pop());
     }
     $('#scroller .item').removeClass('left-hidden left middle right right-hidden').each(function(index) {
@@ -124,23 +124,23 @@ function scroll(direction) {
 $(document).ready(function() {
 
     assignPositions();
-    var autoScroll = window.setInterval("scroll('next')", 4000);
+    var autoScroll = window.setInterval("scroll('next2')", 4000);
 
     /* Hover behaviours */
     $('#scroller').hover(function() {
         window.clearInterval(autoScroll);
         $('.nav').stop(true, true).fadeIn(200);
     }, function() {
-        autoScroll = window.setInterval("scroll('next')", 4000);
+        autoScroll = window.setInterval("scroll('next2')", 4000);
         $('.nav').stop(true, true).fadeOut(200);
     });
 
     /* Click behaviours */
     $('.prev').click(function() {
-        scroll('prev');
+        scroll('prev2');
     });
     $('.next').click(function() {
-        scroll('next');
+        scroll('next2');
     });
 
 });
