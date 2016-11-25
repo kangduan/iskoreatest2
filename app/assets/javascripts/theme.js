@@ -33,15 +33,15 @@ var cbpAnimatedHeader = (function() {
     }
 
     function scrollPage() {
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 300){
-            $('.navbar-default').addClass('navbar-shrink');
+        var sy = scrollY();
+        if ( sy >= changeHeaderOn ) {
+            classie.add( header, 'navbar-shrink' );
         }
-        else{
-            $('.navbar-default').removeClass('navbar-shrink');
+        else {
+            classie.remove( header, 'navbar-shrink' );
         }
-    });
-});
+        didScroll = false;
+    }
 
     function scrollY() {
         return window.pageYOffset || docElem.scrollTop;
