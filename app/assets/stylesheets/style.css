@@ -1338,24 +1338,24 @@ background-color: #ffffff;
 
 .btn-nav {
 	  background: none;
-    color: #6f5499;
-    border-color: #6f5499;
+    color: #000;
+    border-color: #000;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .btn-nav:hover {
 		color: #FFF;
-		background: #6f5499;
-		border-color: #6f5499;
+		background: #000;
+		border-color: #000;
     cursor: pointer;
     -webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
     transition: color 1s;
 }
 .btn-nav.active {
 	color: #FFF;
-	background: #6f5499;
-	border-color: #6f5499;
+	background: #000;
+	border-color: #000;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -1371,8 +1371,8 @@ background-color: #ffffff;
 	content: '';
 	position: absolute;
 	border-style: solid;
-	border-width: 4px 4px 0;
-	border-color: #6f5499 transparent;
+	border-width: 1px 1px 0;
+	border-color: #000 transparent;
 	display: block;
 	width: 0;
 	z-index: 1;
