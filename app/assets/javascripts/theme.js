@@ -59,7 +59,7 @@ var cbpAnimatedHeader = (function() {
 //////////////////////////////////////////////
 
 $('body').scrollspy({
-    target: '.navbar',
+    target: '.navbar-collapse',
     offset: 65
 })
 
