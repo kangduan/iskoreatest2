@@ -67,14 +67,7 @@
 						</nav>
 						<!-- End Navbar -->
 				</header>
-				<script>
-				$('ul.nav').find('a').click(function(){
-    var $href = $(this).attr('href');
-    var $anchor = $('#'+$href).offset();
-    window.scrollTo($anchor.left,$anchor.top);
-    return false;
-});
-</script>
+
 				<!-- ========= END HEADER =========-->
 
 
@@ -1026,7 +1019,22 @@ $(document).ready(function() {
 				<script src="/assets/jquery.counterup.min.js"></script>
 				<script src="/assets/smoothscroll.js"></script>
 				<script src="/assets/bootstrap.min.js"></script>
-
+				<script>
+				$(function() {
+				  $('a[href*="#"]:not([href="#"])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html, body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+</script>
 
 
 <!--
