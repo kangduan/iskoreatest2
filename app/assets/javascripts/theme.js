@@ -32,16 +32,16 @@ var cbpAnimatedHeader = (function() {
         }, false );
     }
 
-    $(function(){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 300){
-                $('.navbar-default').addClass('navbar-shrink');
-            }
-            else{
-                $('.navbar-default').removeClass('navbar-shrink');
-            }
-        });
+    function scrollPage() {
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 300){
+            $('.navbar-default').addClass('navbar-shrink');
+        }
+        else{
+            $('.navbar-default').removeClass('navbar-shrink');
+        }
     });
+});
 
     function scrollY() {
         return window.pageYOffset || docElem.scrollTop;
