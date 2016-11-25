@@ -1557,6 +1557,12 @@ background-color: #ffffff;
 		border-width: 0px;
 		z-index: 1000;
 	}
+	.navbar-fixed-left {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border-radius: 3px;
+}
 
 	.navbar-minimal > .navbar-toggler {
 		position: relative;
