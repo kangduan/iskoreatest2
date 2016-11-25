@@ -68,204 +68,83 @@
 						<!-- End Navbar -->
 				</header>
 				<!-- ========= END HEADER =========-->
+				<p class="warning">Only works 100% in Chrome for now ;)</p>
+				<div id="scroller">
+				  <div class="nav">
+				    <a class="prev">&laquo;</a>
+				    <a class="next">&raquo;</a>
+				  </div>
+				  <a class="item" href="#"><img src="http://i.imgur.com/5Mk3EfW.jpg" /></a>
+				  <a class="item" href="#"><img src="http://i.imgur.com/79aU67L.jpg" /></a>
+				  <a class="item" href="#"><img src="http://i.imgur.com/x3wSoFU.jpg" /></a>
+				  <a class="item" href="#"><img src="http://i.imgur.com/27fTqbA.jpg" /></a>
+				  <a class="item" href="#"><img src="http://i.imgur.com/RjdFV6n.jpg" /></a>
+				  <a class="item" href="#"><img src="http://i.imgur.com/6W8JOza.jpg" /></a>
+				  <a class="item" href="#"><img src="http://i.imgur.com/rwLY1JH.jpg" /></a>
+				</div>
+				<script>
+				/* Create an array to hold the different image positions */
+var itemPositions = [];
+var numberOfItems = $('#scroller .item').length;
 
-				    <script src="/assets/jssor.slider-21.1.6.min.js" type="text/javascript"></script>
-				    <script type="text/javascript">
-				        jssor_1_slider_init = function() {
+/* Assign each array element a CSS class based on its initial position */
+function assignPositions() {
+    for (var i = 0; i < numberOfItems; i++) {
+        if (i === 0) {
+            itemPositions[i] = 'left-hidden';
+        } else if (i === 1) {
+            itemPositions[i] = 'left';
+        } else if (i === 2) {
+            itemPositions[i] = 'middle';
+        } else if (i === 3) {
+            itemPositions[i] = 'right';
+        } else {
+            itemPositions[i] = 'right-hidden';
+        }
+    }
+    /* Add each class to the corresponding element */
+    $('#scroller .item').each(function(index) {
+        $(this).addClass(itemPositions[index]);
+    });
+}
 
-				            var jssor_1_options = {
-				              $ArrowNavigatorOptions: {
-				                $Class: $JssorArrowNavigator$
-				              },
-				              $ThumbnailNavigatorOptions: {
-				                $Class: $JssorThumbnailNavigator$,
-				                $Cols: 15,
-				                $SpacingX: 3,
-				                $SpacingY: 3,
-				                $Align: 455
-				              }
-				            };
+/* To scroll, we shift the array values by one place and reapply the classes to the images */
+function scroll(direction) {
+    if (direction === 'prev') {
+        itemPositions.push(itemPositions.shift());
+    } else if (direction === 'next') {
+        itemPositions.unshift(itemPositions.pop());
+    }
+    $('#scroller .item').removeClass('left-hidden left middle right right-hidden').each(function(index) {
+        $(this).addClass(itemPositions[index]);
+    });
+}
 
-				            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+/* Do all this when the DOMs ready */
+$(document).ready(function() {
 
-				            /*responsive code begin*/
-				            /*you can remove responsive code if you don't want the slider scales while window resizing*/
-				            function ScaleSlider() {
-				                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-				                if (refSize) {
-				                    refSize = Math.min(refSize, 980);
-				                    jssor_1_slider.$ScaleWidth(refSize);
-				                }
-				                else {
-				                    window.setTimeout(ScaleSlider, 30);
-				                }
-				            }
-				            ScaleSlider();
-				            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-				            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-				            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-				            /*responsive code end*/
-				        };
-				    </script>
-				    <style>
+    assignPositions();
+    var autoScroll = window.setInterval("scroll('next')", 4000);
 
-				        .jssora07l, .jssora07r {
-				            display: block;
-				            position: absolute;
-				            /* size of arrow element */
-				            width: 50px;
-				            height: 50px;
-				            cursor: pointer;
-				            background: url('img/a07.png') no-repeat;
-				            overflow: hidden;
-				        }
-				        .jssora07l { background-position: -5px -35px; }
-				        .jssora07r { background-position: -65px -35px; }
-				        .jssora07l:hover { background-position: -125px -35px; }
-				        .jssora07r:hover { background-position: -185px -35px; }
-				        .jssora07l.jssora07ldn { background-position: -245px -35px; }
-				        .jssora07r.jssora07rdn { background-position: -305px -35px; }
-				        .jssora07l.jssora07lds { background-position: -5px -35px; opacity: .3; pointer-events: none; }
-				        .jssora07r.jssora07rds { background-position: -65px -35px; opacity: .3; pointer-events: none; }
-				        /* jssor slider thumbnail navigator skin 04 css *//*.jssort04 .p            (normal).jssort04 .p:hover      (normal mouseover).jssort04 .pav          (active).jssort04 .pav:hover    (active mouseover).jssort04 .pdn          (mousedown)*/.jssort04 .p {    position: absolute;    top: 0;    left: 0;    width: 62px;    height: 32px;}.jssort04 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort04 .w, .jssort04 .pav:hover .w {    position: absolute;    width: 60px;    height: 30px;    border: #0099FF 1px solid;    box-sizing: content-box;}.jssort04 .pdn .w, .jssort04 .pav .w {    border-style: dashed;}.jssort04 .c {    position: absolute;    top: 0;    left: 0;    width: 62px;    height: 32px;    background-color: #000;    filter: alpha(opacity=45);    opacity: .45;    transition: opacity .6s;    -moz-transition: opacity .6s;    -webkit-transition: opacity .6s;    -o-transition: opacity .6s;}.jssort04 .p:hover .c, .jssort04 .pav .c {    filter: alpha(opacity=0);    opacity: 0;}.jssort04 .p:hover .c {    transition: none;    -moz-transition: none;    -webkit-transition: none;    -o-transition: none;}* html .jssort04 .w {    width /**/: 62px;    height /**/: 32px;}
-				    </style>
-				    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:400px;overflow:hidden;visibility:hidden;background:url('img/main_bg.jpg') 50% 50% no-repeat;">
-				        <!-- Loading Screen -->
-				        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-				            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-				            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-				        </div>
-				        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 980px; height: 400px; overflow: hidden;">
-				            <div data-p="172.50">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;"><br />
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px; color: #FFFFFF;">results driven</span><br /><br /><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                                                        iT Solutions & Services
+    /* Hover behaviours */
+    $('#scroller').hover(function() {
+        window.clearInterval(autoScroll);
+        $('.nav').stop(true, true).fadeIn(200);
+    }, function() {
+        autoScroll = window.setInterval("scroll('next')", 4000);
+        $('.nav').stop(true, true).fadeOut(200);
+    });
 
-				                    </span><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 1.5em; color: #FFFFFF;">
-				                                                        Our professional services help you address the ever evolving business and technological
-				                                                        challenges.
+    /* Click behaviours */
+    $('.prev').click(function() {
+        scroll('prev');
+    });
+    $('.next').click(function() {
+        scroll('next');
+    });
 
-				                    </span><br /><br />
-				                    <a href="http://www.jssor.com">
-				                        <img border="0" alt="auction slider" width="215" height="50" src="img/find-out-more-bt.png" />
-				                    </a>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s2.png" />
-				                <img data-u="thumb" src="img/s2t.jpg" />
-				            </div>
-				            <div data-p="172.50" style="display: none;">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;">
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px;
-				                                color: #FFFFFF;">web design & development</span><br /><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                        Visually Compelling & Functional
-
-				                    </span><br /><br />
-				                    <a href="http://www.jssor.com">
-				                        <img border="0" alt="ebay slideshow" width="215" height="50" src="img/find-out-more-bt.png" />
-				                    </a>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s3.png" />
-				                <img data-u="thumb" src="img/s3t.jpg" />
-				            </div>
-				            <div data-p="172.50" style="display: none;">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;">
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px;
-				    color: #FFFFFF;">Online marketing</span><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                            We enhance your brand, your website traffic and your bottom line online.
-
-				                    </span><br /><br />
-				                    <a href="http://www.jssor.com">
-				                        <img border="0" alt="listing slider" width="215" height="50" src="img/find-out-more-bt.png" />
-				                    </a>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s4.png" />
-				                <img data-u="thumb" src="img/s4t.jpg" />
-				            </div>
-				            <div data-p="172.50" style="display: none;">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;"><br />
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px;
-				    color: #FFFFFF;">web hosting</span><br /><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                            we offer the web's best hosting plans for every site.
-
-				                    </span><br /><br />
-				                    <a href="http://www.jssor.com">
-				                        <img border="0" alt="ebay store slider" width="215" height="50" src="img/find-out-more-bt.png" />
-				                    </a>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s5.png" />
-				                <img data-u="thumb" src="img/s5t.jpg" />
-				            </div>
-				            <div data-p="172.50" style="display: none;">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;">
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px;
-				    color: #FFFFFF;">domain name registration</span><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                            Secure your online identity and register your domain now.
-
-				                    </span><br /><br />
-				                    <a href="http://www.jssor.com">
-				                        <img border="0" alt="listing template slider" width="215" height="50" src="img/find-out-more-bt.png" />
-				                    </a>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s6.png" />
-				                <img data-u="thumb" src="img/s6t.jpg" />
-				            </div>
-				            <a data-u="any" href="http://www.jssor.com" style="display:none">Content Slider</a>
-				            <div data-p="172.50" style="display: none;">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;"><br />
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px;
-				    color: #FFFFFF;">video production</span><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                            Make a greater impact on your clients through interactive Video Production.
-
-				                    </span><br /><br />
-				                    <a href="http://www.jssor.com">
-				                        <img border="0" alt="auction template slider" width="215" height="50" src="img/find-out-more-bt.png" />
-				                    </a>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s7.png" />
-				                <img data-u="thumb" src="img/s7t.jpg" />
-				            </div>
-				            <div data-p="172.50" style="display: none;">
-				                <div style="position: absolute; top: 10px; left: 10px; width: 480px; height: 300px; font-family: Arial, Verdana; font-size: 12px; text-align: left;">
-				                    <span style="display: block; line-height: 1em; text-transform: uppercase; font-size: 52px;
-				color: #FFFFFF;">mobile applications</span><br />
-				                    <span style="display: block; line-height: 1.1em; font-size: 2.5em; color: #FFFFFF;">
-				                        Stay connected to your customers on the go with a MajorMedia custom mobile app.
-				<br /><br />
-				                        <a href="http://www.jssor.com">
-				                            <img border="0" alt="ebay slider" width="215" height="50" src="img/find-out-more-bt.png" />
-				                        </a>
-				                    </span>
-				                </div>
-				                <img style="position: absolute; top: 23px; left: 480px; width: 500px; height: 300px;" src="img/s8.png" />
-				                <img data-u="thumb" src="img/s8t.jpg" />
-				            </div>
-				        </div>
-				        <!-- Thumbnail Navigator -->
-				        <div data-u="thumbnavigator" class="jssort04" style="position:absolute;left:0px;bottom:0px;width:980px;height:60px;" data-autocenter="1">
-				            <!-- Thumbnail Item Skin Begin -->
-				            <div data-u="slides" style="cursor: default;">
-				                <div data-u="prototype" class="p">
-				                    <div class="w">
-				                        <div data-u="thumbnailtemplate" class="t"></div>
-				                    </div>
-				                    <div class="c"></div>
-				                </div>
-				            </div>
-				            <!-- Thumbnail Item Skin End -->
-				        </div>
-				        <!-- Arrow Navigator -->
-				        <span data-u="arrowleft" class="jssora07l" style="top:0px;left:8px;width:50px;height:50px;" data-autocenter="2"></span>
-				        <span data-u="arrowright" class="jssora07r" style="top:0px;right:8px;width:50px;height:50px;" data-autocenter="2"></span>
-				    </div>
-				    <script type="text/javascript">jssor_1_slider_init();</script>
-				    <!-- #endregion Jssor Slider End -->
+});
+				</script>
 
 		<!-- Begin about section -->
 					<section id="about-section" class="page bg-style1">
