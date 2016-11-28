@@ -1548,7 +1548,7 @@ background-color: #ffffff;
   margin-top:10%;
   background:#fff;
   border:3px solid #055388;
-  padding:20px;
+  padding:10px;
   font-size:13px;
   color:white;
 
@@ -1557,13 +1557,13 @@ background-color: #ffffff;
   font-weight:600;
   letter-spacing:5px;
   text-transform:uppercase;
-  border-radius: 5px;
+  border-radius: 10px;
 
 }
 
 #one:hover {
   bottom:4px;
-   box-shadow:0px 2px 0px 0px #055388;
+   box-shadow:0px 4px 0px 0px #055388;
   transition: all .01s ease-in-out;
   -moz-transition: all .01s ease-in-out;
   -webkit-transition: all .01s ease-in-out;
@@ -1571,7 +1571,7 @@ background-color: #ffffff;
 
 #one:active {
   top:4px;
-  box-shadow:inset 0px 2px 0px 0px #055388;
+  box-shadow:inset 0px 6px 0px 0px #055388;
   transition: all .01s ease-in-out;
   -moz-transition: all .01s ease-in-out;
   -webkit-transition: all .01s ease-in-out;
