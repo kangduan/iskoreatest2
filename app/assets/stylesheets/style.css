@@ -1215,7 +1215,7 @@ p.subtitle {
 }
 .item.list-group-item .caption
 {
-    padding: 9px 9px 0px 9px;
+    /*padding: 9px 9px 0px 9px;*/
 }
 .item.list-group-item:nth-of-type(odd)
 {
@@ -1466,7 +1466,7 @@ background-color: #ffffff;
   color:white;
   font-family: 'Open Sans', sans-serif;
   color: #055388;
-  font-weight:600;
+  font-weight:500;
   letter-spacing:5px;
   text-transform:uppercase;
   border-radius: 5px;
