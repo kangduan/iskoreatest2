@@ -391,6 +391,43 @@
 	            <!-- End footer -->
 
             <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+						<div id="email" class="modal fade" role="dialog" style="margin-top:50px;">
+							<div class="modal-dialog">
+								<!-- Modal content-->
+								<div class="modal-content">
+
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">×</button>
+										<h4 class="modal-title">Write to us</h4>
+									</div>
+									<div class="modal-body">
+										<div class="contact-form">
+												<form role="form" action="/home/write" method="post">
+														<div class="form-group">
+																<input type="text" class="form-control input-lg" name="name" placeholder="Your Company Name" required>
+														</div>
+														<div class="form-group">
+																<input type="email" class="form-control input-lg" name="email" placeholder="Your E-mail" required>
+														</div>
+														<div class="form-group">
+																<textarea class="form-control input-lg" rows="5" name="content" placeholder="Message" required></textarea>
+														</div>
+														<div align="center">
+														 <button type="submit" class="btn" data-wow-delay="0.8s">Send</button>
+														</div>
+												</form>
+										</div>
+
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</div>
+
+									</div>
+
+								</div>
+
+							</div>
 
         </div><!-- body ends -->
 				<nav class="navbar-fixed-bottom" style="border-radius:0px;" id="product-icon" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
