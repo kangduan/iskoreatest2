@@ -185,7 +185,7 @@
       width: 400px;
       height: 400px;
   }
-  .nav2 {
+  .nav2 li{
 
     font-size: 13px;
   }
@@ -356,7 +356,7 @@
       width: 350px;
       height: 350px;
   }
-  .nav2 {
+  .nav2 li{
 
     font-size: 10px;
   }
@@ -402,7 +402,7 @@
       width: 300px;
       height: 300px;
   }
-  .nav2 {
+  .nav2 li{
 
     font-size: 8px;
   }
