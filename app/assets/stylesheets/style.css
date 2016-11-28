@@ -1292,8 +1292,7 @@ border-top: 2px solid #F3F3F3 !important;
 line-height: 1.42857;
 padding: 3px;
 vertical-align: top;
-table-layout: fixed;
-overflow: hidden;
+
 }
 
 .table2 > thead > tr > th,
@@ -1307,8 +1306,7 @@ border-top: 1px solid #F3F3F3 !important;
 line-height: 1.42857;
 padding: 8px;
 vertical-align: top;
-table-layout: fixed;
-overflow: hidden;
+
 
 }
 
@@ -1321,16 +1319,14 @@ line-height: 1.42857;
 padding: 8px;
 vertical-align: top;
 background-color: #F3F3F3;
-table-layout: fixed;
-overflow: hidden;
+
 
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td
 {
 background-color: #ffffff;
-table-layout: fixed;
-overflow: hidden;
+
 
 }
 /*product page navbar*/
