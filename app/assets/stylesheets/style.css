@@ -1571,7 +1571,7 @@ background-color: #ffffff;
 
 #one:active {
   top:4px;
-  box-shadow:inset 0px 6px 0px 0px #055388;
+  box-shadow:inset 0px 4px 0px 0px #055388;
   transition: all .01s ease-in-out;
   -moz-transition: all .01s ease-in-out;
   -webkit-transition: all .01s ease-in-out;
