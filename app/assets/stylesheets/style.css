@@ -837,10 +837,10 @@ ul.social-list li a i {
 	height: 40px;
 }
 #contact-section .contact .contact-form button:hover {
-	color: #fff;
+	color: #000;
 }
 #contact-section .contact .form-control {
-	background-color: rgba(255, 255, 255, 0.02);
+	background-color: rgba(0, 0, 0, 0.02);
 	border-color: #2A2A2A;
 }
 #contact-section .contact .form-control:focus {
