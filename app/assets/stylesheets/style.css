@@ -816,6 +816,7 @@ ul.social-list li a i {
 /* ===== Begin contact ===== */
 #contact-section {
 	position: relative;
+	color: #000;
 }
 #contact-section h4 {
 	font-weight: 400;
