@@ -113,6 +113,10 @@
 
     font-size: 13px;
   }
+  #one {
+
+    font-size: 13px;
+  }
   /* Team */
 	.team-item .team-triangle {
 		width: 60px;
@@ -318,6 +322,10 @@
 
     font-size: 10px;
   }
+  #one {
+
+    font-size: 10px;
+  }
 	/* Partners & Foter */
 	#partners-section, footer {
 		text-align: center;
@@ -362,6 +370,10 @@
 
   /*product-section*/
   #product-section h5{
+
+    font-size: 8px;
+  }
+  #one {
 
     font-size: 8px;
   }
