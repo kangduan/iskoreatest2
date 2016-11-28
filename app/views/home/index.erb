@@ -893,7 +893,8 @@ $(document).ready(function() {
 
 			                            <li><i class="fa fa-phone"></i>&nbsp; 1 -234 -456 -7890</li>
 			                            <li><i class="fa fa-print"></i>&nbsp; 1 -234 -456 -7890</li>
-			                            <li><i class="fa fa-envelope" data-toggle="modal" data-target="#hanoimodal"></i> duanea0606@gmail.com</li>
+			                            <li><i class="fa fa-envelope"></i> duanea0606@gmail.com</li>
+																<button data-toggle="modal" data-target="#hanoimodal" class="btn btn-primary center-block">Send to Message</button>
 																	<!-- email modal -->
 
 																<!-- line modal -->
@@ -907,39 +908,27 @@ $(document).ready(function() {
 																		<div class="modal-body">
 
 																            <!-- content goes here -->
-																			<form>
-																              <div class="form-group">
-																                <label for="exampleInputEmail1">Email address</label>
-																                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-																              </div>
-																              <div class="form-group">
-																                <label for="exampleInputPassword1">Password</label>
-																                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-																              </div>
-																              <div class="form-group">
-																                <label for="exampleInputFile">File input</label>
-																                <input type="file" id="exampleInputFile">
-																                <p class="help-block">Example block-level help text here.</p>
-																              </div>
-																              <div class="checkbox">
-																                <label>
-																                  <input type="checkbox"> Check me out
-																                </label>
-																              </div>
-																              <button type="submit" class="btn btn-default">Submit</button>
-																            </form>
+																						<div class="contact-form">
+						                                	<h4>Write to us</h4>
+						                                    <form role="form" action="/home/write" method="post">
+						                                        <div class="form-group">
+						                                            <input type="text" class="form-control input-lg" name="name" placeholder="Company Name" required>
+						                                        </div>
+						                                        <div class="form-group">
+						                                            <input type="email" class="form-control input-lg" name="email" placeholder="E-mail" required>
+						                                        </div>
+						                                        <div class="form-group">
+						                                            <textarea class="form-control input-lg" rows="5" name="content" placeholder="Message" required></textarea>
+						                                        </div>
+						                                        <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
+						                                    </form>
+						                                </div>
 
 																		</div>
 																		<div class="modal-footer">
 																			<div class="btn-group btn-group-justified" role="group" aria-label="group button">
 																				<div class="btn-group" role="group">
 																					<button type="button" class="btn btn-default" data-dismiss="modal"  role="button">Close</button>
-																				</div>
-																				<div class="btn-group btn-delete hidden" role="group">
-																					<button type="button" id="delImage" class="btn btn-default btn-hover-red" data-dismiss="modal"  role="button">Delete</button>
-																				</div>
-																				<div class="btn-group" role="group">
-																					<button type="button" id="saveImage" class="btn btn-default btn-hover-green" data-action="save" role="button">Save</button>
 																				</div>
 																			</div>
 																		</div>
