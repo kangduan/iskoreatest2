@@ -1292,6 +1292,7 @@ border-top: 2px solid #F3F3F3 !important;
 line-height: 1.42857;
 padding: 3px;
 vertical-align: top;
+width: 20px;
 }
 
 .table2 > thead > tr > th,
@@ -1306,6 +1307,7 @@ line-height: 1.42857;
 padding: 8px;
 vertical-align: top;
 table-layout: fixed;
+width: 20px;
 }
 
 .table > thead > tr > td,
@@ -1317,6 +1319,7 @@ line-height: 1.42857;
 padding: 8px;
 vertical-align: top;
 background-color: #F3F3F3;
+width: 20px;
 
 }
 
