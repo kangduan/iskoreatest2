@@ -1214,7 +1214,7 @@ p.subtitle {
 }
 .item.list-group-item .caption
 {
-    padding: 12px 12x 0px 12px;
+    padding: 9px 9px 0px 9px;
 }
 .item.list-group-item:nth-of-type(odd)
 {
@@ -1557,13 +1557,13 @@ background-color: #ffffff;
   font-weight:600;
   letter-spacing:5px;
   text-transform:uppercase;
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
 #one:hover {
   bottom:4px;
-   box-shadow:0px 4px 0px 0px #055388;
+   box-shadow:0px 2px 0px 0px #055388;
   transition: all .01s ease-in-out;
   -moz-transition: all .01s ease-in-out;
   -webkit-transition: all .01s ease-in-out;
@@ -1571,7 +1571,7 @@ background-color: #ffffff;
 
 #one:active {
   top:4px;
-  box-shadow:inset 0px 4px 0px 0px #055388;
+  box-shadow:inset 0px 2px 0px 0px #055388;
   transition: all .01s ease-in-out;
   -moz-transition: all .01s ease-in-out;
   -webkit-transition: all .01s ease-in-out;
