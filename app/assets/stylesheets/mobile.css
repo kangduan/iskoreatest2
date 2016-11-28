@@ -108,7 +108,11 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+  /*product-section*/
+  #product-section h5{
 
+    font-size: 13px;
+  }
   /* Team */
 	.team-item .team-triangle {
 		width: 60px;
@@ -309,6 +313,11 @@
 
       font-size: 8px;
   }
+  /*product-section*/
+  #product-section h5{
+
+    font-size: 10px;
+  }
 	/* Partners & Foter */
 	#partners-section, footer {
 		text-align: center;
@@ -350,6 +359,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+  /*product-section*/
+  #product-section h5{
+
+    font-size: 8px;
+  }
   #recruit-section .tab-pane{
     font-size: 10px;
   }
