@@ -1326,6 +1326,7 @@ width: 20px;
 .table-striped > tbody > tr:nth-child(2n+1) > td
 {
 background-color: #ffffff;
+width: 20px;
 }
 /*product page navbar*/
 *, *:before, *:after {
