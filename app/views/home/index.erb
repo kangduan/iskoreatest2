@@ -995,43 +995,7 @@ $(document).ready(function() {
 		 		                 		<li> <a href="https://www.facebook.com/iskorearentalvina" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.5s"><span class="rotate-box-icon"><i class="fa fa-google-plus"></i></span></a></li>
 
 
-																					 <div class="center"><button data-toggle="modal" data-target="#email" class="btn btn-primary center-block">Send Message</button></div>
-
-
-																					 <!-- line modal -->
-																					 <!-- Modal -->
-						 <div id="email" class="modal fade" role="dialog">
-						   <div class="modal-dialog">
-
-						     <!-- Modal content-->
-						     <div class="modal-content">
-						       <div class="modal-header">
-						         <button type="button" class="close" data-dismiss="modal">×</button>
-						         <h4 class="modal-title">Write to us</h4>
-						       </div>
-						       <div class="modal-body">
-
-												 <form role="form" action="/home/write" method="post">
-														 <div class="form-group">
-																 <input type="text" class="form-control input-lg" name="name" placeholder="Company Name" required>
-														 </div>
-														 <div class="form-group">
-																 <input type="email" class="form-control input-lg" name="your email" placeholder="E-mail" required>
-														 </div>
-														 <div class="form-group">
-																 <textarea class="form-control input-lg" rows="5" name="content" placeholder="Message" required></textarea>
-														 </div>
-														 <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
-												 </form>
-
-								 </div>
-						       </div>
-						       <div class="modal-footer">
-						         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						       </div>
-						     </div>
-
-						   </div>
+											<div class="center"><button data-toggle="modal" data-target="#email" class="btn btn-primary center-block">Send Message</button></div>
 
 		 		                    </ul>
 												</ul>
@@ -1075,26 +1039,38 @@ $(document).ready(function() {
             <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
 
         </div><!-- body ends -->
+				<div id="email" class="modal fade" role="dialog">
+					<div class="modal-dialog">
 
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">×</button>
+								<h4 class="modal-title">Write to us</h4>
+							</div>
+							<div class="modal-body">
 
-<!--
-<script>
-$(function () {
-    $("#prod_nav ul").tabs("#panes > div", {
-        effect: 'fade',
-        fadeOutSpeed: 400
-    });
-});
-</script>
-<script>
-$(document).ready(function () {
-    $(".pane-list li").click(function () {
-        window.location = $(this).find("a").attr("href");
-        return false;
-    });
-});
-</script>
--->
+										<form role="form" action="/home/write" method="post">
+												<div class="form-group">
+														<input type="text" class="form-control input-lg" name="name" placeholder="Company Name" required>
+												</div>
+												<div class="form-group">
+														<input type="email" class="form-control input-lg" name="your email" placeholder="E-mail" required>
+												</div>
+												<div class="form-group">
+														<textarea class="form-control input-lg" rows="5" name="content" placeholder="Message" required></textarea>
+												</div>
+												<button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
+										</form>
+
+							</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+
+					</div>
 			</div><!-- body -->
     </body>
 
