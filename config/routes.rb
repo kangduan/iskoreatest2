@@ -8,9 +8,9 @@ Rails.application.routes.draw do
   get 'home/about'
   get 'home/product'
 
-  get 'home/index-vn'
-  get 'home/about-vn'
-  get 'home/product-vn'
+  get 'home/index_vn'
+  get 'home/about_vn'
+  get 'home/product_vn'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

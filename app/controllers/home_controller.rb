@@ -28,11 +28,11 @@ class HomeController < ApplicationController
   end
   def product
   end
-  def index-vn
+  def index_vn
   end
-  def about-vn
+  def about_vn
   end
-  def product-vn
+  def product_vn
   end
 
 
