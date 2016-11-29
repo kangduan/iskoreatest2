@@ -145,7 +145,7 @@ section {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-.navbar i {
+.navbar i, .language {
 	display: inline-block;
 	color: #fff;
 	font-size: 10px;
