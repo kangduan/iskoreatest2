@@ -49,11 +49,9 @@
   #about-section .col-md-4 {
       float: left;
       margin-bottom: 30px;
-      width: 33.3333%;
+      width: 34.3333%;
   }
-  #about-section h4 {
-    font-size: 20px;
-  }
+
   /*Services*/
   #services-section .col-md-4 {
       float: left;
