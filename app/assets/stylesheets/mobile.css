@@ -120,6 +120,10 @@
 
     font-size: 13px;
   }
+  #product-section .btn{
+
+    width: 70%;
+  }
   #one {
 
     font-size: 12px;
@@ -343,6 +347,10 @@
 
     font-size: 10px;
   }
+  #product-section .btn{
+
+    width: 50%;
+  }
   #one {
 
     font-size: 8px;
@@ -394,6 +402,10 @@
   #product-section h5{
 
     font-size: 8px;
+  }
+  #product-section .btn{
+
+    width: 30%;
   }
   #one {
 
