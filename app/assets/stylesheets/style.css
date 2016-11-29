@@ -145,6 +145,10 @@ section {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.navbar i {
+
+	color: #fff;
+}
 
 
 /* Navbar brand (logo) */
@@ -1535,6 +1539,6 @@ nav2 ul li a:hover {
 /*languate*/
 .language {
 
-	font-size:10px;
+	font-size:8px;
 
 }
