@@ -137,11 +137,10 @@ a, a:hover, a:focus {
 
 
 /* === CTA Section, Social & Partners === */
-#cta-section, #social-section {
+#cta-section, #partners-section, #social-section {
 	background: #efeded url('../../img/pat-bg.png') repeat;
 	/*#f8f8f8*/
 }
-/* #partners-section*/
 
 
 /* === Portfolio === */
