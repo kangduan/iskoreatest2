@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get 'home/about'
   get 'home/product'
 
+  get 'home/index-vn'
+  get 'home/about-vn'
+  get 'home/product-vn'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
