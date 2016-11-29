@@ -116,7 +116,7 @@
 @media only screen and (max-width : 992px) {
 
   /*product-section*/
-  #product-section h5{
+  #product-section h5, a{
 
     font-size: 13px;
   }
@@ -339,7 +339,7 @@
       font-size: 6px;
   }
   /*product-section*/
-  #product-section h5{
+  #product-section h5, a{
 
     font-size: 10px;
   }
@@ -391,7 +391,7 @@
 @media only screen and (max-width : 480px) {
 
   /*product-section*/
-  #product-section h5{
+  #product-section h5, a{
 
     font-size: 8px;
   }
