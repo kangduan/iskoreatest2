@@ -146,7 +146,7 @@ section {
 	padding-right: 50px;
 }
 .navbar i {
-
+	display: inline-block;
 	color: #fff;
 	font-size: 8px;
 }
