@@ -145,9 +145,10 @@ section {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-.navbar i {
+.navbar i .font{
 
 	color: #fff;
+	font-size: 8px;
 }
 
 
