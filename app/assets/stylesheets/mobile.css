@@ -75,7 +75,7 @@
       width: 50.0000%;
   }
   /*about page-group section*/
-  #history-section .col-md-3 {
+  #cta-section .col-md-3 {
       float: left;
       margin-bottom: 30px;
       width: 25.0000%;
@@ -327,11 +327,11 @@
 
       font-size: 8px;
   }
-  #history-section h4 {
+  #cta-section h4 {
 
       font-size: 11px;
   }
-  #history-section p {
+  #cta-section p {
 
       font-size: 6px;
   }
