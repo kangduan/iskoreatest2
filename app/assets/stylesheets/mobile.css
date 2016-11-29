@@ -79,7 +79,7 @@
   #cta-section .col-md-4 {
       float: left;
       margin-bottom: 30px;
-      width: 33.3333%;
+      width: 25.0000%;
   }
 
 
@@ -116,7 +116,7 @@
 @media only screen and (max-width : 992px) {
 
   /*product-section*/
-  #product-section {
+  #product-section h5{
 
     font-size: 13px;
   }
@@ -339,7 +339,7 @@
       font-size: 6px;
   }
   /*product-section*/
-  #product-section {
+  #product-section h5{
 
     font-size: 10px;
   }
@@ -391,7 +391,7 @@
 @media only screen and (max-width : 480px) {
 
   /*product-section*/
-  #product-section {
+  #product-section h5{
 
     font-size: 8px;
   }
