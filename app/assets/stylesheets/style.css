@@ -1557,9 +1557,9 @@ ul.about-list{
 }
 ul.about-list li{
 	display: block;
-	font-size: 16px;
-	line-height: 30px;
+	font-size: 30px;
+	line-height: 10px;
 }
 ul.about-list li span{
-	margin-right: 10px;
+	margin-right: 3px;
 }
