@@ -1622,14 +1622,14 @@ nav2 ul li a:hover {
   height: 60px;
   list-style: none;
   margin: 8px 0 0 0; padding: 35px 10px;
-  border-top: 2px double #AAA;
-  border-bottom: 2px double #AAA;
+  border-top: 4px double #AAA;
+  border-bottom: 4px double #AAA;
   position: relative;
   text-align: center;
 }
 #menu li {
   display: inline-block;
-  width: 173px;
+  width: 170px;
   margin: 0 8px;
   position: relative;
   -webkit-transform: skewy(-3deg);
