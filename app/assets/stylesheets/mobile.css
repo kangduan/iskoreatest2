@@ -75,11 +75,7 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
-  #partners-section .col-md-12 {
-      float: left;
-      margin-bottom: 30px;
-      width: 50.0000%;
-  }
+
   /*about-page history-section*/
   #cta-section .col-md-6 {
       float: left;
@@ -202,6 +198,10 @@
 	.counter-up .fact-inner .fa-3x {
 		font-size: 36px;
 	}
+  /*partner-section logo font size*/
+  #partners-section .col-md-12 {
+      font-size: 25px;
+  }
   /*Contact*/
   #contact-section iframe {
 
@@ -368,6 +368,10 @@
     width: 50%;
     height: 50%;
   }
+  /*partner-section logo font size*/
+  #partners-section .col-md-12 {
+      font-size: 18px;
+  }
   #one {
 
     font-size: 8px;
@@ -437,6 +441,10 @@
     width: 30%;
     height: 30%;
   }
+  /*partner-section logo font size*/
+  #partners-section .col-md-12 {
+      font-size: 13px;
+  }
   #one {
 
     font-size: 7px;
@@ -465,7 +473,7 @@
 
     font-size: 8px;
   }
-  /*vision-section*/
+
 
 
 }
