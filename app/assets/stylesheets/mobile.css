@@ -480,7 +480,8 @@
   /*client section*/
   #menu {
 
-    width: 400px;
+    width: 390px;
+    margin: 5px 0 0 0;
   }
   #menu li{
     width: 50px;
