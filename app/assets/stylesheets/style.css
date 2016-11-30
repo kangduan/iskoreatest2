@@ -1559,7 +1559,7 @@ nav2 ul li a:hover {
 #service .service-header p{color:#AFB8B8; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 24px}
 #service .block-bottom{}
 #service .service-tab{}
-#service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 150px;}
+#service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 100px;}
 #service .service-tab ul li{ border-right: 2px solid #000;}
 #service .service-tab ul li a{color: #000; padding-top: 23px; padding-bottom: 17px;font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding-right: 60px}
 #service .service-tab ul li a i{font-size: 45px; margin-right: 40px; position: relative;top: 10px;}
