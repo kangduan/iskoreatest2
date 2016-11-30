@@ -75,6 +75,11 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
+  #partners-section .col-md-12 {
+      float: left;
+      margin-bottom: 30px;
+      width: 50.0000%;
+  }
   /*about-page history-section*/
   #cta-section .col-md-6 {
       float: left;
