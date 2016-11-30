@@ -137,7 +137,7 @@ a, a:hover, a:focus {
 
 
 /* === CTA Section, Social & Partners === */
-#cta-section, #partners-section, #social-section {
+#cta-section, #partners-section, #social-section, #pc-section, #manlift-section, #tmi-section {
 	background: #efeded url('../../img/pat-bg.png') repeat;
 	/*#f8f8f8*/
 }
