@@ -135,8 +135,8 @@
     padding:6px 15px;
   }
   /*client section*/
-  #menu {
-    padding: 20px 8px;
+  #menu li{
+    width: 140px;
 
   }
   #menu li a {
@@ -381,8 +381,8 @@
     padding:4px 10px;
   }
   /*client section*/
-  #menu {
-    padding: 15px 6px;
+  #menu li{
+    width: 100px;
 
   }
   #menu li a {
@@ -464,8 +464,8 @@
   }
   /*partner-section logo font size*/
   /*client section*/
-  #menu {
-    padding: 10px 4px;
+  #menu li{
+    width: 80px;
 
   }
   #menu li a {
