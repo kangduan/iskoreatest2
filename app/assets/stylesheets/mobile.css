@@ -128,9 +128,7 @@
     font-size: 13px;
   }
   #product-section .btn{
-
-    width: 70%;
-    height: 70%;
+    padding:6px 15px;
   }
   #one {
 
@@ -203,7 +201,7 @@
       font-size: 25px;
   }
   #menu li {
-    
+
        width: 140px;
 
   }
@@ -369,9 +367,7 @@
     font-size: 10px;
   }
   #product-section .btn{
-
-    width: 50%;
-    height: 50%;
+    padding:4px 10px;
   }
   /*partner-section logo font size*/
   #menu li a{
@@ -447,9 +443,7 @@
     font-size: 8px;
   }
   #product-section .btn{
-
-    width: 30%;
-    height: 30%;
+    padding:2px 8px;
   }
   /*partner-section logo font size*/
   #menu li a{
