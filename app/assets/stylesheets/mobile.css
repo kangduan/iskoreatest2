@@ -137,11 +137,14 @@
   /*client section*/
   #menu {
 
-    width: 950px;
+    width: 940px;
   }
   #menu li{
     width: 120px;
 
+  }
+  #menu li:hover {
+  	width: 140px;
   }
   #menu li a {
 
@@ -387,11 +390,14 @@
   /*client section*/
   #menu {
 
-    width: 730px;
+    width: 720px;
   }
   #menu li{
     width: 70px;
 
+  }
+  #menu li:hover {
+    width: 90px;
   }
   #menu li a {
 
@@ -474,11 +480,14 @@
   /*client section*/
   #menu {
 
-    width: 430px;
+    width: 420px;
   }
   #menu li{
     width: 50px;
 
+  }
+  #menu li:hover {
+    width: 70px;
   }
   #menu li a {
 
