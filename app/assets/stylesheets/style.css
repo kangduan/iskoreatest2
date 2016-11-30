@@ -1551,6 +1551,17 @@ nav2 ul li a:hover {
     background: #000;
     border-color: #000;
 }
+.btn-yellow {
+	background: none;
+	border: 3px solid #fff;
+	color: #f9f900;
+}
+.btn-yellow:hover,
+.btn-yellow:active {
+    color: #f9f900;
+    background: #fff;
+    border-color: #fff;
+}
 /*about-page group-vision section*/
 #service{ padding: 96px 0px;}
 #service .block-top{text-align: center;}
