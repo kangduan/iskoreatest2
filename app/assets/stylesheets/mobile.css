@@ -127,6 +127,10 @@
 
     font-size: 13px;
   }
+  #product-section h6{
+
+    font-size: 11px;
+  }
   #product-section .btn{
     padding:6px 15px;
   }
@@ -366,6 +370,10 @@
 
     font-size: 10px;
   }
+  #product-section h6{
+
+    font-size: 8px;
+  }
   #product-section .btn{
     padding:4px 10px;
   }
@@ -441,6 +449,10 @@
   #product-section h5{
 
     font-size: 8px;
+  }
+  #product-section h6{
+
+    font-size: 6px;
   }
   #product-section .btn{
     padding:2px 8px;
