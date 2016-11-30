@@ -199,7 +199,7 @@
 		font-size: 36px;
 	}
   /*partner-section logo font size*/
-  #partners-section .col-md-12 {
+  #partners-section .#menu {
       font-size: 25px;
   }
   /*Contact*/
@@ -369,7 +369,7 @@
     height: 50%;
   }
   /*partner-section logo font size*/
-  #partners-section .col-md-12 {
+  #partners-section .#menu {
       font-size: 18px;
   }
   #one {
@@ -442,7 +442,7 @@
     height: 30%;
   }
   /*partner-section logo font size*/
-  #partners-section .col-md-12 {
+  #partners-section .#menu {
       font-size: 13px;
   }
   #one {
