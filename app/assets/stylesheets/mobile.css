@@ -134,6 +134,16 @@
   #product-section .btn{
     padding:6px 15px;
   }
+  /*client section*/
+  #menu {
+    padding: 20px 8px;
+
+  }
+  #menu li a {
+
+    font-size: 25px;
+
+  }
   #one {
 
     font-size: 12px;
@@ -370,7 +380,16 @@
   #product-section .btn{
     padding:4px 10px;
   }
+  /*client section*/
+  #menu {
+    padding: 15px 6px;
 
+  }
+  #menu li a {
+
+    font-size: 18px;
+
+  }
 
   #one {
 
@@ -444,7 +463,16 @@
     padding:2px 8px;
   }
   /*partner-section logo font size*/
+  /*client section*/
+  #menu {
+    padding: 10px 4px;
 
+  }
+  #menu li a {
+
+    font-size: 10px;
+
+  }
   #one {
 
     font-size: 7px;
