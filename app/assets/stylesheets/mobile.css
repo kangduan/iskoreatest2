@@ -202,6 +202,10 @@
   #menu li a{
       font-size: 25px;
   }
+  #logo {
+
+    font-size: 120px;
+  }
   /*Contact*/
   #contact-section iframe {
 
@@ -372,6 +376,9 @@
   #menu li a{
       font-size: 18px;
   }
+  #logo {
+    font-size: 100px;
+  }
   #one {
 
     font-size: 8px;
@@ -444,6 +451,9 @@
   /*partner-section logo font size*/
   #menu li a{
       font-size: 13px;
+  }
+  #logo {
+    font-size: 50px;
   }
   #one {
 
