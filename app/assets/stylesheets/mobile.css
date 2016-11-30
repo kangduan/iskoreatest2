@@ -72,7 +72,7 @@
   /*Clients*/
   #partners-section .col-md-6 {
       float: left;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
       width: 50.0000%;
   }
 
@@ -481,7 +481,7 @@
   #menu {
 
     width: 385px;
-    margin: 3px 0 0 0;
+    margin: 2px 0 0 0;
   }
   #menu li{
     width: 50px;
