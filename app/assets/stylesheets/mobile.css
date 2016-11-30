@@ -201,9 +201,6 @@
 		font-size: 36px;
 	}
   /*partner-section logo font size*/
-  #menu li a{
-      font-size: 25px;
-  }
 
   /*Contact*/
   #contact-section iframe {
@@ -373,10 +370,7 @@
   #product-section .btn{
     padding:4px 10px;
   }
-  /*partner-section logo font size*/
-  #menu li a{
-      font-size: 18px;
-  }
+
 
   #one {
 
@@ -450,9 +444,6 @@
     padding:2px 8px;
   }
   /*partner-section logo font size*/
-  #menu li a{
-      font-size: 13px;
-  }
 
   #one {
 
