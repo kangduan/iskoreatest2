@@ -1649,6 +1649,7 @@ nav2 ul li a:hover {
   text-decoration: none;
   position: relative;
   z-index: 1;
+	/*
   text-shadow:
 		1px 1px 0px #FFF,
 		2px 2px 0px #999,
@@ -1665,6 +1666,7 @@ nav2 ul li a:hover {
 		0 0 0 1px rgba(0,0,0,.4) inset,
 		0 0 20px -5px rgba(0,0,0,.4),
 		0 0 0px 3px #FFF inset;
+		*/
 }
 #menu li:hover {
 	width: 203px;
