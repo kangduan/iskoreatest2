@@ -391,6 +391,7 @@
   #menu {
 
     width: 680px;
+    height: 80px;
   }
   #menu li{
     width: 70px;
@@ -481,6 +482,7 @@
   #menu {
 
     width: 380px;
+    height: 60px;
     margin: 2px 0 0 0;
   }
   #menu li{
