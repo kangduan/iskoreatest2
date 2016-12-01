@@ -487,6 +487,7 @@
   }
   /*partner-section logo font size*/
   /*client section*/
+
   #menu {
 
     width: 320px;
@@ -494,7 +495,7 @@
 
   }
   #menu li{
-    width: 50px;
+    width: 45px;
 
   }
   #menu li:hover {
