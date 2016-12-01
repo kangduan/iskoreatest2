@@ -1612,7 +1612,7 @@ nav2 ul li a:hover {
 }
 #menu li a {
   text-transform: uppercase;
-  font-family: 'Squada One', cursive;
+  /*font-family: 'Squada One', cursive;*/
   font-weight: 800;
   display: block;
   background: #FFF;
