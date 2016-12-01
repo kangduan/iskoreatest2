@@ -1602,7 +1602,7 @@ nav2 ul li a:hover {
 #menu li {
   display: inline-block;
   width: 173px;
-  margin: 0 5px;
+  margin: 0 10px;
   position: relative;
   -webkit-transform: skewy(-3deg);
   -webkit-backface-visibility: hidden;
