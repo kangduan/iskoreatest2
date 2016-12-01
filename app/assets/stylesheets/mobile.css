@@ -82,13 +82,6 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
-  /*about-page vision-section*/
-  #vision2-section .col-md-3 {
-      float: left;
-      margin-bottom: 30px;
-      width: 25.0000%;
-  }
-
 
 	/* Team */
 	.team-item .team-triangle {
@@ -133,6 +126,12 @@
   }
   #product-section .btn{
     padding:5px 15px;
+  }
+  /*about-page vision-section*/
+  #vision2-section .col-md-3 {
+      float: left;
+      margin-bottom: 30px;
+      width: 50.0000%;
   }
   /*client section*/
   #menu {
