@@ -1609,7 +1609,7 @@ nav2 ul li a:hover {
 }
 #logo:after {
   /*background: url(http://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
-  background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+  /*background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);*/
   background-size: 4px 4px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1632,11 +1632,11 @@ nav2 ul li a:hover {
   width: 173px;
   margin: 0 3px;
   position: relative;
-	/*
+
   -webkit-transform: skewy(-3deg);
   -webkit-backface-visibility: hidden;
   -webkit-transition: 200ms all;
-	*/
+
 }
 #menu li a {
   text-transform: uppercase;
