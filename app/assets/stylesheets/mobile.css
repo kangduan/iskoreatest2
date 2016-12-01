@@ -127,6 +127,12 @@
   #product-section .btn{
     padding:5px 15px;
   }
+  #contact-section .col-md-6 {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+
+  }
   #footer .col-md-4 {
     float: left;
     margin-bottom: 30px;
