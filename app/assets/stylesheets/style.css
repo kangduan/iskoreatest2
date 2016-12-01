@@ -1604,11 +1604,11 @@ nav2 ul li a:hover {
   width: 173px;
   margin: 0 3px;
   position: relative;
-
+/*
   -webkit-transform: skewy(-3deg);
   -webkit-backface-visibility: hidden;
   -webkit-transition: 200ms all;
-
+*/
 }
 #menu li a {
   text-transform: uppercase;
