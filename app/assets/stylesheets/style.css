@@ -1652,8 +1652,8 @@ margin-left: 40px;
 position: relative;
 }
 .message-item .message-inner {
-background: rgb(255, 255, 0, 0.8);
-border: 1px solid #ddd;
+background: #f7f4ca;
+border: 5px solid #ddd;
 border-radius: 310px;
 padding: 10px;
 position: relative;
