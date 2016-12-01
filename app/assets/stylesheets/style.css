@@ -1636,7 +1636,7 @@ nav2 ul li a:hover {
   position: absolute;
   width: 50px;
   height: 100%;
-  background: #BBB;
+  /*background: #BBB;*/
   -webkit-transform: skewY(8deg);
   x-index: -3;
 	border-radius: 4px;
