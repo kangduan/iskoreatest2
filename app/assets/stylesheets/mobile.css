@@ -475,7 +475,7 @@
     font-size: 4px;
   }
   #product-section .btn{
-    padding:2px 8px;
+    padding:2px 6px;
   }
   /*partner-section logo font size*/
   /*client section*/
@@ -483,7 +483,7 @@
 
     width: 320px;
     height: 60px;
-  
+
   }
   #menu li{
     width: 50px;
@@ -494,7 +494,7 @@
   }
   #menu li a {
 
-    font-size: 10px;
+    font-size: 8px;
 
   }
   #one {
@@ -524,6 +524,10 @@
   .nav2 li{
 
     font-size: 8px;
+  }
+  #footer .col-md-6 {
+
+    font-size: 6px;
   }
 
 
