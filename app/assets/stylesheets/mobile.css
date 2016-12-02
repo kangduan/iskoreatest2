@@ -145,6 +145,13 @@
       margin-bottom: 30px;
       width: 50.0000%;
   }
+  /*about-page businessmodel-section*/
+  #prices-section .col-md-3 {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
+
+  }
   /*client section*/
   #menu {
 
