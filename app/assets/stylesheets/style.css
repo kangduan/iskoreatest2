@@ -1766,7 +1766,7 @@ p.footer {
 
 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 	font-weight: 500;
-  padding: 10 15px;
+  padding:10px 10px 15px 10px;
 
 }
 .timeline-body > p, .timeline-body > ul {
