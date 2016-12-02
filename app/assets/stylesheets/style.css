@@ -1763,9 +1763,11 @@ p.footer {
     color: inherit;
 }
 .timeline-heading h4 {
-    font-weight: 400;
-    padding: 0 15px;
-    color: #4679bd;
+
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+  padding: 10 15px;
+
 }
 .timeline-body > p, .timeline-body > ul {
     padding: 10px 15px;
