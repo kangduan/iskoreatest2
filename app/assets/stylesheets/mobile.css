@@ -491,6 +491,13 @@
 
   #service .service-tab ul{float:none}
   #service .service-tab ul{margin-right: 0;}
+  /*about-page businessmodel-section*/
+  #prices-section .col-md-3 {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
+
+  }
 
 
 }
@@ -565,7 +572,7 @@
   }
   /*about-page businessmodel-section*/
   #prices-section h3 {
-    font-size: 15px;
+    font-size: 18px;
 
   }
 
