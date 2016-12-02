@@ -152,6 +152,12 @@
     width: 50.0000%;
 
   }
+  /*about-page businessmodel-section*/
+  #prices-section h3 {
+    font-size: 22px;
+
+  }
+
   /*client section*/
   #menu {
 
@@ -486,6 +492,7 @@
   #service .service-tab ul{float:none}
   #service .service-tab ul{margin-right: 0;}
 
+
 }
 
 /* Extra Small Devices, Phones */
@@ -555,6 +562,11 @@
   #footer .site {
 
     font-size: 4px;
+  }
+  /*about-page businessmodel-section*/
+  #prices-section h3 {
+    font-size: 15px;
+
   }
 
 
