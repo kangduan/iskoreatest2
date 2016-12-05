@@ -255,17 +255,13 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 100%;
-  }
-  #footer .bottom_ul {
-      float: left;
-      width: 66.6666%;
+      width: 50%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 100%;
+      width: 50%;
   }
   #footer .join {
       float: left;
