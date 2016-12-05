@@ -702,9 +702,10 @@
 
   }
   /*scrolltotop*/
-  .scrolltotop .fa{
+  .scrolltotop {
   	width: 20px;
   	height: 20px;
+  }
 }
 
 /* Custom, iPhone Retina */
