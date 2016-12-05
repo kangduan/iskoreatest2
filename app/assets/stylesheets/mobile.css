@@ -605,27 +605,38 @@
       width: 300px;
       height: 300px;
   }
-
-  #footer .site {
-
-    font-size: 3px;
-  }
+  /*title*/
   #footer .site h4{
 
-      font-size: 12px;
-    }
-  #footer .family {
-
-    font-size: 4px;
+    font-size: 12px;
   }
+  /*title*/
   #footer .family h4{
 
     font-size: 12px;
   }
+  /*title*/
   #footer .join h4{
 
     font-size: 12px;
   }
+
+  #footer .site {
+
+    font-size: 1px;
+  }
+
+  #footer .family {
+
+    font-size: 4px;
+  }
+  #footer .join {
+
+    font-size: 4px;
+  }
+
+
+
   /*about-page businessmodel-section*/
   #prices-section h3 {
     font-size: 18px;
