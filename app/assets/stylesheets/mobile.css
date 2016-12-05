@@ -88,6 +88,23 @@
     font-size: 15px;
 
   }
+  /*footer*/
+  #footer .site {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
+  }
+
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
+  }
+  #footer .join {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
+  }
 
 	/* Team */
 	.team-item .team-triangle {
@@ -250,6 +267,23 @@
 
       width: 400px;
       height: 400px;
+  }
+  /*footer*/
+  #footer .site {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
+  }
+
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
+  }
+  #footer .join {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
   }
 
   #footer .site {
@@ -634,7 +668,7 @@
 
   #footer .family {
 
-    font-size: 4px;
+    font-size: 2px;
   }
   #footer .join {
 
