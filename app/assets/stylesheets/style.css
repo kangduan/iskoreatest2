@@ -1528,7 +1528,7 @@ nav2 ul li a {
   padding: 10px;
   font-family: "Open Sans";
   text-transform:uppercase;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0);
   font-size: 15px;
   text-decoration: none;
   display: block;
@@ -1885,9 +1885,4 @@ p.footer {
 }
 .featured-box.seo{
 	background:url(../img/seo.png) left top no-repeat;
-}
-/*product-page*/
-#product-icon {
-
-	color: #000;
 }
