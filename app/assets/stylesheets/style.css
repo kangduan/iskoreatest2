@@ -1529,7 +1529,7 @@ nav2 ul li a {
   font-family: "Open Sans";
   text-transform:uppercase;
   color: rgba(0, 0, 0, 1);
-  font-size: 15px;
+  /*font-size: 15px;*/
   text-decoration: none;
   display: block;
 }
