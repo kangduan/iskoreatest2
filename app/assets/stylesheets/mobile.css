@@ -263,9 +263,21 @@
 
     font-size: 6px;
   }
+  #footer .site h4{
+
+    font-size: 18px;
+  }
   #footer .family {
 
     font-size: 8px;
+  }
+  #footer .family h4{
+
+    font-size: 18px;
+  }
+  #footer .join h4{
+
+    font-size: 18px;
   }
   /*vision-section*/
   #service .service-header p{font-size: 15px}
@@ -478,9 +490,21 @@
 
     font-size: 4px;
   }
+  #footer .site h4 {
+
+    font-size: 15px;
+  }
   #footer .family {
 
     font-size: 6px;
+  }
+  #footer .family h4{
+
+    font-size: 15px;
+  }
+  #footer .join h4{
+
+    font-size: 15px;
   }
   .nav2 li{
 
@@ -577,9 +601,21 @@
 
     font-size: 3px;
   }
+  #footer .site h4{
+
+      font-size: 12px;
+    }
   #footer .family {
 
     font-size: 4px;
+  }
+  #footer .family h4{
+
+    font-size: 12px;
+  }
+  #footer .join h4{
+
+    font-size: 12px;
   }
   /*about-page businessmodel-section*/
   #prices-section h3 {
