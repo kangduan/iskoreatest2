@@ -88,22 +88,6 @@
     font-size: 15px;
 
   }
-  #footer .site {
-      float: left;
-      margin-bottom: 10px;
-      width: 100%;
-  }
-
-  #footer .family {
-      float: left;
-      margin-bottom: 10px;
-      width: 100%;
-  }
-  #footer .join {
-      float: left;
-      margin-bottom: 10px;
-      width: 100.0000%;
-  }
 
 	/* Team */
 	.team-item .team-triangle {
@@ -267,7 +251,7 @@
       width: 400px;
       height: 400px;
   }
-  /*footer
+  /*footer*/
   #footer .site {
       float: left;
       margin-bottom: 10px;
@@ -284,7 +268,6 @@
       margin-bottom: 10px;
       width: 100.0000%;
   }
-  */
 
   #footer .site {
 
@@ -523,7 +506,7 @@
       width: 350px;
       height: 350px;
   }
-  /*footer
+  /*footer*/
   #footer .site {
       float: left;
       margin-bottom: 10px;
@@ -540,7 +523,6 @@
       margin-bottom: 10px;
       width: 100.0000%;
   }
-  */
   #footer .site {
 
     font-size: 4px;
@@ -654,7 +636,7 @@
       width: 300px;
       height: 300px;
   }
-  /*footer
+  /*footer*/
   #footer .site {
       float: left;
       margin-bottom: 10px;
@@ -671,7 +653,6 @@
       margin-bottom: 10px;
       width: 100.0000%;
   }
-  */
   /*title*/
   #footer .site h4{
 
