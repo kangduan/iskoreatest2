@@ -257,6 +257,10 @@
       margin-bottom: 10px;
       width: 100%;
   }
+  #footer .bottom_ul {
+      float: left;
+      width: 66.6666%;
+  }
 
   #footer .family {
       float: left;
