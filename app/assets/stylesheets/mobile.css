@@ -705,8 +705,8 @@
   .scrolltotop {
     position: fixed;
     display: none;
-    bottom: 20px;
-    right: 30px;
+    bottom: 25px;
+    right: 25px;
     width: 20px;
     height: 20px;
     line-height: 34px;
@@ -717,13 +717,6 @@
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
-  .scrolltotop .fa {
-  	padding-left: 2px;
-  	-webkit-transform: rotate(-45deg);
-  	-moz-transform: rotate(-45deg);
-  	-o-transform: rotate(-45deg);
-  	transform: rotate(-45deg);
   }
 
 }
