@@ -75,6 +75,12 @@
       margin-bottom: 10px;
       width: 50.0000%;
   }
+  /*footer*/
+  #footer .col-md-4 {
+      float: left;
+      margin-bottom: 10px;
+      width: 50.0000%;
+  }
 
   /*about-page history-section*/
   #cta-section .col-md-6 {
