@@ -75,18 +75,6 @@
       margin-bottom: 10px;
       width: 50.0000%;
   }
-  /*footer*/
-  #footer .site {
-      float: left;
-      margin-bottom: 10px;
-      width: 70.0000%;
-  }
-
-  #footer .family {
-      float: left;
-      margin-bottom: 10px;
-      width: 30.0000%;
-  }
 
   /*about-page history-section*/
   #cta-section .col-md-6 {
@@ -605,6 +593,18 @@
 
       width: 300px;
       height: 300px;
+  }
+  /*footer*/
+  #footer .site {
+      float: left;
+      margin-bottom: 10px;
+      width: 70.0000%;
+  }
+
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 30.0000%;
   }
   /*title*/
   #footer .site h4{
