@@ -251,6 +251,23 @@
       width: 400px;
       height: 400px;
   }
+  /*footer*/
+  #footer .site {
+      float: left;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+  #footer .join {
+      float: left;
+      margin-bottom: 10px;
+      width: 100.0000%;
+  }
 
   #footer .site {
 
@@ -488,6 +505,23 @@
 
       width: 350px;
       height: 350px;
+  }
+  /*footer*/
+  #footer .site {
+      float: left;
+      margin-bottom: 10px;
+      width: 66.6666%;
+  }
+
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 33.3333%;
+  }
+  #footer .join {
+      float: left;
+      margin-bottom: 10px;
+      width: 100.0000%;
   }
   #footer .site {
 
