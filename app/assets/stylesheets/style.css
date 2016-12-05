@@ -1886,3 +1886,8 @@ p.footer {
 .featured-box.seo{
 	background:url(../img/seo.png) left top no-repeat;
 }
+/*product-page*/
+#product-icon {
+
+	color: #000;
+}
