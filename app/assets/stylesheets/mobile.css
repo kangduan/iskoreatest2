@@ -76,7 +76,12 @@
       width: 50.0000%;
   }
   /*footer*/
-  #footer .col-md-4 {
+  #footer .site {
+      float: left;
+      margin-bottom: 10px;
+      width: 50.0000%;
+  }
+  #footer .family {
       float: left;
       margin-bottom: 10px;
       width: 50.0000%;
@@ -255,6 +260,10 @@
     font-size: 13px;
   }
   #footer .site {
+
+    font-size: 6px;
+  }
+  #footer .family {
 
     font-size: 8px;
   }
@@ -467,6 +476,10 @@
   }
   #footer .site {
 
+    font-size: 4px;
+  }
+  #footer .family {
+
     font-size: 6px;
   }
   .nav2 li{
@@ -561,6 +574,10 @@
     font-size: 8px;
   }
   #footer .site {
+
+    font-size: 3px;
+  }
+  #footer .family {
 
     font-size: 4px;
   }
