@@ -701,9 +701,10 @@
     font-size: 10px;
 
   }
-
-
-
+  /*scrolltotop*/
+  .scrolltotop {
+  	width: 20px;
+  	height: 20px;
 }
 
 /* Custom, iPhone Retina */
