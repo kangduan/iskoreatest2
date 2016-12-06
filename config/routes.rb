@@ -5,7 +5,10 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
   post 'home/write'
+
   post 'home/board'
+  post 'home/reply_board'
+
   get 'home/index'
   get 'home/about'
   get 'home/product'

@@ -36,7 +36,7 @@ class HomeController < ApplicationController
       post.content = params[:post_content]
       post.save
 
-      redirect_to "home/index"
+      redirect_to "/"
   end
   def reply_board
 
@@ -45,7 +45,7 @@ class HomeController < ApplicationController
       reply.post_id = params[:id_of_post]
       reply.save
 
-      redirect_to "home/index"
+      redirect_to "/"
   end
 
   def index_vn
