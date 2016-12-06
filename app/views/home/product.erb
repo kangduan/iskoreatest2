@@ -347,12 +347,17 @@
 										<!-- /.panel-body -->
 										<div class="panel-footer">
 												<div class="input-group">
-														<input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
-														<span class="input-group-btn">
-																<button class="btn btn-sm" id="btn-chat">
-																		Send
-																</button>
-														</span>
+													<form action="/home/board" method="post">
+											  		<div class="form-group">
+											    		<label for="exampleInputEmail1">Post Title</label>
+											    		<input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
+											  		</div>
+
+											  		<label for="exampleInputContent1">Content</label>
+											    		<textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
+
+											  		<button type="submit" class="btn btn-default">Submit</button>
+										     	</form>
 												</div>
 										</div>
 										<!-- /.panel-footer -->
