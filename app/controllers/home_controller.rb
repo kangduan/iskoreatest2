@@ -24,10 +24,30 @@ class HomeController < ApplicationController
             redirect_to "/"
   end
 
+
   def about
   end
   def product
   end
+  def board
+
+      post = Post.new
+      post.title = params[:post_title]
+      post.content = params[:post_content]
+      post.save
+
+      redirect_to "home/index"
+  end
+  def reply_board
+
+      reply = Reply.new
+      reply.content = params[:reply_content]
+      reply.post_id = params[:id_of_post]
+      reply.save
+
+      redirect_to "home/index"
+  end
+
   def index_vn
   end
   def about_vn
