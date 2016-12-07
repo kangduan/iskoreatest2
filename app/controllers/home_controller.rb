@@ -29,7 +29,6 @@ class HomeController < ApplicationController
   end
   def product
     @posts = Post.all
-    @replies = Reply.all
   end
   def board
 
