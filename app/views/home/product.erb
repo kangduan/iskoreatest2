@@ -319,76 +319,89 @@
 							<!-- chat -->
 							<section id="chat-section" style="margin-top:20px;">
 
+								<div class="chat-panel panel panel-default">
+										<div class="panel-heading">
+												<i class="fa fa-comments fa-fw"></i> Chat
+										</div>
+										<!-- /.panel-heading -->
+										<div class="panel-body">
+												<ul class="chat">
+														<li class="left clearfix">
 
-<div class="container">
-<div class="chat-panel panel panel-default">
- <div class="panel-heading">
-		 <i class="fa fa-comments fa-fw"></i> Chat
- </div>
+																<div class="chat-body clearfix">
+																	<strong>Anytime give our question</strong>
+																</div>
+														</li>
 
- <div class="panel-footer">
-			<div class="input-group">
- <!-- post -->
- <div class="col-md-6">
- <form action="/home/board" method="post">
-   <div class="form-group">
-     <label for="exampleInputEmail1">Title</label>
-     <input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
-   </div>
+												</ul>
+										</div>
+										<!-- /.panel-body -->
+										<div class="panel-footer">
+												<div class="input-group container">
+													<label for="exampleInputEmail1">POST</label>
 
-   <label for="exampleInputContent1">Content</label>
-     <textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
+													<div class="col-md-6">
+													<form action="/home/board" method="post">
+														<div class="form-group">
+															<label for="exampleInputEmail1">Title</label>
+															<input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
+														</div>
 
-   <button type="submit" class="btn btn-default">Submit</button>
- </form>
- </div>
- <!-- /.panel-heading -->
- <div class="panel-body">
-		 <ul class="chat">
-				 <li class="left clearfix">
-					 <div class="chat-body clearfix">
+														<label for="exampleInputContent1">Content</label>
+															<textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
 
-					 </div>
+														<button type="submit" class="btn btn-default">Submit</button>
+													</form>
+													</div>
 
-    <% @posts.each do |p| %>
+												<div class="col-md-6">
+													<div class="chat-panel panel panel-default">
+														<label for="exampleInputEmail1">REPLY</label>
+															<!-- /.panel-heading -->
+															<div class="panel-body">
+																	<ul class="chat">
+																			<li class="left clearfix">
+																				<% @posts.each do |p| %>
 
+																		           <div class="well">
 
-         <div class="col-md-6">
-           <div class="well">
+																		                <%= p.title %>
+																		                <%= p.content %>
+																		               <!-- reply -->
+																		                   <%= p.replies.each do |r| %>
 
-                <%= p.title %>
-                <%= p.content %>
-               <!-- reply -->
-                   <%= p.replies.each do |r| %>
+																		                       <p><%= r.content %></p>
 
-                       <p><%= r.content %></p>
+																		                    <% end %>
+																		                <!-- reply end-->
+																		                    <form action="/home/reply_board" method="post">
+																		                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
+																		                      <label for="exampleInputContent1">Reply</label>
+																		                        <textarea type="text" class="form-control" rows="2" id="comment" style="margin-bottom:20px;" name="reply_content" placeholder="content"></textarea>
 
-                    <% end %>
-                <!-- reply end-->
-                    <form action="/home/reply_board" method="post">
-                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
-                      <label for="exampleInputContent1">Reply</label>
-                        <textarea type="text" class="form-control" rows="2" id="comment" style="margin-bottom:20px;" name="reply_content" placeholder="content"></textarea>
-
-                      <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-
-
-            </div>
-					</div>
-    <% end %>
-
-
-</li>
-</ul>
-</div><!-- panel-body -->
-
-</div><!-- container -->
+																		                      <button type="submit" class="btn btn-default">Submit</button>
+																		                    </form>
 
 
-</div><!-- input-group -->
+																		            </div>
 
-</div> <!-- footer-end -->
+																		    <% end %>
+
+																			</li>
+
+																	</ul>
+															</div>
+															<!-- /.panel-body -->
+
+
+													</div>
+													<!-- /.panel .chat-panel -->
+												</div><!-- col-md-6 end -->
+											</div>
+									</div>
+										<!-- /.panel-footer -->
+								</div>
+								<!-- /.panel .chat-panel -->
 
 					</section><!-- chat-section -->
 
