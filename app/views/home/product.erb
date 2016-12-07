@@ -332,7 +332,7 @@
 														<li class="left clearfix">
 															<form action="/home/board" method="post">
 															  <div class="form-group">
-															    <label for="exampleInputEmail1">Post Title</label>
+															    <label for="exampleInputEmail1">Title</label>
 															    <input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
 															  </div>
 
@@ -355,16 +355,16 @@
 
 													           <div class="well">
 
-													                <%= p.title %>
+													                <%= p.title %><br>
 													                <%= p.content %>
 													                <!-- reply -->
 													                   <% p.replies.each do |r| %>
 
-													                       <p><%= r.content %></p>
+													                       <p><strong>re</strong>ㄴ<%= r.content %></p>
 
 													                    <% end %>
 													                <!-- reply end-->
-													                    <form action="/home/reply_board" method="post">
+													                    <form action="/home/reply_board" method="post" style="margin-top:20px;">
 													                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
 													                      <label for="exampleInputContent1">Reply</label>
 													                        <textarea type="text" class="form-control" rows="2" id="comment" style="margin-bottom:20px;" name="content" placeholder="content"></textarea>
