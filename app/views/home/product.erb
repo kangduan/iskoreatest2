@@ -372,7 +372,7 @@
 
 																<% @posts.each do |p| %>
 														           <div class="well">
-																				 <p>
+																				   <p>
 														                <strong><%= p.title %></strong><br>
 														                <%= p.content %>
 																					</p>
@@ -380,11 +380,11 @@
 														                <!-- reply -->
 														                   <% p.replies.each do |r| %>
 
-														                       <p><%= r.reply_content %></p>
+														                       <p><%= r.content %></p>
 
 														                    <% end %>
 														                <!-- reply end-->
-																						  <div class="col-md-6">
+
 														                    <form action="/home/reply_board" method="post">
 														                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
 														                      <label for="exampleInputContent1">Reply</label>
@@ -392,7 +392,7 @@
 
 														                      <button type="submit" class="btn btn-default btn-sm">Submit</button>
 														                    </form>
-																							</div>
+
 
 														            </div>
 
