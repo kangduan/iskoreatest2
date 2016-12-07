@@ -361,10 +361,9 @@
 											<!-- reply space -->
 
 											<div class="col-md-6">
+												<label for="exampleInputEmail1" style="margin-bottom:10px;">REPLY</label>
 												<div class="chat-panel panel panel-default">
-		                        <div class="panel-heading">
-		                            <i class="fa fa-comments fa-fw"></i> Chat
-		                        </div>
+
 		                        <!-- /.panel-heading -->
 		                        <div class="panel-body">
 		                            <ul class="chat">
@@ -381,7 +380,7 @@
 																                <!-- reply -->
 																                   <% @replies.each do |r| %>
 
-																                       <p>reㄴ<%= r.content %></p>
+																                       <p><strong>re</strong>ㄴ<%= r.content %></p>
 
 																                    <% end %>
 																                <!-- reply end-->
