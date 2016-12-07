@@ -96,9 +96,9 @@ $("#owl-intro-text").owlCarousel({
 $("#owl-partners").owlCarousel({
     items : 3,
     itemsDesktop : [1199,3],
-    itemsDesktopSmall : [980,2],
-    itemsTablet: [768,2],
-    autoPlay : 3000,
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,3],
+    autoPlay : 2000,
     stopOnHover : true,
     pagination : false
 })
