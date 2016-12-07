@@ -360,53 +360,55 @@
 
 											<!-- reply space -->
 
-							<div class="col-md-6">
+											<div class="col-md-6">
+												<div class="chat-panel panel panel-default">
+		                        <div class="panel-heading">
+		                            <i class="fa fa-comments fa-fw"></i> Chat
+		                        </div>
+		                        <!-- /.panel-heading -->
+		                        <div class="panel-body">
+		                            <ul class="chat">
+		                                <li class="left clearfix">
+		                                    <div class="chat-body clearfix">
 
-													<div class="chat-panel panel panel-default">
-											<!-- /.panel-heading -->
-											<div class="panel-body">
-													<ul class="chat">
-															<li class="left clearfix">
-																<div class="chat-panel panel panel-default">
+		                                    <% @posts.each do |p| %>
+																           <div class="well">
+																						   <p>
+																                <strong><%= p.title %></strong><br>
+																                <%= p.content %>
+																							</p>
+																							<br><br>
+																                <!-- reply -->
+																                   <% @replies.each do |r| %>
+
+																                       <p>reㄴ<%= r.content %></p>
+
+																                    <% end %>
+																                <!-- reply end-->
+
+																                    <form action="/home/reply_board" method="post">
+																                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
+																                      <label for="exampleInputContent1">Reply</label>
+																                        <textarea type="text" class="form-control input-small" rows="1" id="comment" style="margin-bottom:20px;" name="content" placeholder="content"></textarea>
+
+																                      <button type="submit" class="btn btn-default btn-sm">Submit</button>
+																                    </form>
 
 
-																<% @posts.each do |p| %>
-														           <div class="well">
-																				   <p>
-														                <strong><%= p.title %></strong><br>
-														                <%= p.content %>
-																					</p>
-																					<br><br>
-														                <!-- reply -->
-														                   <% @replies.each do |r| %>
+																            </div>
 
-														                       <p>reㄴ<%= r.content %></p>
+																    <% end %>
 
-														                    <% end %>
-														                <!-- reply end-->
+		                                    </div>
+		                                </li>
 
-														                    <form action="/home/reply_board" method="post">
-														                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
-														                      <label for="exampleInputContent1">Reply</label>
-														                        <textarea type="text" class="form-control input-small" rows="1" id="comment" style="margin-bottom:20px;" name="content" placeholder="content"></textarea>
+		                            </ul>
+		                        </div>
+		                        <!-- /.panel-body -->
+		                    </div>
+		                    <!-- /.panel .chat-panel -->
 
-														                      <button type="submit" class="btn btn-default btn-sm">Submit</button>
-														                    </form>
-
-
-														            </div>
-
-														    <% end %>
-
-									</div>
-															</li>
-
-													</ul>
-											</div>
-
-									</div>
-
-						</div>
+					  					</div>
 	<!-- reply space end-->
 
 										</div>
