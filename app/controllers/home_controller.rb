@@ -42,7 +42,7 @@ class HomeController < ApplicationController
   def reply_board
 
       reply = Reply.new
-      reply.content = params[:reply_content]
+      reply.content = params[:content]
       reply.post_id = params[:id_of_post]
       reply.save
 
