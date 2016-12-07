@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   root 'home#index'
   post 'home/write'
 
+  #posting
   post 'home/board'
+  #replying
   post 'home/reply_board'
 
   get 'home/index'
