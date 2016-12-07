@@ -325,39 +325,6 @@
 								<div class="chat-panel panel panel-default">
 										<div class="panel-heading">
 												<i class="fa fa-comments fa-fw"></i> Chat
-												<div class="btn-group pull-right">
-														<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-																<i class="fa fa-chevron-down"></i>
-														</button>
-														<ul class="dropdown-menu slidedown">
-																<li>
-																		<a href="#">
-																				<i class="fa fa-refresh fa-fw"></i> Refresh
-																		</a>
-																</li>
-																<li>
-																		<a href="#">
-																				<i class="fa fa-check-circle fa-fw"></i> Available
-																		</a>
-																</li>
-																<li>
-																		<a href="#">
-																				<i class="fa fa-times fa-fw"></i> Busy
-																		</a>
-																</li>
-																<li>
-																		<a href="#">
-																				<i class="fa fa-clock-o fa-fw"></i> Away
-																		</a>
-																</li>
-																<li class="divider"></li>
-																<li>
-																		<a href="#">
-																				<i class="fa fa-sign-out fa-fw"></i> Sign Out
-																		</a>
-																</li>
-														</ul>
-												</div>
 										</div>
 										<!-- /.panel-heading -->
 										<div class="panel-body">
@@ -391,16 +358,16 @@
 													                <%= p.title %>
 													                <%= p.content %>
 													                <!-- reply -->
-													                   <%= p.replies.each do |r| %>
+													                   <% p.replies.each do |r| %>
 
-													                       <p><%= r.reply_content %></p>
+													                       <p><%= r.content %></p>
 
 													                    <% send %>
 													                <!-- reply end-->
 													                    <form action="/home/reply_board" method="post">
 													                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
 													                      <label for="exampleInputContent1">Reply</label>
-													                        <textarea type="text" class="form-control" rows="2" id="comment" style="margin-bottom:20px;" name="reply_content" placeholder="content"></textarea>
+													                        <textarea type="text" class="form-control" rows="2" id="comment" style="margin-bottom:20px;" name="content" placeholder="content"></textarea>
 
 													                      <button type="submit" class="btn btn-default">Submit</button>
 													                    </form>
