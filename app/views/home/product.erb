@@ -321,58 +321,105 @@
 							<!-- chat -->
 							<section id="chat-section" style="margin-top:20px;">
 								<!-- /.panel -->
-								 <div class="chat-panel panel panel-default">
-										 <div class="panel-heading">
-												 <i class="fa fa-comments fa-fw"></i> Chat
-										 </div>
-										 <!-- /.panel-heading -->
-										 <strong style="padding:10px;">
- 												 		Anytime give our questions
-											</strong>
-										 <!-- /.panel-body -->
-										 <div class="panel-footer">
-												 <div class="input-group">
+							<div class="container">
+								<div class="chat-panel panel panel-default">
+										<div class="panel-heading">
+												<i class="fa fa-comments fa-fw"></i> Chat
+												<div class="btn-group pull-right">
+														<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+																<i class="fa fa-chevron-down"></i>
+														</button>
+														<ul class="dropdown-menu slidedown">
+																<li>
+																		<a href="#">
+																				<i class="fa fa-refresh fa-fw"></i> Refresh
+																		</a>
+																</li>
+																<li>
+																		<a href="#">
+																				<i class="fa fa-check-circle fa-fw"></i> Available
+																		</a>
+																</li>
+																<li>
+																		<a href="#">
+																				<i class="fa fa-times fa-fw"></i> Busy
+																		</a>
+																</li>
+																<li>
+																		<a href="#">
+																				<i class="fa fa-clock-o fa-fw"></i> Away
+																		</a>
+																</li>
+																<li class="divider"></li>
+																<li>
+																		<a href="#">
+																				<i class="fa fa-sign-out fa-fw"></i> Sign Out
+																		</a>
+																</li>
+														</ul>
+												</div>
+										</div>
+										<!-- /.panel-heading -->
+										<div class="panel-body">
+												<ul class="chat">
+														<li class="left clearfix">
+															<form action="/home/board" method="post">
+															  <div class="form-group">
+															    <label for="exampleInputEmail1">Post Title</label>
+															    <input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
+															  </div>
 
-													<div class="col-md-6">
-													 <form action="/home/board" method="post">
-													   <div class="form-group">
-													     <label for="exampleInputEmail1">Post Title</label>
-													     <input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
-													   </div>
+															  <label for="exampleInputContent1">Content</label>
+															    <textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
 
-													   <label for="exampleInputContent1">Content</label>
-													     <textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
+															  <button type="submit" class="btn btn-default">Submit</button>
+														</li>
+												</ul>
+										</div>
+										<div class="panel-footer">
+												<div class="input-group">
+														REPLY
+												</div>
+										</div>
+										<div class="panel-body">
+												<ul class="chat">
+														<li class="left clearfix">
+															<% @posts.each do |p| %>
 
-													   <button type="submit" class="btn btn-default">Submit</button>
-													 </form>
-												 </div>
-												 <div class="col-md-6">
+													           <div class="well">
 
-													 <div class="chat-panel panel panel-default">
-			                         <div class="panel-heading">
-			                             <i class="fa fa-comments fa-fw"></i> REPLY
+													                <%= p.title %>
+													                <%= p.content %>
+													                <!-- reply -->
+													                   <%= p.replies.each do |r| %>
 
-			                         </div>
-			                         <!-- /.panel-heading -->
-			                         <div class="panel-body">
-			                             <ul class="chat">
+													                       <p><%= r.reply_content %></p>
+
+													                    <% send %>
+													                <!-- reply end-->
+													                    <form action="/home/reply_board" method="post">
+													                      <input type="hidden" id="<%= p.id %>" name="id_of_post">
+													                      <label for="exampleInputContent1">Reply</label>
+													                        <textarea type="text" class="form-control" rows="2" id="comment" style="margin-bottom:20px;" name="reply_content" placeholder="content"></textarea>
+
+													                      <button type="submit" class="btn btn-default">Submit</button>
+													                    </form>
 
 
-			                             </ul>
-			                         </div>
-			                         <!-- /.panel-body -->
+													            </div>
 
-			                         <!-- /.panel-footer -->
-			                     </div>
-			                     <!-- /.panel .chat-panel -->
-													 </div>
-													 														 
-												 </div>
-										 </div>
-										 <!-- /.panel-footer -->
-								 </div>
-								 <!-- /.panel .chat-panel -->
-							</section><!-- chat-section -->
+
+													    <% end %>
+														</li>
+												</ul>
+										</div>
+										<!-- /.panel-body -->
+										<!-- /.panel-footer -->
+								</div>
+								<!-- /.panel .chat-panel -->
+							</div><!-- container -->
+
+						</section><!-- chat-section -->
 
 
 
