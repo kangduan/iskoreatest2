@@ -326,20 +326,47 @@
 												 <i class="fa fa-comments fa-fw"></i> Chat
 										 </div>
 										 <!-- /.panel-heading -->
-										 <div class="panel-body">
-												 <ul class="chat">
+										 <strong style="padding:10px;">
  												 		Anytime give our questions
-												 </ul>
-										 </div>
+											</strong>
 										 <!-- /.panel-body -->
 										 <div class="panel-footer">
 												 <div class="input-group">
-														 <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
-														 <span class="input-group-btn">
-																 <button class="btn btn-warning btn-sm" id="btn-chat">
-																		 Send
-																 </button>
-														 </span>
+
+													<div class="col-md-6">
+													 <form action="/home/board" method="post">
+													   <div class="form-group">
+													     <label for="exampleInputEmail1">Post Title</label>
+													     <input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
+													   </div>
+
+													   <label for="exampleInputContent1">Content</label>
+													     <textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
+
+													   <button type="submit" class="btn btn-default">Submit</button>
+													 </form>
+												 </div>
+												 <div class="col-md-6">
+
+													 <div class="chat-panel panel panel-default">
+			                         <div class="panel-heading">
+			                             <i class="fa fa-comments fa-fw"></i> REPLY
+
+			                         </div>
+			                         <!-- /.panel-heading -->
+			                         <div class="panel-body">
+			                             <ul class="chat">
+
+
+			                             </ul>
+			                         </div>
+			                         <!-- /.panel-body -->
+
+			                         <!-- /.panel-footer -->
+			                     </div>
+			                     <!-- /.panel .chat-panel -->
+													 </div>
+													 														 
 												 </div>
 										 </div>
 										 <!-- /.panel-footer -->
