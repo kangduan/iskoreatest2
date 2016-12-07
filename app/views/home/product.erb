@@ -325,21 +325,24 @@
 										</div>
 										<!-- /.panel-heading -->
 										<div class="panel-body">
-												<ul class="chat">
-														<li class="left clearfix">
-
-																<div class="chat-body clearfix">
-
-
-																</div>
-														</li>
-
-												</ul>
+											<label for="exampleInputContent1">Anytime give our questions</label>
 										</div>
 										<!-- /.panel-body -->
 										<div class="panel-footer">
 												<div class="input-group">
+												<div class="col-md-6">
+													<form action="/home/board" method="post">
+													  <div class="form-group">
+													    <label for="exampleInputEmail1">Post Title</label>
+													    <input type="text" class="form-control" id="exampleInputEmail1" name="post_title" placeholder="title">
+													  </div>
 
+													  <label for="exampleInputContent1">Content</label>
+													    <textarea type="text" class="form-control" rows="5" id="comment" style="margin-bottom:20px;" name="post_content" placeholder="content"></textarea>
+
+													  <button type="submit" class="btn btn-default">Submit</button>
+													</form>
+												</div>
 												</div>
 										</div>
 										<!-- /.panel-footer -->
