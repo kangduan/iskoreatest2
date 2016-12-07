@@ -37,7 +37,7 @@ class HomeController < ApplicationController
       post.content = params[:content]
       post.save
 
-      redirect_to "/home/product"
+      redirect_to "/home/product#chat-section"
   end
   def reply_board
 
@@ -46,7 +46,7 @@ class HomeController < ApplicationController
       reply.post_id = params[:id_of_post]
       reply.save
 
-      redirect_to "/home/product"
+      redirect_to "/home/product#chat-section"
   end
 
   def index_vn
