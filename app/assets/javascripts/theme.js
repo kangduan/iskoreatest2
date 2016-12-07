@@ -96,10 +96,10 @@ $("#owl-intro-text").owlCarousel({
 $("#owl-partners").owlCarousel({
     items : 3,
     itemsDesktop : [1199,3],
-    itemsDesktopSmall : [980,3],
-    itemsTablet: [768,3],
+    itemsDesktopSmall : [980,1],
+    itemsTablet: [768,1],
     autoPlay : 2000,
-    stopOnHover : true,
+    stopOnHover : false,
     pagination : false
 })
 
