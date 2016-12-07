@@ -28,12 +28,13 @@ class HomeController < ApplicationController
   def about
   end
   def product
+    @posts = Post.all
   end
   def board
 
       post = Post.new
-      post.title = params[:post_title]
-      post.content = params[:post_content]
+      post.title = params[:title]
+      post.content = params[:content]
       post.save
 
       redirect_to "/home/product"
