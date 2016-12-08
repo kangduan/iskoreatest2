@@ -246,6 +246,21 @@
   /*partner-section logo font size*/
 
   /*Contact*/
+  /*Contact*/
+  #contact-section .address{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  #contact-section .contact-info h4{
+
+    font-size: 16px;
+  }
+  #contact-section .contact-info li{
+
+    font-size: 12px;
+  }
   #contact-section iframe {
 
       width: 350px;
@@ -517,11 +532,11 @@
   }
   #contact-section .contact-info h4{
 
-    font-size: 12px;
+    font-size: 14px;
   }
   #contact-section .contact-info li{
 
-    font-size: 8px;
+    font-size: 10px;
   }
   #contact-section iframe {
 
@@ -663,21 +678,16 @@
   /*Contact*/
   #contact-section iframe {
 
-      width: 300px;
-      height: 300px;
+      width: 200px;
+      height: 200px;
   }
-  #contact-section iframe .hanoimap{
+  #contact-section .map{
 
     float: left;
     margin-bottom: 10px;
-    width: 100%;
+    width: 50%;
   }
-  #contact-section iframe .hochiminhmap{
 
-    float: left;
-    margin-bottom: 10px;
-    width: 100%;
-  }
   /*footer*/
   #footer .site {
       float: left;
