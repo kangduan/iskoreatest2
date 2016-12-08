@@ -134,7 +134,7 @@
 
     #footer .site {
 
-      font-size:8px;
+      font-size:10px;
     }
     #footer .site h4{
 
@@ -142,7 +142,7 @@
     }
     #footer .family {
 
-      font-size: 8px;
+      font-size: 10px;
     }
     #footer .family h4{
 
@@ -150,7 +150,7 @@
     }
     #footer .join {
 
-      font-size: 8px;
+      font-size: 10px;
     }
     #footer .join h4{
 
@@ -589,7 +589,7 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 66.6666%;
   }
 
   #footer .family {
@@ -600,31 +600,36 @@
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 100.0000%;
   }
-  #footer .site {
+  /*title*/
+  #footer .site h4{
 
-    font-size: 4px;
+    font-size: 14px;
   }
-  #footer .site h4 {
-
-    font-size: 15px;
-  }
-  #footer .family {
-
-    font-size: 4px;
-  }
+  /*title*/
   #footer .family h4{
 
-    font-size: 15px;
+    font-size: 14px;
+  }
+  /*title*/
+  #footer .join h4{
+
+    font-size: 14px;
+  }
+
+  #footer .site {
+    float: left;
+    font-size: 6px;
+  }
+
+  #footer .family {
+    float: left;
+    font-size: 6px;
   }
   #footer .join {
 
-    font-size: 4px;
-  }
-  #footer .join h4{
-
-    font-size: 15px;
+    font-size: 6px;
   }
   /*product-page bottom nav*/
   #product-icon nav2{
@@ -758,16 +763,16 @@
 
   #footer .site {
     float: left;
-    font-size: 2px;
+    font-size: 4px;
   }
 
   #footer .family {
     float: left;
-    font-size: 3px;
+    font-size: 4px;
   }
   #footer .join {
 
-    font-size: 5px;
+    font-size: 4px;
   }
 
 
