@@ -640,7 +640,7 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 66.6666%;
   }
 
   #footer .family {
@@ -651,7 +651,7 @@
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 100.0000%;
   }
   /*title*/
   #footer .site h4{
@@ -670,17 +670,17 @@
   }
 
   #footer .site {
-
-    font-size: 1px;
+    float: left;
+    font-size: 2px;
   }
 
   #footer .family {
-
-    font-size: 2px;
+    float: left;
+    font-size: 3px;
   }
   #footer .join {
 
-    font-size: 2px;
+    font-size: 5px;
   }
 
 
