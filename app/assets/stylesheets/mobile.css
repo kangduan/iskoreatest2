@@ -528,26 +528,19 @@
 
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
-  #contact-section .contact-info h4{
 
-    font-size: 14px;
-  }
-  #contact-section .contact-info li{
-
-    font-size: 10px;
-  }
   #contact-section iframe {
 
-      width: 250px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
   }
   #contact-section .map{
 
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
 
   /*footer*/
