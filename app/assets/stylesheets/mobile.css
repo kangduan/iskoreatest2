@@ -510,7 +510,7 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 66.6666%;
+      width: 33.3333%;
   }
 
   #footer .family {
@@ -521,7 +521,7 @@
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 100.0000%;
+      width: 33.3333%;
   }
   #footer .site {
 
@@ -533,7 +533,7 @@
   }
   #footer .family {
 
-    font-size: 8px;
+    font-size: 6px;
   }
   #footer .family h4{
 
@@ -541,7 +541,7 @@
   }
   #footer .join {
 
-    font-size: 10px;
+    font-size: 6px;
   }
   #footer .join h4{
 
