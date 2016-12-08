@@ -533,14 +533,14 @@
 
   #contact-section iframe {
 
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
   }
   #contact-section .map{
 
     float: left;
     margin-bottom: 10px;
-    width: 100%;
+    width: 50%;
   }
 
   /*footer*/
@@ -671,14 +671,14 @@
   /*Contact*/
   #contact-section iframe {
 
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
   }
   #contact-section .map{
 
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
 
   /*footer*/
