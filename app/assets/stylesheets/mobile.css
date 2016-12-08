@@ -114,6 +114,48 @@
         margin-bottom: 30px;
         width: 33.3333%;
     }
+    /*footer*/
+    #footer .site {
+        float: left;
+        margin-bottom: 10px;
+        width: 33.3333%;
+    }
+
+    #footer .family {
+        float: left;
+        margin-bottom: 10px;
+        width: 33.3333%;
+    }
+    #footer .join {
+        float: left;
+        margin-bottom: 10px;
+        width: 33.3333%;
+    }
+
+    #footer .site {
+
+      font-size:8px;
+    }
+    #footer .site h4{
+
+      font-size: 22px;
+    }
+    #footer .family {
+
+      font-size: 8px;
+    }
+    #footer .family h4{
+
+      font-size: 22px;
+    }
+    #footer .join {
+
+      font-size: 8px;
+    }
+    #footer .join h4{
+
+      font-size: 22px;
+    }
 
 
 
