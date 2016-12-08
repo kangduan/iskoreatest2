@@ -507,8 +507,22 @@
   .counter-up .fact-inner .fa-3x {
     font-size: 30px;
   }
+
   /*Contact*/
-  /*Contact*/
+  #contact-section .address{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  #contact-section .contact-info h4{
+
+    font-size: 12px;
+  }
+  #contact-section .contact-info li{
+
+    font-size: 8px;
+  }
   #contact-section iframe {
 
       width: 250px;
@@ -652,7 +666,18 @@
       width: 300px;
       height: 300px;
   }
+  #contact-section iframe .hanoimap{
 
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  #contact-section iframe .hochiminhmap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+  }
   /*footer*/
   #footer .site {
       float: left;
