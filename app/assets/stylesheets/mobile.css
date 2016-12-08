@@ -251,6 +251,18 @@
       width: 400px;
       height: 400px;
   }
+  #contact-section iframe .hanoimap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  #contact-section iframe .hochiminhmap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
   /*footer*/
   #footer .site {
       float: left;
@@ -501,10 +513,23 @@
     font-size: 30px;
   }
   /*Contact*/
+  /*Contact*/
   #contact-section iframe {
 
       width: 300px;
       height: 300px;
+  }
+  #contact-section iframe .hanoimap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  #contact-section iframe .hochiminhmap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
   }
   /*footer*/
   #footer .site {
@@ -631,10 +656,23 @@
     font-size: 24px;
   }
   /*Contact*/
+  /*Contact*/
   #contact-section iframe {
 
-      width: 300px;
-      height: 300px;
+      width: 280px;
+      height: 280px;
+  }
+  #contact-section iframe .hanoimap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  #contact-section iframe .hochiminhmap{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
   }
   /*footer*/
   #footer .site {
