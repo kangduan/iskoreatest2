@@ -685,6 +685,11 @@
   }
   /*partner-section logo font size*/
   /*client section*/
+  #client-section .owl-carousel{
+
+    text-align: center;
+  }
+
 
   #menu {
 
