@@ -6,7 +6,7 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         var options = {
             $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
             $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
-            $Idle: 2000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+            $Idle: 5000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
             $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
 
             $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
@@ -36,8 +36,8 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
                 $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                 $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
                 $Rows: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
-                $SpacingX: 12,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
-                $SpacingY: 4,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                $SpacingX: 0,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                $SpacingY: 0,                                   //[Optional] Vertical space between each item in pixel, default value is 0
                 $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
                 $Scale: false                                   //Scales bullets navigator or not while slider scale
             }
@@ -49,7 +49,6 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         //you can remove responsive code if you don't want the slider scales while window resizing
         function ScaleSlider() {
             var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
-            var parentHeight = jssor_slider1.$Elmt.parentNode.clientHeight;
             if (parentWidth) {
                 jssor_slider1.$ScaleWidth(parentWidth - 0);
             }
