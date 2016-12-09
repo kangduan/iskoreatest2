@@ -312,10 +312,10 @@ section {
 }
 a.rotate-box-1, a.rotate-box-2 {
 	text-decoration: none;
-	color: #363940;
+	color: #000;
 }
 a.rotate-box-1:hover, a.rotate-box-2:hover {
-	color: #676D75;
+	color: #191919;
 }
 .rotate-box-1 .rotate-box-icon {
 	display: inline-block;
@@ -407,8 +407,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .rotate-box-2.square-icon .rotate-box-icon {
-	width: 75px;
-	height: 75px;
+	width: 65px;
+	height: 65px;
 	line-height: 75px;
 	font-size: 36px;
 }
