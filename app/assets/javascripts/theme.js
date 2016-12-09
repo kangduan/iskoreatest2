@@ -98,7 +98,7 @@ $("#owl-partners").owlCarousel({
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,2],
     itemsTablet: [768,2],
-    itemsMobile : [479,2],
+    itemsMobile : [479,1],
     autoPlay : 2000,
     stopOnHover : false,
     pagination : false
