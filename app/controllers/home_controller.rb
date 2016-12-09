@@ -13,8 +13,7 @@ class HomeController < ApplicationController
     message_params =  {
                    from: @email,
                    to:   'duanea0606@gmail.com',
-                   subject: @name,
-                   subject: @phone,
+                   subject: @name, @phone ,
                    text:    @content
                   }
 
