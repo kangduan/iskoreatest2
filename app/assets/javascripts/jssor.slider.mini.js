@@ -13,8 +13,8 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
             $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
             $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
             $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-            //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-            //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+            $SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+            $SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
             $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
             $Cols: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
             $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
@@ -65,23 +65,3 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         $(window).bind("orientationchange", ScaleSlider);
         //responsive code end
     });
-    //responsive code begin
-    //you can remove responsive code if you don't want the slider scales while window resizing
-
-    function ScaleSlider() {
-        var parentHeight= jssor_slider1.$Elmt.parentNode.clientHeight;
-
-        if (parentHeight) {
-            jssor_slider1.$ScaleWidth(parentHeight - 0);
-        }
-
-        else
-            window.setTimeout(ScaleSlider, 30);
-    }
-    ScaleSlider();
-
-    $(window).bind("load", ScaleSlider);
-    $(window).bind("resize", ScaleSlider);
-    $(window).bind("orientationchange", ScaleSlider);
-    //responsive code end
-});
