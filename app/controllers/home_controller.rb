@@ -7,12 +7,14 @@ class HomeController < ApplicationController
     @name = params[:name]
     @email = params[:email]
     @content = params[:content]
+    @phone = params[:phone]
     mg_client = Mailgun::Client.new("key-ac89645311d8534bb27750e824ad715a")
 
     message_params =  {
                    from: @email,
                    to:   'duanea0606@gmail.com',
                    subject: @name,
+                   subject: @phone,
                    text:    @content
                   }
 

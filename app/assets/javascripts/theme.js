@@ -199,3 +199,32 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 });
+
+function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    if (x == "") {
+        alert("E-mail address must be filled out");
+        return false;
+    }
+}
+function validateForm() {
+    var x = document.forms["myForm"]["phone"].value;
+    if (x == "") {
+        alert("Phone Number must be filled out");
+        return false;
+    }
+}
+function validateForm() {
+    var x = document.forms["myForm"]["content"].value;
+    if (x == "") {
+        alert("Content must be filled out");
+        return false;
+    }
+}

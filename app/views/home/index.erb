@@ -1118,12 +1118,15 @@ $(document).ready(function() {
 							</div>
 							<div class="modal-body">
 								<div class="contact-form">
-										<form role="form" action="/home/write" method="post">
+										<form name="myForm"role="form" action="/home/write" onsubmit="return validateForm()" method="post">
 												<div class="form-group">
 														<input type="text" class="form-control input-lg" name="name" placeholder="Your Company Name" required>
 												</div>
 												<div class="form-group">
 														<input type="email" class="form-control input-lg" name="email" placeholder="Your E-mail" required>
+												</div>
+												<div class="form-group">
+														<input type="text" class="form-control input-lg" name="phone" placeholder="Your Phone" required>
 												</div>
 												<div class="form-group">
 														<textarea class="form-control input-lg" rows="5" name="content" placeholder="Message" required></textarea>
