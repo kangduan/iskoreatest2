@@ -673,7 +673,11 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+  #slider1_container img{
 
+    height: 240px;
+
+  }
 
   /*product-section*/
   #product-section h5{
