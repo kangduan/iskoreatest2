@@ -675,7 +675,8 @@
   /*slide */
   #slider1_container {
 
-    width: 100%;
+    width: 480px;
+    height: 200px;
 
     }
 
