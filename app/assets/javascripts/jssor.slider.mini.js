@@ -53,9 +53,6 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
             if (parentWidth) {
                 jssor_slider1.$ScaleWidth(parentWidth - 0);
             }
-            if (parentHeight) {
-                jssor_slider1.$ScaleHeight(parentHeight - 0);
-            }
             else
                 window.setTimeout(ScaleSlider, 30);
         }
