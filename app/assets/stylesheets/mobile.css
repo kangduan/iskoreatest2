@@ -745,8 +745,13 @@
 
   #footer .family {
       float: left;
-      margin-top: 20px;
+      margin-top: 10px;
       width: 40%;
+  }
+  #footer .family li{
+
+      margin-top: 25px;
+
   }
   #footer .join {
       float: left;
