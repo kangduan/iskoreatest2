@@ -36,8 +36,8 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
                 $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                 $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
                 $Rows: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
-                $SpacingX: 0,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
-                $SpacingY: 0,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                $SpacingX: 12,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                $SpacingY: 4,                                   //[Optional] Vertical space between each item in pixel, default value is 0
                 $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
                 $Scale: false                                   //Scales bullets navigator or not while slider scale
             }
@@ -62,3 +62,8 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         $(window).bind("orientationchange", ScaleSlider);
         //responsive code end
     });
+
+@media only screen and (max-width : 480px) {
+    $SlideWidth: 480,
+    $SlideHeight: 300,
+  }
