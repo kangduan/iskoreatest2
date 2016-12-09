@@ -671,6 +671,14 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+
+  /*slide */
+  #slider1_container {
+
+    width: 100%;
+
+    }
+
   /*product-section*/
   #product-section h5{
 
