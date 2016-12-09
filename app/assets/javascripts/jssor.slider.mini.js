@@ -49,8 +49,13 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         //you can remove responsive code if you don't want the slider scales while window resizing
         function ScaleSlider() {
             var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+            var parentHeight = jssor_slider1.$Elmt.parentNode.clientHeight;
             if (parentWidth) {
                 jssor_slider1.$ScaleWidth(parentWidth - 0);
+            }
+            else if(parentHeight){
+
+              jssor_slider1.$ScaleHeight(parentHeight - 0);
             }
             else
                 window.setTimeout(ScaleSlider, 30);
@@ -62,8 +67,3 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         $(window).bind("orientationchange", ScaleSlider);
         //responsive code end
     });
-
-@media only screen and (max-width : 480px) {
-    $SlideWidth: 480,
-    $SlideHeight: 300,
-  }
