@@ -675,7 +675,8 @@
 
   #slider1_container {
 
-    margin-top:100px;
+    width: 480px;
+    height: 300px;
 
   }
   /*product-section*/
