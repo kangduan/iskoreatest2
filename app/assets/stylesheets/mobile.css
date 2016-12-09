@@ -673,7 +673,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-  #slider1_container img{
+  #slider1_container .slides img{
 
     height: 240px;
 
