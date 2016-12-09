@@ -685,9 +685,9 @@
   }
   /*partner-section logo font size*/
   /*client section*/
-  #client-section .owl-carousel{
+  #client-section .owl-carousel img{
 
-    text-align: center;
+    align-content: center;
   }
 
 
