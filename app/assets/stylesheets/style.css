@@ -358,7 +358,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	transform: rotate(0deg);
 }
 .rotate-box-1.square-icon .rotate-box-icon .fa, .rotate-box-2.square-icon .rotate-box-icon .fa{
-	color: #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
