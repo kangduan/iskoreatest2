@@ -1886,8 +1886,16 @@ p.footer {
 .featured-box.seo{
 	background:url(../img/seo.png) left top no-repeat;
 }
-/*product-page chat-section*/
-.chat-panel .panel-body {
-  height: 350px;
-  overflow-y: scroll;
-}
+
+/*product table*/
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
