@@ -27,7 +27,7 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
                 $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
                 $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                 $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                $Scale: false                                   //Scales bullets navigator or not while slider scale
+                $Scale: true                                   //Scales bullets navigator or not while slider scale
             },
 
             $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
@@ -53,7 +53,7 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
                 jssor_slider1.$ScaleWidth(parentWidth - 0);
             }
             else
-                window.setTimeout(ScaleSlider, 30);
+                window.setTimeout(ScaleSlider, 50);
         }
         ScaleSlider();
 
