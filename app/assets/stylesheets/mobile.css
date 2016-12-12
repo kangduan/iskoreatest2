@@ -168,12 +168,6 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-  /*about-section*/
-  #about-section .col-md-4 {
-      float: left;
-      width: 33.3333%;
-  }
-
   /*product-section*/
   #product-section h5{
 
@@ -296,8 +290,10 @@
 		font-size: 36px;
 	}
   /*partner-section logo font size*/
-
-  /*Contact*/
+  /*about-section*/
+  #about-section h4 {
+      font-size: 18px;
+  }
   /*Contact*/
   #contact-section .address{
 
