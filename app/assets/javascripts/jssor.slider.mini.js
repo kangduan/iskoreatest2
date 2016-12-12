@@ -47,32 +47,33 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
 
 
         //responsive code begin
-        //you can remove responsive code if you don't want the slider scales while window resizes
-        function ScaleSlider() {
-            var windowWidth = $(window).width();
+      //you can remove responsive code if you don't want the slider to scale along with window
+      function ScaleSlider() {
+          var windowWidth = $(window).width();
 
-            if (windowWidth) {
-                var windowHeight = $(window).height();
-                var originalWidth = jssor_slider1.$OriginalWidth();
-                var originalHeight = jssor_slider1.$OriginalHeight();
+          if (windowWidth) {
+              var windowHeight = $(window).height();
+              var originalWidth = jssor_slider1.$OriginalWidth();
+              var originalHeight = jssor_slider1.$OriginalHeight();
 
-                var scaleWidth = windowWidth;
-                if (originalWidth / windowWidth > originalHeight / windowHeight) {
-                    scaleWidth = Math.ceil(windowHeight / originalHeight * originalWidth);
-                }
+              if (originalWidth / windowWidth > originalHeight / windowHeight) {
+                  jssor_slider1.$ScaleHeight(windowHeight);
+              }
+              else {
+                  jssor_slider1.$ScaleWidth(windowWidth);
+              }
+          }
+          else
+              window.setTimeout(ScaleSlider, 30);
+      }
 
-                jssor_slider1.$ScaleWidth(scaleWidth);
-            }
-            else
-                window.setTimeout(ScaleSlider, 30);
-        }
+      ScaleSlider();
 
-        ScaleSlider();
-
-        $(window).bind("load", ScaleSlider);
-        $(window).bind("resize", ScaleSlider);
-        $(window).bind("orientationchange", ScaleSlider);
-        //responsive code end
+      $(window).bind("load", ScaleSlider);
+      $(window).bind("resize", ScaleSlider);
+      $(window).bind("orientationchange", ScaleSlider);
+      //responsive code end
+  });
 
 
 
