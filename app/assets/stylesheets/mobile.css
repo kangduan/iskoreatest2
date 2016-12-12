@@ -808,7 +808,11 @@
     font-size: 10px;
 
   }
+  /*title size*/
+  h2 {
 
+    font-size:25px;
+  }
 
 
 }
