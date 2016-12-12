@@ -1328,8 +1328,8 @@ background-color: #ffffff;
 .table2 > tbody > tr > th,
 .table2 > tfoot > tr > th
 {
-background-color: #0050ff;
-color: #ffffff;
+/*background-color: #0050ff;*/
+color: #000000;
 border-bottom: 2px solid #F3F3F3;
 border-top: 2px solid #F3F3F3 !important;
 line-height: 1.42857;
@@ -1353,7 +1353,6 @@ background-color: #F3F3F3;
 .table-striped > tbody > tr:nth-child(2n+1) > td
 {
 background-color: #ffffff;
-
 
 }
 /*product page navbar*/
