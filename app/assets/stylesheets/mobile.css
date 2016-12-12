@@ -808,6 +808,11 @@
     font-size: 10px;
 
   }
+  #slider1_container .jssorslider img{
+
+    height:300px;
+
+  }
 
 
 }
