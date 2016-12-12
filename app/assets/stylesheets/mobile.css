@@ -808,7 +808,7 @@
     font-size: 10px;
 
   }
-  #slider1_container img{
+  #slider1_container .slides img{
 
     height: 300px;
   }
