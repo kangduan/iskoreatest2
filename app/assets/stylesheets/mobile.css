@@ -667,6 +667,12 @@
   #service .service-tab ul{float:none}
   #service .service-tab ul{margin-right: 0;}
 
+  /*title size*/
+  h2 {
+
+    font-size:27px;
+  }
+
 
 }
 
