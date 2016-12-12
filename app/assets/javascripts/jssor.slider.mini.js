@@ -46,21 +46,33 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         var jssor_slider1 = new $JssorSlider$("slider1_container", options);
 
 
-        if (windowWidth) {
-             var windowHeight = $(window).height();
-             var originalWidth = jssor_slider1.$OriginalWidth();
-             var originalHeight = jssor_slider1.$OriginalHeight();
+        //responsive code begin
+        //you can remove responsive code if you don't want the slider scales while window resizes
+        function ScaleSlider() {
+            var windowWidth = $(window).width();
 
-             var scaleWidth = windowWidth;
-             if (originalWidth / windowWidth > originalHeight / windowHeight) {
-                 scaleWidth = Math.ceil(windowHeight / originalHeight * originalWidth);
-             }
+            if (windowWidth) {
+                var windowHeight = $(window).height();
+                var originalWidth = jssor_slider1.$OriginalWidth();
+                var originalHeight = jssor_slider1.$OriginalHeight();
 
-             jssor_slider1.$ScaleWidth(scaleWidth);
-         }
-         else
-             window.setTimeout(ScaleSlider, 30);
-     }
+                var scaleWidth = windowWidth;
+                if (originalWidth / windowWidth > originalHeight / windowHeight) {
+                    scaleWidth = Math.ceil(windowHeight / originalHeight * originalWidth);
+                }
+
+                jssor_slider1.$ScaleWidth(scaleWidth);
+            }
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
+
+        ScaleSlider();
+
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        //responsive code end
 
 
 
