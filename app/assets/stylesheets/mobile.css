@@ -808,6 +808,10 @@
     font-size: 10px;
 
   }
+  #slider1_container img{
+
+    height: 300px;
+  }
 
 }
 
