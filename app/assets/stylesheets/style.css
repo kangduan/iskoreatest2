@@ -330,7 +330,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.rotate-box-1.square-icon .rotate-box-icon{
+.rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
 	width: 45px;
 	height: 45px;
 	line-height: 45px;
