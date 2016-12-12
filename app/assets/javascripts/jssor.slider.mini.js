@@ -50,7 +50,7 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         function ScaleSlider() {
             var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
             if (parentWidth) {
-                jssor_slider1.$ScaleWidth(parentWidth);
+                jssor_slider1.$ScaleWidth(parentWidth - 0);
             }
             else
                 window.setTimeout(ScaleSlider, 30);
