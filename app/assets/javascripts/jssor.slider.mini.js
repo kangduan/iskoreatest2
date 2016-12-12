@@ -27,7 +27,7 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
                 $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
                 $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                 $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                $Scale: true                                   //Scales bullets navigator or not while slider scale
+                $Scale: false                                   //Scales bullets navigator or not while slider scale
             },
 
             $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
@@ -45,6 +45,26 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
 
         var jssor_slider1 = new $JssorSlider$("slider1_container", options);
 
+
+        if (windowWidth) {
+             var windowHeight = $(window).height();
+             var originalWidth = jssor_slider1.$OriginalWidth();
+             var originalHeight = jssor_slider1.$OriginalHeight();
+
+             var scaleWidth = windowWidth;
+             if (originalWidth / windowWidth > originalHeight / windowHeight) {
+                 scaleWidth = Math.ceil(windowHeight / originalHeight * originalWidth);
+             }
+
+             jssor_slider1.$ScaleWidth(scaleWidth);
+         }
+         else
+             window.setTimeout(ScaleSlider, 30);
+     }
+
+
+
+/*
         //responsive code begin
         //you can remove responsive code if you don't want the slider scales while window resizing
         function ScaleSlider() {
@@ -53,7 +73,7 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
                 jssor_slider1.$ScaleWidth(parentWidth - 0);
             }
             else
-                window.setTimeout(ScaleSlider, 50);
+                window.setTimeout(ScaleSlider, 30);
         }
         ScaleSlider();
 
@@ -62,3 +82,4 @@ new(function(){});var e=i.$JssorEasing$={$EaseSwing:function(a){return-c.cos(a*c
         $(window).bind("orientationchange", ScaleSlider);
         //responsive code end
     });
+    */
