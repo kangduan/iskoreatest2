@@ -330,7 +330,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
+.rotate-box-1.square-icon .rotate-box-icon{
 	width: 45px;
 	height: 45px;
 	line-height: 45px;
@@ -340,6 +340,12 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
+}
+.rotate-box-2.square-icon .rotate-box-icon {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .rotate-box-1.square-icon .rotate-box-icon:after, .rotate-box-2.square-icon .rotate-box-icon:after {
 	content: "";
