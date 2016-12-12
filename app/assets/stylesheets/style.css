@@ -331,7 +331,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	transition: all 0.2s ease-in-out;
 }
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
-	color: #000;
+
 	width: 45px;
 	height: 45px;
 	line-height: 45px;
@@ -358,6 +358,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	transform: rotate(0deg);
 }
 .rotate-box-1.square-icon .rotate-box-icon .fa, .rotate-box-2.square-icon .rotate-box-icon .fa{
+	color: #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
