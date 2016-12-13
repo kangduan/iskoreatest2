@@ -1319,6 +1319,7 @@ background-color: #F3F3F3;
 .table-product > tbody > tr > th,
 .table-product > tfoot > tr > th
 {
+table-layout:fixed;
 text-align: center;
 background-color: #0050ff;
 color: #ffffff;
@@ -1333,6 +1334,7 @@ vertical-align: top;
 .table-product > tbody > tr > td,
 .table-product > tfoot > tr > td
 {
+	table-layout:fixed;
 text-align: center;
 border-top: 0px solid blue;
 line-height: 1.42857;
@@ -1341,6 +1343,7 @@ vertical-align: top;
 background-color: #F3F3F3;
 
 }
+
 
 .table-striped > tbody > tr:nth-child(2n+1) > td
 {
