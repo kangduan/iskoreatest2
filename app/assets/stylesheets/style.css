@@ -1198,9 +1198,9 @@ p.subtitle {
 {
     margin-bottom: 20px;
     padding: 30px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .item.list-group-item
