@@ -165,7 +165,7 @@
 @media only screen and (max-width : 992px) {
 
   /*product-section*/
-  #product-section .col-md-4{
+  #product-section .col-md-6{
     float: left;
     margin-bottom: 30px;
     width: 50%;
@@ -524,7 +524,7 @@
       font-size: 6px;
   }
   /*product-section*/
-  #product-section .col-md-4{
+  #product-section .col-md-6{
     float: left;
     margin-bottom: 30px;
     width: 50%;
@@ -688,7 +688,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-  #product-section .col-md-4{
+  #product-section .col-md-6{
     float: left;
     margin-bottom: 30px;
     width: 50%;
