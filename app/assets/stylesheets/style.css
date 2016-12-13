@@ -1314,7 +1314,31 @@ line-height: 1.42857;
 padding: 8px;
 vertical-align: top;
 background-color: #F3F3F3;
+}
+.table2 > thead > tr > th,
+.table2 > tbody > tr > th,
+.table2 > tfoot > tr > th
+{
+text-align: center;
+background-color: #0050ff;
+color: #ffffff;
+border-bottom: 2px solid #F3F3F3;
+border-top: 2px solid #F3F3F3 !important;
+line-height: 1.42857;
+padding: 3px;
+vertical-align: top;
 
+}
+.table2 > thead > tr > td,
+.table2 > tbody > tr > td,
+.table2 > tfoot > tr > td
+{
+text-align: center;
+border-top: 0px solid blue;
+line-height: 1.42857;
+padding: 8px;
+vertical-align: top;
+background-color: #F3F3F3;
 
 }
 
