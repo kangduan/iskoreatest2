@@ -64,16 +64,12 @@
       margin-bottom: 30px;
       width: 25%;
   }
-  #product-section .thumbnail .line-1{
+  #product-section .thumbnail{
     float: left;
     margin-bottom: 30px;
-    width: 40%;
+    width: 50%;
   }
-  #product-section .thumbnail .line-2{
-    float: left;
-    margin-bottom: 30px;
-    width: 33.3333%;
-  }
+
 
 
   /*Clients*/
