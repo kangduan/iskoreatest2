@@ -64,7 +64,7 @@
       margin-bottom: 30px;
       width: 25%;
   }
-  #product-section .thumbnail{
+  #product-section .col-md-4{
     float: left;
     margin-bottom: 30px;
     width: 50%;
@@ -172,6 +172,11 @@
 @media only screen and (max-width : 992px) {
 
   /*product-section*/
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+  }
   #product-section h5{
 
     font-size: 15px;
@@ -526,6 +531,11 @@
       font-size: 6px;
   }
   /*product-section*/
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+  }
   #product-section h5{
 
     font-size: 14px;
@@ -685,7 +695,11 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+  }
   #product-section h5{
 
     font-size: 12px;
