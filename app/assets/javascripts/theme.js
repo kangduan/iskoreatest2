@@ -193,10 +193,10 @@ $('.scrolltotop').click(function(){
 //product nav
 $(function() {
 $(window).scroll(function(){
-    if ($(this).scrollTop() > 800) {
-        $('.navbar-fixed-bottom').fadeIn();
+    if ($(this).scrollTop() > 1000) {
+      $('.navbar-fixed-bottom').fadeOut();
     } else {
-        $('.navbar-fixed-bottom').fadeOut();
+        $('.navbar-fixed-bottom').fadeIn();
     }
 });
 
