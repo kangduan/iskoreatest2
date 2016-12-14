@@ -194,7 +194,7 @@ $('.scrolltotop').click(function(){
 $(function() {
 $(window).scroll(function(){
 
-    if ($(this).scrollTop() < $('#footer').height()) {
+    if ($(window).scrollTop + $(window).height() > $('#footer').height()) {
         $('.navbar-fixed-bottom').fadeOut();
     } else {
         $('.navbar-fixed-bottom').fadeIn();
