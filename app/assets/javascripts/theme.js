@@ -184,22 +184,11 @@ $(window).scroll(function(){
 
 // Click event to scroll to top
 $('.scrolltotop').click(function(){
-    $('html, body').an          IU imate({scrollTop : 0}, 1500, 'easeInOutExpo');
+    $('html, body').animate({scrollTop : 0}, 1500, 'easeInOutExpo');
     return false;
 });
 
-});
-//product nav
-$(function() {
-$(window).scroll(function(){
-    if ($(this).scrollTop() > 2000) {
-        $('.navbar-fixed-bottom').fadeIn();
-    } else {
-        $('.navbar-fixed-bottom').fadeOut();
-    }
-});
-
-});
+});zz
 
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
