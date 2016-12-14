@@ -1198,6 +1198,7 @@ p.subtitle {
 {
     margin-bottom: 20px;
     padding: 20px;
+		border-style: solid 2px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
