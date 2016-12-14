@@ -1198,7 +1198,6 @@ p.subtitle {
 {
     margin-bottom: 20px;
     padding: 20px;
-		border-style: solid 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -1231,6 +1230,7 @@ p.subtitle {
 .item.list-group-item:nth-of-type(odd)
 {
     background: #eeeeee;
+		border-style: solid 2px;
 }
 
 .item.list-group-item:before, .item.list-group-item:after
