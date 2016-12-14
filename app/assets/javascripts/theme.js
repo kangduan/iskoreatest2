@@ -193,7 +193,8 @@ $('.scrolltotop').click(function(){
 //product nav
 $(function() {
 $(window).scroll(function(){
-    if ($(this).scrollTop() > 1200) {
+    var footerheight = $('#footer').height();
+    if ($(this).scrollTop() > footerheight) {
         $('.navbar-fixed-bottom').fadeOut();
     } else {
         $('.navbar-fixed-bottom').fadeIn();
