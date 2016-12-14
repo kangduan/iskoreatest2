@@ -768,7 +768,7 @@
 
   hr {
 
-    width: 50%;
+    width: 100%;
   }
   #product-section .col-md-6{
     float: left;
@@ -918,22 +918,22 @@
   #car-section .col-md-6{
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
   #pc-section .col-md-6{
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
   #copy-section .col-md-6{
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
   #manlift-section .col-md-6{
     float: left;
     margin-bottom: 10px;
-    width: 50%;
+    width: 100%;
   }
 
 
