@@ -1205,15 +1205,10 @@ p.subtitle {
 .glyphicon { margin-right:5px; }
 .thumbnail-product
 {
-	padding: 15px;
-	margin-bottom: 20px;
-	background-color: #FFF;
-	border: 2px solid #000;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+    padding: 20px;
+		background-color: #FFF;
+		border: 2px solid #000;
 }
 
 .item.list-group-item
