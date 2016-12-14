@@ -77,6 +77,12 @@ p {
 .navbar-nav > li > a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 }
+hr .product-line {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid 2px;
+}
 /* End Fonts */
 
 
