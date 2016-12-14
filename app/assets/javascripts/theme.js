@@ -192,7 +192,7 @@ $('.scrolltotop').click(function(){
 //product nav
 $(function() {
 $(window).scroll(function(){
-    if ($(window).height(); > $('.footer-product').height()) {
+    if ($(window).height() > $('.footer-product').height()) {
         $('.navbar-fixed-bottom').fadeOut();
     } else {
         $('.navbar-fixed-bottom').fadeIn();
