@@ -41,6 +41,11 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+
+  hr {
+
+    width: 50%;
+  }
 	/* Text Carousel */
 	#text-carousel-intro-section .caption h1 {
 		font-size: 50px;
@@ -164,6 +169,10 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+  hr {
+
+    width: 50%;
+  }
   /*product-section*/
   #product-section .col-md-6{
     float: left;
@@ -388,7 +397,10 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
+  hr {
 
+    width: 50%;
+  }
 
 	/* Navbar brand */
 	.navbar-brand, .navbar-brand:focus {
@@ -689,6 +701,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+  hr {
+
+    width: 50%;
+  }
   #product-section .col-md-6{
     float: left;
     margin-bottom: 30px;
