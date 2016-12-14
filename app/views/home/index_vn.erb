@@ -45,7 +45,8 @@
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
-     <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+
+    <div class="page-loader"></div>   <!--Display loading image while page loads -->
     	<div class="body">
 
 				<header id="header" class="header-main">
@@ -77,7 +78,7 @@
 												<!--<li><a class="page-scroll" href="#prices-section">Prices</a></li>-->
 												<li><a class="page-scroll" href="#contact-section">Contact</a></li>
 												<li class="divider"></li>
-												<li><a href="/home/index_vn"><font color="#fff"><i class="fa fa-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ENG</font></a></li>
+												<li><a href="/home/index"><font color="#fff"><i class="fa fa-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ENG</font></a></li>
 										</ul>
 
 								</div><!-- /.navbar-collapse-->
@@ -95,9 +96,7 @@
 
 				<!-- Loading Screen -->
 				<div u="loading" style="position: absolute; top: 0px; left: 0px;">
-						<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
-
-						background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
+						<div style="filter: alpha(opacity=1); opacity:1; position: absolute; display: block; background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
 						</div>
 						<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
 
@@ -106,7 +105,7 @@
 				</div>
 
 				<!-- Slides Container -->
-				<div u="slides" style="position: absolute; left: 0px; top: 0px; width: 1140px; height: 442px;
+				<div u="slides" class="jssorslider" style="position: relative; left: 0px; top: 0px; width: 1140px; height: 442px;
 				overflow: hidden;">
 						<div>
 								<img u="image" src2="../img/slide/create.png" />
@@ -142,7 +141,7 @@
 		                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
 		                            <h2>About Us</h2>
 		                            <div class="devider"></div>
-		                            <p class="subtitle">Click Information</p>
+		                            <p class="subtitle"><strong><u>Click</u></strong> Below Information</p>
 		                        </div>
 		                    </div>
 		                </div>
@@ -175,7 +174,7 @@
                                     <span class="rotate-box-icon"><i class="fa fa-shopping-cart"></i></span>
                                     <div class="rotate-box-info">
                                         <h4><strong>Rental System</strong></h4>
-                                        <p>why we need to use rental products.</p>
+                                        <p>Why we need to use rental products.</p>
                                     </div>
                                 </a>
                             </div>
@@ -323,77 +322,70 @@
                                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                                             <h2>Rental Products</h2>
                                             <div class="devider"></div>
-                                            <p class="subtitle">Rent to easily & Reasonably</p>
+                                            <p class="subtitle">Rent to easily & reasonably</p>
                                         </div>
                                     </div>
                                 </div>
 																<div class="container">
-																	<!--
-																    <div class="well well-sm">
-																        <strong>Category Title</strong>
-																        <div class="btn-group hidden-sm-down">
-																            <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
-																            </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
-																                class="glyphicon glyphicon-th"></span>Grid</a>
-																        </div>
-																    </div>
-																	-->
-																    <div id="products" class="row list-group">
-																        <div class="item col-md-4">
-																            <div class="thumbnail">
-																                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-																              <div class="caption">
-																									<h5>CAR</h5><a class="btn btn-block btn-dark" href="/home/product#car-section">View More</a>
-																              </div>
 
-																            </div>
-																        </div>
-																        <div class="item col-md-4">
-																            <div class="thumbnail">
-																                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-																								<div class="caption">
-																									<h5>PC</h5><a class="btn btn-block btn-dark" href="/home/product#pc-section">View More</a>
-																	              </div>
-																            </div>
-																        </div>
-																        <div class="item col-md-4">
-																            <div class="thumbnail">
-																                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-																								<div class="caption">
-																									 <h5>PHOTOCOPIER</h5><a class="btn btn-block btn-dark" href="/home/product#copy-section">View More</a>
-																	              </div>
-																            </div>
-																        </div>
-																        <div class="item col-md-4">
-																            <div class="thumbnail">
-																                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-																								<div class="caption">
-																								 <h5>MAN-LIFT</h5><a class="btn btn-block btn-dark" href="/home/product#manlift-section">View More</a>
-																	              </div>
-																            </div>
-																        </div>
-																        <div class="item col-md-4">
-																            <div class="thumbnail">
-																                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-																								<div class="caption">
-																									 <h5>FORK-LIFT</h5><a class="btn btn-block btn-dark" href="/home/product#forklift-section">View More</a>
-																	              </div>
-																            </div>
-																        </div>
-																        <div class="item col-md-4">
-																            <div class="thumbnail">
-																                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
-																								<div class="caption">
-																									 <h5>TMI</h5><a class="btn btn-block btn-dark" href="/home/product#tmi-section">View More</a>
-																	              </div>
-																            </div>
-																        </div>
+																    <div id="products" class="row list-group">
+
+																			<div class="item col-md-6">
+															            <div class="thumbnail line-1">
+															                <img class="img-responsive group list-group-image" src="/img/main/car-main.jpg" alt="" />
+															                <div class="caption">
+															                             <h5>CAR</h5>
+															                            <a class="btn btn-dark" href="/home/product#car-section">View More</a>
+															                </div>
+															            </div>
+															        </div>
+																			<div class="item col-md-6">
+																					<div class="thumbnail line-1">
+																							<img class="img-responsive group list-group-image" src="/img/main/pc-main.jpg" alt="" />
+																							<div class="caption">
+																													 <h5>PC</h5>
+																													<a class="btn btn-dark" href="/home/product#pc-section">View More</a>
+																							</div>
+																					</div>
+																			</div>
+
+																			<div class="item col-md-6">
+																					<div class="thumbnail line-2">
+																							<img class="img-responsive group list-group-image" src="/img/main/copy-main.jpg" alt="" />
+																							<div class="caption">
+																													 <h5>PHOTOCOPIER</h5>
+																													<a class="btn btn-dark" href="/home/product#copy-section">View More</a>
+																							</div>
+																					</div>
+																			</div>
+																			<div class="item col-md-6">
+																					<div class="thumbnail line-2">
+																							<img class="img-responsive group list-group-image" src="/img/main/lift-main.jpg" alt="" />
+																							<div class="caption">
+																													 <h5>LIFT</h5>
+																													<a class="btn btn-dark" href="/home/product#manlift-section">View More</a>
+																							</div>
+																					</div>
+																			</div>
+																			<div class="col-md-2"></div>
+																			<!--
+																			<div class="item col-md-4">
+																					<div class="thumbnail line-2">
+																							<img class="img-responsive group list-group-image" src="/img/main/aj-main.jpg" alt="" />
+																							<div class="caption">
+																													 <h5>AJ 800</h5>
+																													<a class="btn btn-dark" href="/home/product#aj-section">View More</a>
+																							</div>
+																					</div>
+																			</div>
+																		-->
+
+																			</div>
 																    </div>
 																</div>
 
 														</div>
 											</div>
-  								</div><!-- id product -->
   						</section>
         <!-- End portfolio -->
 						<!-- product section
@@ -551,8 +543,9 @@ $(document).ready(function() {
                         </div>
 												<!-- Begin counter up -->
 									<!-- style="background-image: url(img/counter-bg.jpg);" -->
+									<!--
 										<div id="counter-up-trigger" class="counter-up parallax">
-																<!-- End page header-->
+																<!-- End page header
 											<div class="container" align="center">
 
 												<div class="row">
@@ -575,53 +568,78 @@ $(document).ready(function() {
 														</div>
 													</div>
 
-												</div> <!-- /.row -->
-											</div> <!-- /.container -->
+												</div> <!-- /.row
+											</div> <!-- /.container
 									</div>
-
+								-->
+									<!--
 								</div>
-								<div class="container">
+								<div align="center">
 									<ul id="menu">
-										<li><a><span>SAMSUNG</span></a></li>
-										<li><a><span>LG</span></a></li>
-										<li><a><span>KOREA</span></a></li>
-										<li><a><span>HELLO</span></a></li>
-										<li><a><span>HANOI</span></a></li>
+										<li><a><span>Sunjin Vina</span></a></li>
+										<li><a><span>Keum Ah</span></a></li>
+										<li><a><span>Doosan</span></a></li>
+										<li><a><span>CJ</span></a></li>
+										<li><a><span>Vesco</span></a></li>
 									</ul>
 									<div class="extra-space-l"></div>
 									<ul id="menu">
-										<li><a><span>SAMSUNG</span></a></li>
-										<li><a><span>LG</span></a></li>
-										<li><a><span>KOREA</span></a></li>
-										<li><a><span>HELLO</span></a></li>
-										<li><a><span>HANOI</span></a></li>
+										<li><a><span>Welstory</span></a></li>
+										<li><a><span>Nobland</span></a></li>
+										<li><a><span>iMarket</span></a></li>
+										<li><a><span>Kookmin Bank</span></a></li>
+										<li><a><span>Shinhan Bank</span></a></li>
 									</ul>
 									<div class="extra-space-l"></div>
 									<ul id="menu">
-										<li><a><span>SAMSUNG</span></a></li>
-										<li><a><span>LG</span></a></li>
-										<li><a><span>KOREA</span></a></li>
-										<li><a><span>HELLO</span></a></li>
-										<li><a><span>HANOI</span></a></li>
+										<li><a><span>Kyung Seung</span></a></li>
+										<li><a><span>JJ Foam & Tape</span></a></li>
+										<li><a><span>Phuoc Giang</span></a></li>
+										<li><a><span>Cooltex</span></a></li>
+										<li><a><span>Korean School </span></a></li>
 									</ul>
-								</div>
-
+									<div class="extra-space-l"></div>
+									<ul id="menu">
+										<li><a><span>TSL Networ</span></a></li>
+										<li><a><span>Asia Bolt</span></a></li>
+										<li><a><span>Platel Vina</span></a></li>
+										<li><a><span>Attolife</span></a></li>
+										<li><a><span>Probank</span></a></li>
+									</ul>
+									<div class="extra-space-l"></div>
+									<ul id="menu">
+										<li><a><span>Nifco</span></a></li>
+										<li><a><span>H & Friends </span></a></li>
+										<li><a><span>Sae A</span></a></li>
+										<li><a><span>Global FB</span></a></li>
+										<li><a><span>Cargobus</span></a></li>
+									</ul>
 							</div>
+						-->
+							<div class="extra-space-l"></div>
+                <!-- End page header	-->
+                <div class="container" align="center">
+                    <div id="owl-partners" class="owl-carousel" style="align-items: center;">
+                        <img class="img-responsive" src="img/partners/cj-logo.png" alt="img">
+                        <img class="img-responsive" style="margin-top:20px;" src="img/partners/doosan-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:20px;" src="img/partners/lg-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:20px;" src="img/partners/samsung-logo.png" alt="img">
+												<img class="img-responsive" src="img/partners/samsungdisplay-logo.png" height="100px;" alt="img">
+												<img class="img-responsive" src="img/partners/samsungwelstory-logo.png" width="150px;"height="70px;" alt="img">
+                        <img class="img-responsive" src="img/partners/shinhan-logo.png" alt="img">
+												<img class="img-responsive" src="img/partners/woori-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:20px;" src="img/partners/kb-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:30px;" src="img/partners/ibk-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:25px;" src="img/partners/hansae-logo.png" alt="img">
+												<img class="img-responsive" src="img/partners/welcron-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:35px;"src="img/partners/hanjin-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:35px;" contenteditable=""src="img/partners/platel-logo.png" alt="img">
+												<img class="img-responsive" src="img/partners/lock-logo.png" alt="img">
 
-							<!--
-                <!-- End page header
-                <div class="container">
-                    <div id="owl-partners" class="owl-carousel">
-                        <img src="img/partners/1.png" alt="img">
-                        <img src="img/partners/2.png" alt="img">
-                        <img src="img/partners/3.png" alt="img">
-                        <img src="img/partners/4.png" alt="img">
-                        <img src="img/partners/5.png" alt="img">
-                        <img src="img/partners/6.png" alt="img">
-                        <img src="img/partners/7.png" alt="img">
                     </div>
                 </div>
-							-->
+
+
 					<!-- End counter up -->
             </section>
             <!-- End partners -->
@@ -764,8 +782,6 @@ $(document).ready(function() {
 									</div>
 									<div class="tab-pane fade" id="man">
 
-
-
 											<table class="table table-striped" style="table-layout:fixed;">
 												<thead>
 													<tr><th>Department</th><th>Qualification</th><th>Preference</th><th>Working Condition</th></tr>
@@ -889,9 +905,6 @@ $(document).ready(function() {
 		-->
             <!-- End social section -->
 
-
-
-
             <!-- Begin contact section --> <!-- style="background-image: url(img/map-bg.jpg);"-->
 			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5">
             <div class="cover"></div>
@@ -912,35 +925,31 @@ $(document).ready(function() {
                     <div class="container">
                     	<div class="row col-md-12">
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 address">
                                 <div class="contact-info">
-                                    <h4>Hanoi Headquarter Address</h4>
+                                    <h4><u color="white">Hanoi Headquarter Address</u></h4>
                                     <ul class="contact-address">
 			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Head Office : <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14th Floor. Keangnam Hanoi Landmark Tower, plot E6,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CauGiay new urban area, Me tri, Nam Tu Liem, Hanoi.</li>
-																	<li><i class="fa fa-phone"></i>&nbsp; Office : +84-(0)4-6282-3031 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 070-4694-0619, 1480</li>
-																	<li><i class="fa fa-mobile fa-lg"></i>&nbsp; Tel : +84-(0)96-935-0613 (Tel.)</li>
-			                            <li><i class="fa fa-envelope"></i>&nbsp;KOR : jyhwang@korearental.co.kr<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : jyhwang@korearental.co.kr</li>
-
-
-
-
+																	<li><i class="fa fa-phone"></i>&nbsp;KOR : 070-4694-0619,&nbsp;&nbsp;1480&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : +84-(0)4-6282-3031</li>
+																	<li><i class="fa fa-mobile fa-lg"></i>&nbsp; Tel. : +84-(0)12-8233-1131 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +84-(0)96-935-0613</li>
+			                            <li><i class="fa fa-envelope"></i>&nbsp;KOR : ytkim@korearental.co.kr <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jyhwang@korearental.co.kr<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VN : jyhwang@korearental.co.kr</li>
 
 			                        </ul>
                                 </div>
                             </div>
 
 
-														<div class="col-md-6">
+														<div class="col-md-6 address">
                                 <div class="contact-info">
-                                    <h4>Hochiminh Branch Address</h4>
+                                    <h4><u color="white">Hochiminh Branch Address</u></h4>
                                     <ul class="contact-address">
 			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp;HCM Branch : <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6F, CJ Building 2Bis-4-6 Le Thanh Ton, Ben Nghe Ward, Dist 1</li>
-			                            <li><i class="fa fa-phone"></i>&nbsp; Office : +84-8-3521-0051~3 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 070-4694-1223, 1481</li>
-																	<li><i class="fa fa-mobile fa-lg"></i>&nbsp; Tel : +84-12-6774-0633</li>
-			                            <li><i class="fa fa-envelope"></i>&nbsp;KOR : shjang@korearental.co.kr<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : shjang@korearental.co.kr</li>
+			                            <li><i class="fa fa-phone"></i>&nbsp;KOR : 070-4694-1223,&nbsp;&nbsp;1481<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : +84-(0)8-3521-0051~3</li>
+																	<li><i class="fa fa-mobile fa-lg"></i>&nbsp; Tel. : +84-(0)12-6774-0633 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +84-(0)12-0212-0844</li>
+			                            <li><i class="fa fa-envelope"></i>&nbsp;KOR : shjang@korearental.co.kr <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ytjung@korearental.co.kr<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VN : shjang@korearental.co.kr</li>
 																	</li>
 
-			                        </ul>
+			                              </ul>
                                 </div>
                             </div>
 												<!--
@@ -970,18 +979,18 @@ $(document).ready(function() {
 
 										<div class="container">
                     	<div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 map">
 
                                     <h4>Hanoi Head Office Location</h4>
-																		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.397121886777!2d105.78198556501896!3d21.01679043600487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab54e29650c5%3A0x453b5c2a98dc5e98!2z6rK964KoIO2VmOuFuOydtCDrnpzrk5zrp4jtgawg7YOA7JuMIEtlYW5nbmFtLCBN4buFIFRyw6wsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504326355"
+																		<iframe class="hanoimap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.397121886777!2d105.78198556501896!3d21.01679043600487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab54e29650c5%3A0x453b5c2a98dc5e98!2z6rK964KoIO2VmOuFuOydtCDrnpzrk5zrp4jtgawg7YOA7JuMIEtlYW5nbmFtLCBN4buFIFRyw6wsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504326355"
 			 width="450" height="450" frameborder="0" style="border:2px;" allowfullscreen></iframe>
 
                             </div>
 
-                          	<div class="col-md-6">
+                          	<div class="col-md-6 map">
 
                                 	<h4>HCM Branch Office Location</h4>
-																	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3806698532544!2d106.70350971489194!3d10.782128692317649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f494ab1a7ab%3A0xca5d3f36e8edd13!2zQ0ogQnVpbGRpbmcsIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504391172"
+																	<iframe class="hochiminhmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3806698532544!2d106.70350971489194!3d10.782128692317649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f494ab1a7ab%3A0xca5d3f36e8edd13!2zQ0ogQnVpbGRpbmcsIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504391172"
 			 width="450" height="450" frameborder="2" style="border:2px;" allowfullscreen></iframe>
 
                             </div>
@@ -999,57 +1008,60 @@ $(document).ready(function() {
 						        <div id="footer-wrapper">
 
 						          <div class="row">
-												<div class="col-sm-6 col-md-4">
-	 						              		<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+												<div class="col-md-4 site">
+	 						            <div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
 	 						                    <h4 class="widgettitle">SiteMap :</h4>
 
-	 																<ul class="bottom_ul">
-
-	 																        <li><a class="page-scroll" href="#about-section">About</a></li>
-	 																        <li><a class="page-scroll" href="#product-section">Rental Products</a></li>
-	 																        <li><a class="page-scroll" href="#recruit-section">Recruitment</a></li>
-	 																        <li><a class="page-scroll" href="#contact-section">Contact</a></li>
+																	<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries row">
+																		<p>About us</p>
+																	<ul class="bottom_ul pull-left">
+																		<li><a href="/home/about#vision-section">Group Vision</a></li>
+																		<li><a href="/home/about#history-section">Company History</a></li>
+																		<li><a href="/home/about#rental-section">Rental System</a></li>
 	 															  </ul>
-	 															</div>
-																<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+	 															  </div>
 
+																<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries row">
+																	<p>Rental Products</p>
 																	<ul class="bottom_ul">
 
-																					<li><a href="/home/about#vision-section">Group Vision</a></li>
-																					<li><a href="/home/about#history-section">Company History</a></li>
-																					<li><a href="/home/about#rental-section">Rental System</a></li>
+																		<li><a href="/home/product#car-section">Car</a></li>
+																		<li><a href="/home/product#pc-section">PC</a></li>
+																		<li><a href="/home/product#copy-section">PhotoCopier</a></li>
+																		<li><a href="/home/product#manlift-section">Lift</a></li>
+
+
 																	</ul>
 																</div>
-																<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+																<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries row">
 
 																	<ul class="bottom_ul">
+																		<li><a class="page-scroll" href="#recruit-section">Recruitment</a></li>
+																		<li><a class="page-scroll" href="#contact-section">Contact</a></li>
 
-																					<li><a href="/home/product#car-section">Car</a></li>
-																					<li><a href="/home/product#pc-section">PC</a></li>
-																					<li><a href="/home/product#copy-section">PhotoCopier</a></li>
-																					<li><a href="/home/product#manlift-section">Man-Lift</a></li>
-																					<li><a href="/home/product#manlift-section">Fork-Lift</a></li>
-        																	<li><a href="/home/product#tmi-section">TMI</a></li>
 																	</ul>
 																</div>
+
 	 							 			  </div> <!-- end widget1 -->
+											</div> <!-- col-md-4 -->
 
-												<div class="col-md-4" style="margin-bottom:20px;">
+												<div class="col-md-4 col-sm-6 family" style="margin-bottom:20px;">
 						              <div id="meta-3" class="widget widgetFooter widget_meta">
 						              <h4 class="widgettitle">Family Site :</h4>
 						              <ul>
-						    		  <li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL KOREA</a></li>
-									    <li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL CHINA</a></li>
-									    <li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> IS DONGSEO</a></li>
-											<li><a href="#" target="_blank"><i class="fa fa-arrow-circle-right"></i> INUS</a></li>
+						    		  <li><a href="http://www.korearental.co.kr/" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL KOREA</a></li>
+									    <li><a href="http://www.krcchina.com/index.asp" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL CHINA</a></li>
+									    <li><a href="http://www.isdongseo.co.kr/main/" target="_blank"><i class="fa fa-arrow-circle-right"></i> IS DONGSEO</a></li>
+											<li><a href="http://www.inushaus.com/main/index.asp" target="_blank"><i class="fa fa-arrow-circle-right"></i> INUS</a></li>
 						             </ul>
 											 	</div>
 					             </div> <!-- end widget1 -->
-										<div class="col-md-4">
+
+										<div class="col-md-4 col-sm-6 join">
 											<div id="meta-3" class="widget widgetFooter widget_meta">
 											<h4 class="widgettitle">Join Us :</h4>
 
-												 <li><a href=""><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA</a></li><br><br>
+												 <li><a href="https://www.facebook.com/iskorearentalvina" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA</a></li><br><br>
 												 <div class="center"><button data-toggle="modal" data-target="#email1" class="btn btn-yellow btn-sm">Send Message</button></div>
 
 
@@ -1097,13 +1109,13 @@ $(document).ready(function() {
 								<div class="contact-form">
 										<form role="form" action="/home/write" method="post">
 												<div class="form-group">
-														<input type="text" class="form-control input-lg" name="name" placeholder="Your Company Name" required>
+														<input type="text" class="form-control input-lg" name="name" placeholder="your (company) name" required>
 												</div>
 												<div class="form-group">
-														<input type="email" class="form-control input-lg" name="email" placeholder="Your E-mail" required>
+														<input type="email" class="form-control input-lg" name="email" placeholder="your e-mail" required>
 												</div>
 												<div class="form-group">
-														<textarea class="form-control input-lg" rows="5" name="content" placeholder="Message" required></textarea>
+														<textarea class="form-control input-lg" rows="5" name="content" placeholder="message (please write your phone number)" required></textarea>
 												</div>
 												<div align="center">
 												 <button type="submit" class="btn btn-lg" data-wow-delay="0.8s">Send</button>
