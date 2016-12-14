@@ -190,6 +190,17 @@ $('.scrolltotop').click(function(){
 
 });
 
+//product nav
+$(function() {
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 800) {
+        $('.navbar-fixed-bottom').fadeIn();
+    } else {
+        $('.navbar-fixed-bottom').fadeOut();
+    }
+});
+
+
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
 ////////////////////////////////////////////////////////////////////
