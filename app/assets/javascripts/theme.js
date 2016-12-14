@@ -184,7 +184,7 @@ $(window).scroll(function(){
 
 // Click event to scroll to top
 $('.scrolltotop').click(function(){
-    $('html, body').animate({scrollTop : 0}, 1500, 'easeInOutExpo');
+    $('html, body').an          IU imate({scrollTop : 0}, 1500, 'easeInOutExpo');
     return false;
 });
 
@@ -192,10 +192,10 @@ $('.scrolltotop').click(function(){
 //product nav
 $(function() {
 $(window).scroll(function(){
-    if ($('.navbar-fixed-bottom').height() > $('.footer-product').height()) {
-        $('.navbar-fixed-bottom').fadeOut();
-    } else {
+    if ($(this).scrollTop() > 2000) {
         $('.navbar-fixed-bottom').fadeIn();
+    } else {
+        $('.navbar-fixed-bottom').fadeOut();
     }
 });
 
