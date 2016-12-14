@@ -148,7 +148,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	box-shadow:0 4px 5px -3px #ececec;
+	box-shadow:0 4px 8px -3px #213ebc;
 }
 .navbar .container {
 	padding-left: 50px;
