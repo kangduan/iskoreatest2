@@ -189,6 +189,17 @@ $('.scrolltotop').click(function(){
 });
 
 });
+//product nav
+$(function() {
+$(window).scroll(function(){
+    if ($(this).scrollTop() > $('.footer-product').height()) {
+        $('.navbar-fixed-bottom').fadeOut();
+    } else {
+        $('.navbar-fixed-bottom').fadeIn();
+    }
+});
+
+});
 
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
