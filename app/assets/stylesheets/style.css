@@ -1205,6 +1205,7 @@ p.subtitle {
 .glyphicon { margin-right:5px; }
 .thumbnail-product
 {
+	  align: center;
     margin-bottom: 20px;
     padding: 20px;
 		background-color: #FFF;
