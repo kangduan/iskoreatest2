@@ -148,6 +148,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	 box-shadow:0 4px 5px -3px #ececec;
 }
 .navbar .container {
 	padding-left: 50px;
@@ -1202,7 +1203,7 @@ p.subtitle {
 					PRODUCTS
 *********************************************/
 .glyphicon { margin-right:5px; }
-.thumbnail
+.thumbnail-product
 {
     margin-bottom: 20px;
     padding: 20px;
