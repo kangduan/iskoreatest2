@@ -77,6 +77,10 @@ p {
 .navbar-nav > li > a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 }
+div .line {
+
+	line-height: 200%;
+}
 /* End Fonts */
 
 
