@@ -106,11 +106,12 @@ section {
 	background: url('../img/devider.png') no-repeat center center;
 	margin: 5px 0 10px;
 }
+/*product page*/
 .thumbnail {
 	padding: 15px;
 	margin-bottom: 20px;
 	background-color: #FFF;
-	border: 2px solid #000;
+	border: 1px solid #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
