@@ -110,7 +110,7 @@ section {
 	padding: 15px;
 	margin-bottom: 20px;
 	background-color: #FFF;
-	border: 1px solid #DDD;
+	border: 2px solid #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -148,7 +148,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	 box-shadow:0 4px 5px -3px #ececec;
+	box-shadow:0 4px 5px -3px #ececec;
 }
 .navbar .container {
 	padding-left: 50px;
@@ -1203,13 +1203,13 @@ p.subtitle {
 					PRODUCTS
 *********************************************/
 .glyphicon { margin-right:5px; }
-.thumbnail-product
+.thumbnail
 {
-	  align: center;
     margin-bottom: 20px;
     padding: 20px;
-		background-color: #FFF;
-		border: 2px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .item.list-group-item
