@@ -107,7 +107,22 @@ section {
 	margin: 5px 0 10px;
 }
 /*product page*/
-.thumbnail {
+.thumbnail-left {
+	width:"554px";
+	height:"324px";
+	padding: 15px;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	border: 1px solid #000;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.thumbnail-right {
+	width:"554px";
+	height:"648px";
 	padding: 15px;
 	margin-bottom: 20px;
 	background-color: #FFF;
