@@ -77,30 +77,13 @@ p {
 .navbar-nav > li > a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 }
-
-	hr {
-	  border: none;
-	  border-top: 1px solid #2ecc71;
-	  color: #2ecc71;
-	  text-align: center;
-	  margin-top: 25px;
-	}
-
-	hr:after {
-	  position: relative;
-	  top: -0.8em;
-	  font-size: 14px;
-	  padding: 0 10px;
-	  background: white;
-	  display: inline-block;
-	  font-family: "FontAwesome";
-	  font-style: normal;
-	  font-weight: normal;
-	  line-height: 1;
-	  content: "\f111";
-	  -webkit-font-smoothing: antialiased;
-	}
-
+hr {
+	align: center;
+	width: 50%;
+  border: 0;
+  border-top: 1px solid #8c8c8c;
+  border-bottom: 1px solid #fff;
+}
 
 /* End Fonts */
 
@@ -1352,7 +1335,7 @@ background-color: #F3F3F3;
 {
 table-layout:fixed;
 text-align: center;
-background-color: #010a56;
+background-color: #001a51;
 color: #ffffff;
 border-bottom: 2px solid #F3F3F3;
 border-top: 2px solid #F3F3F3 !important;
