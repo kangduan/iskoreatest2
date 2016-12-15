@@ -1249,13 +1249,13 @@ p.subtitle {
 
 .item.list-group-item:before, .item.list-group-item:after
 {
-    display: table;
+    display: inline;
     content: " ";
 }
 
 .item.list-group-item img
 {
-    float: left;
+    /*float: left;*/
 }
 .item.list-group-item:after
 {
