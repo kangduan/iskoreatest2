@@ -108,6 +108,8 @@ section {
 }
 /*product page*/
 .thumbnail-left {
+	width:554px;
+	height:324px;
 	padding: 15px;
 	margin-bottom: 20px;
 	background-color: #FFF;
@@ -119,6 +121,8 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .thumbnail-right {
+	width:554px;
+	height:648px;
 	padding: 15px;
 	margin-bottom: 20px;
 	background-color: #FFF;
