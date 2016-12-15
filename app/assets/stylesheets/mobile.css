@@ -200,6 +200,11 @@
     margin-bottom: 30px;
     width: 50%;
   }
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 33.3333%;
+  }
   #product-section h5{
 
     font-size: 15px;
@@ -586,6 +591,11 @@
     margin-bottom: 30px;
     width: 50%;
   }
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 33.3333%;
+  }
   #product-section h5{
 
     font-size: 14px;
@@ -774,6 +784,11 @@
     float: left;
     margin-bottom: 30px;
     width: 50%;
+  }
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 33.3333%;
   }
   #product-section h5{
 
