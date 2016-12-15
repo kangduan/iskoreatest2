@@ -1915,3 +1915,11 @@ p.footer {
 .featured-box.seo{
 	background:url(../img/seo.png) left top no-repeat;
 }
+.quick_info {
+    width: 1200px;
+    margin: 100px auto;
+}
+.section_poppular {
+    width: 1200px;
+    margin: 0 auto;
+}
