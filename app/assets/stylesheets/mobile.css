@@ -717,6 +717,13 @@
 
     font-size: 6px;
   }
+  /*blog image*/
+  #footer .join img{
+
+    width: 6px;
+    height: 6px;
+  }
+
   /*product-page bottom nav*/
   #product-icon nav2{
 
@@ -904,6 +911,12 @@
   #footer .join {
 
     font-size: 4px;
+  }
+  /*blog image*/
+  #footer .join img{
+
+    width: 4px;
+    height: 4px;
   }
 
 
