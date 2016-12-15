@@ -404,6 +404,13 @@
 
     font-size: 18px;
   }
+  /*blog image*/
+  #footer .join img{
+
+    width: 10px;
+    height: 10px;
+  }
+
   /*vision-section*/
 #service .service-header p{font-size: 15px}
 #service .service-tab ul{margin-right: 50px;}
@@ -720,8 +727,8 @@
   /*blog image*/
   #footer .join img{
 
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
   }
 
   /*product-page bottom nav*/
@@ -915,8 +922,8 @@
   /*blog image*/
   #footer .join img{
 
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
   }
 
 
