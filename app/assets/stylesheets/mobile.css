@@ -156,7 +156,7 @@
 
       font-size: 22px;
     }
-    #footer .family {
+    #footer .family li{
 
       font-size: 10px;
     }
@@ -405,7 +405,7 @@
 
     font-size: 18px;
   }
-  #footer .family {
+  #footer .family li{
 
     font-size: 6px;
   }
@@ -738,7 +738,7 @@
     font-size: 6px;
   }
 
-  #footer .family {
+  #footer .family li{
     float: left;
     font-size: 6px;
   }
