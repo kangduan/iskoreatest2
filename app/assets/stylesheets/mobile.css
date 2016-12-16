@@ -796,6 +796,16 @@
 
     width: 100%;
   }
+  #product-section .col-md-4{
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  #product-section .col-md-6{
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+  }
 
   #product-section h5{
 
@@ -803,10 +813,10 @@
   }
   #product-section a {
 
-    font-size: 3px;
+    font-size: 6px;
   }
   #product-section .btn{
-    padding: 0.8px 4px;
+    padding: 0.8px 6px;
   }
   /*partner-section logo font size*/
   /*client section*/
