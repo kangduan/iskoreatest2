@@ -895,17 +895,17 @@
 
   #footer .site {
     float: left;
-    font-size: 4px;
+    font-size: 8px;
   }
 
   #footer .family li{
 
     display: block;
-    font-size: 8px;
+    font-size: 10px;
   }
   #footer .join {
 
-    font-size: 4px;
+    font-size: 10px;
   }
   /*blog image*/
   #footer .join img{
