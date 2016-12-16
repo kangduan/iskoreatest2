@@ -743,7 +743,7 @@
     font-size: 6px;
   }
   #footer .join {
-
+    float: left;
     font-size: 6px;
   }
   /*blog image*/
@@ -910,7 +910,7 @@
       width: 40%;
   }
   #footer .family li{
-
+      float: left;
       margin-top: 25px;
 
   }
