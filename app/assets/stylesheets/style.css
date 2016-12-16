@@ -1316,7 +1316,7 @@ vertical-align: top;
 .table > tbody > tr > td,
 .table > tfoot > tr > td
 {
-border-top: 2px solid blue;
+border-top: 2px solid #dddddd;
 line-height: 1.42857;
 padding: 8px;
 vertical-align: top;
