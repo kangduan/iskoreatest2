@@ -705,6 +705,11 @@
     float: left;
     font-size: 12px;
   }
+  /*about us, rental product*/
+  #footer .site p{
+
+    font-size:12px;
+  }
 
   #footer .family li{
     float: left;
