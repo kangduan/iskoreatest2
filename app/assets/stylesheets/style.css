@@ -1245,7 +1245,7 @@ p.subtitle {
 
 .item.list-group-item img
 {
-    /*float: left;*/
+    float: left;
 }
 .item.list-group-item:after
 {
