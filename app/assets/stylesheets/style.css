@@ -1907,3 +1907,8 @@ p.footer {
 .featured-box.seo{
 	background:url(../img/seo.png) left top no-repeat;
 }
+/*jssorslider*/
+.jssorslider{
+    width:100%;
+    max-width:1050px;
+}
