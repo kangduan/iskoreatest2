@@ -611,7 +611,7 @@
     width: 33.3333%;
   }
   #product-section .col-md-6{
-
+    float: left;
     margin-bottom: 30px;
     width: 50%;
   }
@@ -813,7 +813,7 @@
     width: 100%;
   }
   #product-section .col-md-6{
-
+    float: left;
     margin-bottom: 30px;
     width: 50%;
   }
