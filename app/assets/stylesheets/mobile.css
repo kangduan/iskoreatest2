@@ -204,9 +204,9 @@
 
     width: 50%;
   }
-  #main-navbar .navbar-default li{
-    display: inline;
-    font-size: 18px;
+  .navbar-nav > li > a{
+
+    font-size: 10px;
   }
 
   #product-section h5{
