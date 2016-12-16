@@ -1302,11 +1302,11 @@ p.subtitle {
 .table > tbody > tr > th,
 .table > tfoot > tr > th
 {
-		border: 3px solid #a8a8a8;
+
 background-color: #000;
 color: #ffffff;
-border-bottom: 2px solid #F3F3F3;
-border-top: 2px solid #F3F3F3 !important;
+border: 1px solid #F3F3F3;
+/*border-top: 2px solid #F3F3F3 !important;*/
 line-height: 1.42857;
 padding: 3px;
 vertical-align: top;
