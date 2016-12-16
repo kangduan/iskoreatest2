@@ -703,16 +703,16 @@
 
   #footer .site {
     float: left;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #footer .family li{
     float: left;
-    font-size: 10px;
+    font-size: 14px;
   }
   #footer .join {
 
-    font-size: 10px;
+    font-size: 14px;
   }
   /*blog image*/
   #footer .join img{
@@ -894,7 +894,7 @@
 
   #footer .family li{
     float: left;
-    font-size: 6px;
+    font-size: 8px;
   }
   #footer .join {
 
