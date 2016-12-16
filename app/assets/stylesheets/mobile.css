@@ -69,7 +69,6 @@
       margin-bottom: 30px;
       width: 25%;
   }
-  /*product section*/
   #product-section .col-md-4{
     float: left;
     margin-bottom: 30px;
@@ -149,15 +148,15 @@
       font-size:10px;
     }
     #footer .site p{
-      float: left;
+
       font-size:12px;
     }
     #footer .site h4{
 
       font-size: 22px;
     }
-    #footer .family li{
-      float: left;
+    #footer .family {
+
       font-size: 10px;
     }
     #footer .family h4{
@@ -193,11 +192,6 @@
       margin-bottom: 10px;
       width: 50%;
     }
-    #tmi-section .col-md-6{
-      float: left;
-      margin-bottom: 10px;
-      width: 50%;
-    }
 
 
 
@@ -208,17 +202,6 @@
 
   hr {
 
-    width: 50%;
-  }
-  /*product section*/
-  #product-section .col-md-4{
-    float: left;
-    margin-bottom: 30px;
-    width: 33.3333%;
-  }
-  #product-section .col-md-6{
-    float: left;
-    margin-bottom: 30px;
     width: 50%;
   }
 
@@ -405,7 +388,7 @@
 
     font-size: 18px;
   }
-  #footer .family li{
+  #footer .family {
 
     font-size: 6px;
   }
@@ -456,11 +439,6 @@
   width: 50%;
 }
 #manlift-section .col-md-6{
-  float: left;
-  margin-bottom: 10px;
-  width: 50%;
-}
-#tmi-section .col-md-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
@@ -614,17 +592,7 @@
 
       font-size: 6px;
   }
-  /*product section*/
-  #product-section .col-md-4{
-    float: left;
-    margin-bottom: 30px;
-    width: 33.3333%;
-  }
-  #product-section .col-md-6{
-    float: left;
-    margin-bottom: 30px;
-    width: 50%;
-  }
+  /*product-section*/
   #product-section h5{
 
     font-size: 14px;
@@ -738,12 +706,12 @@
     font-size: 6px;
   }
 
-  #footer .family li{
+  #footer .family {
     float: left;
     font-size: 6px;
   }
   #footer .join {
-    float: left;
+
     font-size: 6px;
   }
   /*blog image*/
@@ -805,11 +773,6 @@
     margin-bottom: 10px;
     width: 50%;
   }
-  #tmi-section .col-md-6{
-    float: left;
-    margin-bottom: 10px;
-    width: 50%;
-  }
 
 
 }
@@ -821,25 +784,14 @@
 
     width: 100%;
   }
-  /*product section*/
-  #product-section .col-md-4{
-    float: left;
-    margin-bottom: 30px;
-    width: 100%;
-  }
-  #product-section .col-md-6{
-    float: left;
-    margin-bottom: 30px;
-    width: 50%;
-  }
 
   #product-section h5{
 
-    font-size: 15px;
+    font-size: 12px;
   }
   #product-section a {
 
-    font-size: 10px;
+    font-size: 6px;
   }
   #product-section .btn{
     padding: 0.8px 6px;
@@ -910,7 +862,7 @@
       width: 40%;
   }
   #footer .family li{
-      float: left;
+
       margin-top: 25px;
 
   }
@@ -995,11 +947,6 @@
     width: 100%;
   }
   #manlift-section .col-md-6{
-    float: left;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  #tmi-section .col-md-6{
     float: left;
     margin-bottom: 10px;
     width: 100%;
