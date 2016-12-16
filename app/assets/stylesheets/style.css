@@ -1206,15 +1206,6 @@ p.subtitle {
 /*********************************************
 					PRODUCTS
 *********************************************/
-.glyphicon { margin-right:5px; }
-.thumbnail
-{
-    margin-bottom: 20px;
-    padding: 20px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
 
 .item.list-group-item
 {
