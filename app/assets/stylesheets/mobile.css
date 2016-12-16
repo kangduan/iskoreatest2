@@ -204,8 +204,8 @@
 
     width: 50%;
   }
-  #main-navbar .navbar-collapse li{
-
+  #main-navbar .navbar-default li{
+    display: inline;
     font-size: 18px;
   }
 
