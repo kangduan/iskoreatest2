@@ -69,6 +69,11 @@
       margin-bottom: 30px;
       width: 25%;
   }
+  #product-section .col-md-6{
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+  }
 
   /*Clients*/
   #partners-section .col-md-6 {
@@ -194,17 +199,7 @@
 
     width: 50%;
   }
-  /*product-section*/
-  #product-section .col-md-6{
-    float: left;
-    margin-bottom: 30px;
-    width: 50%;
-  }
-  #product-section .col-md-4{
-    float: left;
-    margin-bottom: 30px;
-    width: 33.3333%;
-  }
+
   #product-section h5{
 
     font-size: 15px;
@@ -593,16 +588,6 @@
       font-size: 6px;
   }
   /*product-section*/
-  #product-section .col-md-6{
-    float: left;
-    margin-bottom: 30px;
-    width: 50%;
-  }
-  #product-section .col-md-4{
-    float: left;
-    margin-bottom: 30px;
-    width: 33.3333%;
-  }
   #product-section h5{
 
     font-size: 14px;
@@ -794,16 +779,7 @@
 
     width: 100%;
   }
-  #product-section .col-md-6{
-    float: left;
-    margin-bottom: 30px;
-    width: 50%;
-  }
-  #product-section .col-md-4{
-    float: left;
-    margin-bottom: 30px;
-    width: 33.3333%;
-  }
+
   #product-section h5{
 
     font-size: 12px;
