@@ -1295,15 +1295,14 @@ p.subtitle {
 				.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
 
 	/*recruitment*/
-	.recruitment-border {
-		border: 3px solid #a8a8a8;
-	}
+
 	/* table */
 
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th
 {
+		border: 3px solid #a8a8a8;
 background-color: #000;
 color: #ffffff;
 border-bottom: 2px solid #F3F3F3;
