@@ -664,9 +664,9 @@
   }
 
   #contact-section iframe {
-
-      width: 450px;
-      height: 450px;
+      align: center;
+      width: 400px;
+      height: 400px;
   }
   #contact-section .map{
 
