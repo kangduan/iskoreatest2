@@ -193,6 +193,11 @@
       margin-bottom: 10px;
       width: 50%;
     }
+    #tmi-section .col-md-6{
+      float: left;
+      margin-bottom: 10px;
+      width: 50%;
+    }
 
 
 
@@ -451,6 +456,11 @@
   width: 50%;
 }
 #manlift-section .col-md-6{
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+}
+#tmi-section .col-md-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
@@ -795,6 +805,11 @@
     margin-bottom: 10px;
     width: 50%;
   }
+  #tmi-section .col-md-6{
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
 
 
 }
@@ -980,6 +995,11 @@
     width: 100%;
   }
   #manlift-section .col-md-6{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  #tmi-section .col-md-6{
     float: left;
     margin-bottom: 10px;
     width: 100%;
