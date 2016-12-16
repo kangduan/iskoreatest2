@@ -1909,15 +1909,15 @@ p.footer {
 }
 /*jssorslider*/
 
-#myCarousel .nav a small
-{
-    display: block;
+#myCarousel .nav a small {
+    display:block;
 }
-#myCarousel .nav
-{
-    background: #eee;
+#myCarousel .nav {
+	background:#eee;
 }
-.nav-justified > li > a
-{
-    border-radius: 0px;
+#myCarousel .nav a {
+    border-radius:0px;
+}
+#slider-menu .jssorslider {
+	display:block;
 }
