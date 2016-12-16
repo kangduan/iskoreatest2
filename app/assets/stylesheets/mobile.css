@@ -713,7 +713,7 @@
 
   #footer .family li{
 
-    display: block;
+    float: left;
     font-size: 14px;
   }
   #footer .join {
@@ -868,7 +868,7 @@
       width: 40%;
   }
   #footer .family li{
-
+     float: left;
       margin-top: 25px;
 
   }
