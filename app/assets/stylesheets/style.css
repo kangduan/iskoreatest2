@@ -1305,8 +1305,8 @@ p.subtitle {
 
 background-color: #000;
 color: #ffffff;
-border: 1px solid #F3F3F3;
-/*border-top: 2px solid #F3F3F3 !important;*/
+border-bottom: 2px solid #F3F3F3;
+border-top: 2px solid #F3F3F3 !important;
 line-height: 1.42857;
 padding: 3px;
 vertical-align: top;
