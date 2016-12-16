@@ -108,8 +108,9 @@ section {
 }
 /*product page*/
 .thumbnail {
-	padding: 10px;
-	margin-bottom: 10px;
+
+	padding: 15px;
+	margin-bottom: 20px;
 	background-color: #FFF;
 	border: 1px solid #000;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1210,10 +1211,10 @@ p.subtitle {
 .thumbnail
 {
     margin-bottom: 20px;
-    padding: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .item.list-group-item
@@ -1225,7 +1226,7 @@ p.subtitle {
 }
 .item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
 {
-    background: #428bca;
+    background: #000;
 }
 
 .item.list-group-item .list-group-image
@@ -1238,11 +1239,12 @@ p.subtitle {
 }
 .item.list-group-item .caption
 {
-    padding: 9px 9px 0px 9px;
+    /*padding: 9px 9px 0px 9px;*/
 }
 .item.list-group-item:nth-of-type(odd)
 {
     background: #eeeeee;
+		border-style: solid 2px;
 }
 
 .item.list-group-item:before, .item.list-group-item:after
@@ -1253,7 +1255,7 @@ p.subtitle {
 
 .item.list-group-item img
 {
-    float: left;
+    /*float: left;*/
 }
 .item.list-group-item:after
 {
