@@ -185,7 +185,7 @@ background: #f7f4f4 url('../../img/pat-bg.png') repeat;
 
 /* === Contact === */
 #contact-section {
-	background-color: #363940;
+/*	background-color: #363940;*/
 }
 #contact-section .contact .contact-form button {
 	background-color: #363940;
