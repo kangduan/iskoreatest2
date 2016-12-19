@@ -934,7 +934,9 @@ ul.imp-links li a {
     padding: 0px 0px 15px;
     border-bottom: medium none;
 }
-
+#footer .recent-posts-3 {
+ font-size:8px;
+}
 #footer h4 {
     color: #FFF;
 }
@@ -951,6 +953,7 @@ ul.imp-links li a {
 
 #footer li a {
     color: #DDD;
+		font-size: 8px;
 }
 
 #sub-floor {
@@ -959,9 +962,9 @@ ul.imp-links li a {
     padding: 10px 0px;
 }
 .bottom_ul { list-style-type:none; float:left; margin-bottom:0px;}
-.bottom_ul li { /*float:left;*/ line-height:40px;}
+.bottom_ul li { float:left; line-height:40px;}
 .bottom_ul li:after { content:"/"; color:#FFF; margin-right:3px; margin-left:3px;}
-.bottom_ul li a { color:#FFF;  /*font-size:12px;*/}
+.bottom_ul li a { color:#FFF; /*font-size:12px;*/}
 
 /*Widget2: subscribe form*/
 #subscribe #result {
