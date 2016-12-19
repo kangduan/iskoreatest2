@@ -1848,15 +1848,15 @@ p.footer {
     }
     ul.timeline > li > .timeline-panel:before {
         border-left-width: 0;
-        border-right-width: 0px;
+        border-right-width: 15px;
         left: -15px;
         right: auto;
     }
     ul.timeline > li > .timeline-panel:after {
         border-left-width: 0;
-        border-right-width: 0px;
+        border-right-width: 14px;
         left: -14px;
-        right: auto;
+        right: -14px;
     }
     .timeline > li.timeline-inverted {
         float: left;
