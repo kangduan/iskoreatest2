@@ -1908,18 +1908,26 @@ p.footer {
 	background:url(../img/seo.png) left top no-repeat;
 }
 /*slider*/
-/* Changes the position of the indicators */
 .carousel-indicators {
-	right: 50%;
-	top: auto;
-	bottom: 0px;
-	margin-right: -19px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
 }
-/* Changes the colour of the indicators */
 .carousel-indicators li {
-	border-radius: 50%;
-	background: #fff;
-}
-.carousel-indicators .active {
-background: #333333;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
