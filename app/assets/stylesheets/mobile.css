@@ -446,6 +446,14 @@
   width: 50%;
 
 }
+/*about-page business section*/
+
+#prices-section .price-box{
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
 /*product-page section*/
 #car-section .col-md-6{
   float: left;
@@ -993,7 +1001,7 @@
     font-size: 10px;
 
   }
-  /*about-section*/
+  /*about-section - idea, colevalue ......*/
   #vision1-section figure{
     float: left;
     margin-bottom: 10px;
