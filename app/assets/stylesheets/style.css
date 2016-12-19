@@ -1722,9 +1722,9 @@ p.footer {
     clear: both;
 }
 .timeline > li > .timeline-panel {
-    width: calc(100% - 30px);
-    width: -moz-calc(100% - 30px);
-    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 25px);
+    width: -moz-calc(100% - 25px);
+    width: -webkit-calc(100% - 25px);
     float: left;
     border: 1px solid #dcdcdc;
     background: #ffffff;
@@ -1821,6 +1821,7 @@ p.footer {
 .no-float {
     float: none !important;
 }
+
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
@@ -1847,13 +1848,13 @@ p.footer {
     }
     ul.timeline > li > .timeline-panel:before {
         border-left-width: 0;
-        border-right-width: 15px;
+        border-right-width: 0px;
         left: -15px;
         right: auto;
     }
     ul.timeline > li > .timeline-panel:after {
         border-left-width: 0;
-        border-right-width: 14px;
+        border-right-width: 0px;
         left: -14px;
         right: auto;
     }
