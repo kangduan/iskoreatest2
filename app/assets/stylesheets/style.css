@@ -1925,3 +1925,7 @@ p.footer {
     color: #000;
     background-color: #FFF;
 }
+/*slider menu*/
+.topspace{
+    margin:100px auto;max-width:1150px;
+    }
