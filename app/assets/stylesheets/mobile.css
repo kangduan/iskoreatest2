@@ -448,7 +448,7 @@
 }
 /*about-page business section*/
 
-#prices-section .price-box{
+#prices-section .col-sm-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
