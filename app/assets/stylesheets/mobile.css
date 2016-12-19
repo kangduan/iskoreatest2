@@ -125,12 +125,13 @@
         margin-bottom: 30px;
         width: 33.3333%;
     }
+    /*
     #footer .col-md-4 {
         float: left;
         margin-bottom: 10px;
         width: 33.3333%;
     }
-    /*footer
+    footer
     #footer .site {
         float: left;
         margin-bottom: 10px;
@@ -366,18 +367,18 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 35.3333%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 32.3333%;
   }
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 32.3333%;
   }
 
   #footer .site {
