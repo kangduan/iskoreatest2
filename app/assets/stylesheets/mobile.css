@@ -447,11 +447,10 @@
 
 }
 /*about-page business section*/
-
-#prices-section .col-sm-6{
+#prices-section .price-box{
   float: left;
   margin-bottom: 10px;
-  width: 50%;
+  width: 47%;
 }
 
 /*product-page section*/
