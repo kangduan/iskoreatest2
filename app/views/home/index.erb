@@ -42,9 +42,7 @@
 
 		<link rel="stylesheet" href="/assets/cool-gray.css">
 
-<!-- Insert to your webpage before the </head> -->
-<script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/amazingslider.js"></script>
-<script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/initslider-1.js"></script>
+
 
 
 	</head>
@@ -95,26 +93,36 @@
 
 				<!-- ========= END HEADER =========-->
 
+<section id="slider-menu">
 
-	        <div class"container">
-	        <div class"row topspace">
-	        <div class"col-md-12">
-	    <!-- Insert to your webpage where you want to display the slider -->
-	    <div id="amazingslider-1" style="display:block;position:relative;margin:10px auto 56px;">
-	        <ul class="amazingslider-slides" style="display:none;">
-	            <li><img src="/img/slide/create.png" alt="Picture 1" /></li>
-	            <li><img src="/img/slide/best.png" alt="Picture 2" /></li>
-	            <li><img src="/img/slide/innovate.png" alt="Picture 3" /></li>
-	        </ul>
-	    </div>
-	    <!-- End of body section HTML codes -->
-	    </div></div></div>
+	<!-- Place somewhere in the <body> of your page -->
+	<div class="flexslider">
+	  <ul class="slides">
+	    <li data-thumb="slide1-thumb.jpg">
+	      <img src="/img/slide/create.png" />
+	    </li>
+	    <li data-thumb="slide2-thumb.jpg">
+	      <img src="/img/slide/best.png" />
+	    </li>
+	    <li data-thumb="slide3-thumb.jpg">
+	      <img src="/img/slide/innovate.png" />
+	    </li>
 
+	  </ul>
+	</div>
+<!--Can also be used with $(document).ready()-->
+<script>
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
+</script>
 
-		<!-- Jssor Slider End -->
-
+</section>
 		<!-- Begin about section -->
-					<section id="about-section" class="page bg-style1" style="margin-top:50px;">
+					<section id="about-section" class="page bg-style1">
 		                <!-- Begin page header-->
 		                <div class="page-header-wrapper">
 		                    <div class="container">
