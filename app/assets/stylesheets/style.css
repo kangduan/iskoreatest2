@@ -1908,17 +1908,18 @@ p.footer {
 	background:url(../img/seo.png) left top no-repeat;
 }
 /*slider*/
-.carousel-indicators li{
-
-      text-indent: 0;
-      margin: 0 2px;
-      width: 20px;
-      height: 20px;
-      border: none;
-      border-radius: 100%;
-      line-height: 30px;
-      color: #fff;
-      background-color: #999;
-      transition: all 0.25s ease;
-
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	border-radius: 50%;
+	background: #fff;
+}
+.carousel-indicators .active {
+background: #333333;
 }
