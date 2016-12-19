@@ -447,7 +447,7 @@
 
 }
 /*about-page business section*/
-#prices-section .price-box{
+#prices-section .col-md-3{
   float: left;
   margin-bottom: 10px;
   width: 50%;
@@ -803,7 +803,7 @@
 
   }
   /*about-page businessmodel-section*/
-  #prices-section .price-box {
+  #prices-section .col-md-3 {
     float: left;
     margin-bottom: 30px;
     width: 50.0000%;
@@ -1020,7 +1020,7 @@
     width: 100%;
   }
   /*about-page businessmodel-section*/
-  #prices-section .price-box {
+  #prices-section .col-md-3 {
     float: left;
     margin-bottom: 30px;
     width: 50.0000%;
