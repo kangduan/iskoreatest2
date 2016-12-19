@@ -25,6 +25,7 @@
 		<script src="/assets/jquery.counterup.min.js"></script>
 		<script src="/assets/smoothscroll.js"></script>
 		<script src="/assets/bootstrap.min.js"></script>
+	  <script src="js/jquery.slides.min.js"></script>
 		<!-- Google Fonts  -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
@@ -95,31 +96,36 @@
 
 <section id="slider-menu">
 
-	<!-- Place somewhere in the <body> of your page -->
-	<div class="flexslider">
-	  <ul class="slides">
-	    <li data-thumb="slide1-thumb.jpg">
-	      <img src="/img/slide/create.png" />
-	    </li>
-	    <li data-thumb="slide2-thumb.jpg">
-	      <img src="/img/slide/best.png" />
-	    </li>
-	    <li data-thumb="slide3-thumb.jpg">
-	      <img src="/img/slide/innovate.png" />
-	    </li>
 
-	  </ul>
-	</div>
-<!--Can also be used with $(document).ready()-->
-<script>
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: "thumbnails"
-  });
-});
-</script>
+	  <!-- SlidesJS Required: Start Slides -->
+	  <!-- The container is used to define the width of the slideshow -->
+	  <div class="container">
+	    <div id="slides">
+	      <img src="/img/slide/create.png">
+	      <img src="/img/slide/best.png">
+	      <img src="/img/slide/innovate.png">
 
+	    </div>
+	  </div>
+	  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+	  <script>
+	    $(function() {
+	      $('#slides').slidesjs({
+	        width: 940,
+	        height: 528,
+	        play: {
+	          active: true,
+	          auto: true,
+	          interval: 4000,
+	          swap: true
+	        }
+	      });
+	    });
+	  </script>
+	  <!-- End SlidesJS Required -->
+
+
+		<!-- Jssor Slider End -->
 </section>
 		<!-- Begin about section -->
 					<section id="about-section" class="page bg-style1">
