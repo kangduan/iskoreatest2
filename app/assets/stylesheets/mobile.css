@@ -782,6 +782,19 @@
   #service .service-tab ul{float:none}
   #service .service-tab ul{margin-right: 0;}
 
+  /*about-section*/
+  #vision1-section figure{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+
+  }
+  #vision1-section .featured-work{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+
+  }
   /*title size*/
   h2 {
 
@@ -980,11 +993,25 @@
     font-size: 10px;
 
   }
+  /*about-section*/
+  #vision1-section figure{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+
+  }
+  #vision1-section .featured-work{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+
+  }
   /*title size*/
   h2 {
 
     font-size:25px;
   }
+
   /*product-page section*/
   #car-section .col-md-6{
     float: left;
