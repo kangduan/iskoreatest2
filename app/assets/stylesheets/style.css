@@ -154,8 +154,8 @@ section {
 
 }
 .navbar .container {
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /* Navbar brand (logo) */
@@ -958,7 +958,7 @@ ul.imp-links li a {
     padding: 10px 0px;
 }
 .bottom_ul { list-style-type:none; float:left; margin-bottom:0px;}
-.bottom_ul li { float:left; line-height:40px;}
+.bottom_ul li { float:left; line-height:40px; font-size:8px;}
 .bottom_ul li:after { content:"/"; color:#FFF; margin-right:3px; margin-left:3px;}
 .bottom_ul li a { color:#FFF;  /*font-size:12px;*/}
 
