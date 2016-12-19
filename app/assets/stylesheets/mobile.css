@@ -433,6 +433,19 @@
   font-size: 13px;
 
 }
+/*about-section*/
+#vision1-section figure{
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+
+}
+#vision1-section .featured-work{
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+
+}
 /*product-page section*/
 #car-section .col-md-6{
   float: left;
