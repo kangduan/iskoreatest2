@@ -440,7 +440,7 @@
     width: 50.0000%;
 }
 /*about-page businessmodel-section*/
-#prices-section .col-md-3 {
+#prices-section .price-box {
   float: left;
   margin-bottom: 30px;
   width: 50.0000%;
@@ -802,6 +802,13 @@
     width: 100%;
 
   }
+  /*about-page businessmodel-section*/
+  #prices-section .price-box {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
+
+  }
   /*title size*/
   h2 {
 
@@ -1011,6 +1018,12 @@
     float: left;
     margin-bottom: 10px;
     width: 100%;
+  }
+  /*about-page businessmodel-section*/
+  #prices-section .price-box {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
 
   }
   /*title size*/
