@@ -1950,7 +1950,7 @@ p.footer {
 	opacity:0.85;
 }
 .carousel-control:hover {
-    background-color: #47a447;
+    color: #47a447;
 }
 .carousel-control.right {
 	right:10px;
