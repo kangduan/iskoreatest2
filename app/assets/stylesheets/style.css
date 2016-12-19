@@ -845,6 +845,7 @@ ul.social-list li a i {
 	font-weight: 400;
 }
 #contact-section .cover {
+	background-image: url("/img/map-bg.jpg")
 	background-color: rgba(5, 8, 11, 0.6);
 }
 #contact-section .contact .contact-form {
