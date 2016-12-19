@@ -129,23 +129,23 @@
     #footer .site {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 40%;
     }
 
     #footer .family {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 30%;
     }
     #footer .join {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 30%;
     }
 
     #footer .site {
 
-      font-size:7px;
+      font-size:10px;
     }
     #footer .site p{
 
@@ -153,23 +153,23 @@
     }
     #footer .site h4{
 
-      font-size: 20px;
+      font-size: 22px;
     }
     #footer .family {
 
-      font-size: 8px;
+      font-size: 10px;
     }
     #footer .family h4{
 
-      font-size: 20px;
+      font-size: 22px;
     }
     #footer .join {
 
-      font-size: 8px;
+      font-size: 10px;
     }
     #footer .join h4{
 
-      font-size: 20px;
+      font-size: 22px;
     }
     /*product-page section*/
     #car-section .col-md-6{
@@ -360,18 +360,18 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 35.3333%;
+      width: 33.3333%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 32.3333%;
+      width: 33.3333%;
   }
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 32.3333%;
+      width: 33.3333%;
   }
 
   #footer .site {
