@@ -233,19 +233,6 @@
 
   }
 
-  /*about-page vision-section*/
-  #vision2-section .col-md-3 {
-      float: left;
-      margin-bottom: 30px;
-      width: 50.0000%;
-  }
-  /*about-page businessmodel-section*/
-  #prices-section .col-md-3 {
-    float: left;
-    margin-bottom: 30px;
-    width: 50.0000%;
-
-  }
   /*about-page businessmodel-section*/
   #prices-section h3 {
     font-size: 22px;
@@ -446,11 +433,24 @@
   width: 50%;
 
 }
+/*about-page vision-section*/
+#vision2-section .col-md-3 {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
+}
+/*about-page businessmodel-section*/
+#prices-section .col-md-3 {
+  float: left;
+  margin-bottom: 30px;
+  width: 50.0000%;
+
+}
 /*about-page business section*/
 #prices-section .price-box{
   float: left;
   margin-bottom: 10px;
-  width: 47%;
+  width: 50%;
 }
 
 /*product-page section*/
