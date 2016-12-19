@@ -129,7 +129,7 @@
     #footer .site {
         float: left;
         margin-bottom: 10px;
-        width: 36.3333%;
+        width: 33.3333%;
     }
 
     #footer .family {
@@ -140,12 +140,12 @@
     #footer .join {
         float: left;
         margin-bottom: 10px;
-        width: 30%;
+        width: 33.3333%;
     }
 
     #footer .site {
 
-      font-size:10px;
+      font-size:8px;
     }
     #footer .site p{
 
