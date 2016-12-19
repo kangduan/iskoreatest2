@@ -1809,9 +1809,9 @@ p.footer {
     text-decoration: none;
 }
 .timeline > li.timeline-inverted {
-    /*float: right;
+    /*float: right;*/
     clear: right;
-		*/
+
 }
 .timeline > li:nth-child(2) {
     margin-top: 60px;
