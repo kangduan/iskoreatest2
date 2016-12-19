@@ -1949,6 +1949,9 @@ p.footer {
 	bottom:12px;
 	opacity:0.85;
 }
+.carousel-control:hover {
+    background-color: #47a447;
+}
 .carousel-control.right {
 	right:10px;
 }
