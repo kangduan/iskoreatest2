@@ -744,12 +744,12 @@
   }
   /*about us, rental product*/
   #footer .site p{
-
+    float: left;
     font-size:12px;
   }
 
   #footer .family li{
-
+    float: left;
     font-size: 14px;
   }
   #footer .join {
