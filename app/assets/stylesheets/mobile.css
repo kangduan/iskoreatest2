@@ -709,13 +709,13 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 60%;
+      width: 50%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 40%;
+      width: 50%;
   }
   #footer .join {
       float: left;
@@ -934,13 +934,13 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 58%;
+      width: 55%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 42%;
+      width: 45%;
   }
   #footer .family li{
      float: left;
