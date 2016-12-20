@@ -72,7 +72,7 @@ $('body').scrollspy({
 $(function() {
 $(window).load(function() {
     // Animate loader off screen
-    $(".page-loader").fadeOut("slow");
+    $(".page-loader").fadeOut("fast");
 });
 });
 
@@ -194,7 +194,7 @@ $('.scrolltotop').click(function(){
 // Close mobile menu when click menu link (Bootstrap default menu)
 ////////////////////////////////////////////////////////////////////
 $(function() {
-$(document).on('click','.navbar-collapse',function(e) {
+$(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
         $(this).collapse('hide');
     }
