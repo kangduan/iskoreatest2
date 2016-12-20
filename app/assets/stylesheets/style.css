@@ -1727,7 +1727,7 @@ p.footer {
     width: -moz-calc(100% - 25px);
     width: -webkit-calc(100% - 25px);
     float: left;
-    border: 2px solid #dcdcdc;
+    border: 3px solid #dcdcdc;
     background: #ffffff;
     position: relative;
 }
