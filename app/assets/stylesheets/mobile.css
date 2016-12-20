@@ -750,12 +750,12 @@
   }
 
   #footer .family li{
-    float: left;
-    font-size: 8px;
+
+    font-size: 10px;
   }
   #footer .join {
-    float: left;
-    font-size: 8px;
+
+    font-size: 10px;
   }
   /*blog image*/
   #footer .join img{
