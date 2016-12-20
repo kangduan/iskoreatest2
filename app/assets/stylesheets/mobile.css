@@ -387,12 +387,12 @@
 
     font-size: 18px;
   }
-  #footer .family {
-
+  #footer .family li{
+    float: left;
     font-size: 10px;
   }
   #footer .family h4{
-
+    float: left;
     font-size: 18px;
   }
   #footer .join {
@@ -976,7 +976,6 @@
 
   #footer .family li{
 
-    display: block;
     font-size: 10px;
   }
   #footer .join {
