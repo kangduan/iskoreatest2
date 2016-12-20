@@ -125,39 +125,40 @@
         margin-bottom: 30px;
         width: 33.3333%;
     }
-    /*footer*/
+    /*footer
     #footer .site {
         float: left;
         margin-bottom: 10px;
         width: 33.3333%;
     }
 
+        #footer .site {
+
+          font-size:10px;
+        }
+        #footer .site p{
+
+          font-size:12px;
+        }
+        #footer .site h4{
+
+          font-size: 22px;
+        }
+*/
     #footer .family {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 50%;
     }
     #footer .join {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 50%;
     }
 
-    #footer .site {
-
-      font-size:10px;
-    }
-    #footer .site p{
-
-      font-size:12px;
-    }
-    #footer .site h4{
-
-      font-size: 22px;
-    }
     #footer .family {
 
-      font-size: 10px;
+      font-size: 15px;
     }
     #footer .family h4{
 
@@ -165,7 +166,7 @@
     }
     #footer .join {
 
-      font-size: 10px;
+      font-size: 15px;
     }
     #footer .join h4{
 
@@ -709,13 +710,13 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 50%;
+      width: 60%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 50%;
+      width: 40%;
   }
   #footer .join {
       float: left;
@@ -725,31 +726,31 @@
   /*title*/
   #footer .site h4{
 
-    font-size: 16px;
+    font-size: 14px;
   }
   /*title*/
   #footer .family h4{
 
-    font-size: 16px;
+    font-size: 14px;
   }
   /*title*/
   #footer .join h4{
 
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #footer .site {
     float: left;
-    font-size: 14px;
+    font-size: 12px;
   }
   /*about us, rental product*/
   #footer .site p{
-    float: left;
-    font-size:14px;
+
+    font-size:12px;
   }
 
   #footer .family li{
-    float: left;
+
     font-size: 14px;
   }
   #footer .join {
@@ -934,13 +935,13 @@
   #footer .site {
       float: left;
       margin-bottom: 10px;
-      width: 55%;
+      width: 58%;
   }
 
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 45%;
+      width: 42%;
   }
   #footer .family li{
      float: left;
@@ -970,16 +971,13 @@
 
   #footer .site {
     float: left;
-    font-size: 3px;
-  }
-  #footer .site p{
-    float: left;
+    font-size: 5px;
   }
 
   #footer .family li{
 
     display: block;
-    font-size: 4px;
+    font-size: 8px;
   }
   #footer .join {
 
