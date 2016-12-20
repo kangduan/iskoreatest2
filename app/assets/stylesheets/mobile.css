@@ -388,7 +388,7 @@
   }
   #footer .family {
 
-    font-size: 6px;
+    font-size: 12px;
   }
   #footer .family h4{
 
@@ -396,7 +396,7 @@
   }
   #footer .join {
 
-    font-size: 6px;
+    font-size: 12px;
   }
   #footer .join h4{
 
@@ -750,11 +750,11 @@
 
   #footer .family li{
 
-    font-size: 14px;
+    font-size: 10px;
   }
   #footer .join {
 
-    font-size: 14px;
+    font-size: 10px;
   }
   /*blog image*/
   #footer .join img{
@@ -979,7 +979,7 @@
   }
   #footer .join {
 
-    font-size: 10px;
+    font-size: 8px;
   }
   /*blog image*/
   #footer .join img{
