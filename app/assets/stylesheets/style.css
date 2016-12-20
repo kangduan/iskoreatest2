@@ -787,7 +787,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 /* price-box-featured */
 .price-box-featured {
-	/*z-index: 9;*/
+	z-index: 9;
 }
 .price-box-featured .panel {
 	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.21);
@@ -797,9 +797,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	-o-transform: scale(1.0);
 	transform: scale(1.0);
 }
-.prices .price-box-featured .price-box-ribbon {
+.prices, .price-box .price-box-featured .price-box-ribbon {
 	position: absolute;
-	width: 130px;
+	width: 120px;
 	top: 25px;
 	right: -35px;
 	text-align: center;
