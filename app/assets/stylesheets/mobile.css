@@ -275,7 +275,7 @@
 	.team-hover p {
 		font-size: 13px;
 	}
-	/* Prices */
+	/* Prices
 	.price-box-featured .panel {
 		box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.21);;
 		-webkit-transform: scale(1);
@@ -288,7 +288,7 @@
 	.prices .price-box-featured .panel-footer {
 		box-shadow: none !important;
 	}
-
+*/
 	/* Parallax background */
 	.parallax {
 		background-attachment: scroll !important;
@@ -438,6 +438,10 @@
     float: left;
     margin-bottom: 30px;
     width: 50.0000%;
+}
+
+.prices .price-box-featured .panel-footer {
+  box-shadow: none !important;
 }
 
 /*product-page section*/
@@ -796,20 +800,12 @@
 
   }
   /*about-page businessmodel-section*/
-  /* Prices */
-  .price-box-featured .panel {
-    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.21);;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    -o-transform: scale(0.6);
-    transform: scale(0.6);
-  }
+  #prices-section .col-md-3 {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
 
-  .prices .price-box-featured .panel-footer {
-    box-shadow: none !important;
   }
-
   /*title size*/
   h2 {
 
