@@ -1723,7 +1723,7 @@ p.footer {
     clear: both;
 }
 .timeline > li > .timeline-panel {
-    width: calc(100% - 35px);
+    width: calc(100% - 25px);
     width: -moz-calc(100% - 25px);
     width: -webkit-calc(100% - 25px);
     float: left;
