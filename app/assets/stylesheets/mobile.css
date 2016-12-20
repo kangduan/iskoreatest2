@@ -744,13 +744,13 @@
   }
   /*about us, rental product*/
   #footer .site p{
-
+    float:left
     font-size:12px;
   }
 
   #footer .family li{
 
-    font-size: 14px;
+    font-size: 12px;
   }
   #footer .join {
 
@@ -970,13 +970,17 @@
 
   #footer .site {
     float: left;
-    font-size: 5px;
+    font-size: 4px;
+  }
+  #footer .site p{
+
+    float: left;
   }
 
   #footer .family li{
 
     display: block;
-    font-size: 5px;
+    font-size: 4px;
   }
   #footer .join {
     float: left;
