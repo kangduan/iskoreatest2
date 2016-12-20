@@ -447,12 +447,6 @@
   width: 50.0000%;
 
 }
-/*about-page business section*/
-#prices-section .price-box{
-  float: left;
-  margin-bottom: 10px;
-  width: 50%;
-}
 
 /*product-page section*/
 #car-section .col-md-6{
@@ -598,11 +592,11 @@
     margin-top: 0;
   }
 
-	/* Prices */
+	/* Prices
 	.prices .price-box-featured .panel-footer {
 		box-shadow: none !important;
 	}
-
+*/
 	ul.contact-address {
 		margin-bottom: 50px;
 	}
