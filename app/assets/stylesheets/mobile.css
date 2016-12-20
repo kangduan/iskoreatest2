@@ -143,27 +143,27 @@
         width: 33.3333%;
     }
 
-    #footer .site li{
-      float: left;
+    #footer .site {
+
       font-size:10px;
     }
     #footer .site p{
-      float: left;
+
       font-size:12px;
     }
     #footer .site h4{
 
       font-size: 22px;
     }
-    #footer .family li{
-      float: left;
+    #footer .family {
+
       font-size: 10px;
     }
     #footer .family h4{
 
       font-size: 22px;
     }
-    #footer .join li{
+    #footer .join {
 
       font-size: 10px;
     }
@@ -375,19 +375,19 @@
   }
 
   #footer .site {
-      float: left;
+
     font-size:6px;
   }
   #footer .site p{
-      float: left;
+
     font-size:8px;
   }
   #footer .site h4{
 
     font-size: 18px;
   }
-  #footer .family li{
-      float: left;
+  #footer .family {
+
     font-size: 6px;
   }
   #footer .family h4{
@@ -744,13 +744,13 @@
   }
   /*about us, rental product*/
   #footer .site p{
-    float: left;
-    font-size: 12px;
+
+    font-size:12px;
   }
 
   #footer .family li{
-    float: left;
-    font-size: 12px;
+
+    font-size: 14px;
   }
   #footer .join {
 
@@ -970,10 +970,9 @@
 
   #footer .site {
     float: left;
-    font-size: 4px;
+    font-size: 3px;
   }
   #footer .site p{
-
     float: left;
   }
 
@@ -983,7 +982,7 @@
     font-size: 4px;
   }
   #footer .join {
-    float: left;
+
     font-size: 10px;
   }
   /*blog image*/
