@@ -803,7 +803,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	top: 25px;
 	right: -35px;
 	text-align: center;
-	padding: 5px 10px;
+	padding: 5px 5px;
 	background: #FFF;
 	color: #E83F33;
 	-webkit-transform: rotate(45deg);
@@ -1727,7 +1727,7 @@ p.footer {
     width: -moz-calc(100% - 25px);
     width: -webkit-calc(100% - 25px);
     float: left;
-    border: 1px solid #dcdcdc;
+    border: 2px solid #dcdcdc;
     background: #ffffff;
     position: relative;
 }
@@ -1823,7 +1823,15 @@ p.footer {
 .no-float {
     float: none !important;
 }
+@media only screen and (max-width : 1200px) {
 
+	ul.timeline > li > .timeline-panel {
+			width: calc(100% - 35px);
+			width: -moz-calc(100% - 35px);
+			width: -webkit-calc(100% - 35px);
+	}
+
+}
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
