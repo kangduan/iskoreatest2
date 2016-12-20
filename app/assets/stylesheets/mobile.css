@@ -388,11 +388,11 @@
     font-size: 18px;
   }
   #footer .family li{
-    float: left;
+
     font-size: 10px;
   }
   #footer .family h4{
-    float: left;
+
     font-size: 18px;
   }
   #footer .join {
@@ -943,11 +943,7 @@
       margin-bottom: 10px;
       width: 100%;
   }
-  #footer .family li{
-     float: left;
-      margin-top: 25px;
 
-  }
   #footer .join {
       float: left;
       margin-bottom: 10px;
