@@ -802,6 +802,12 @@
     width: 100%;
 
   }
+  #vision2-section .col-md-3{
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+
+  }
   /*about-page businessmodel-section*/
   #prices-section .col-md-3 {
     float: left;
@@ -1017,6 +1023,11 @@
     float: left;
     margin-bottom: 10px;
     width: 100%;
+  }
+  #vision2-section .col-md-3{
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
   }
   /*about-page businessmodel-section*/
   #prices-section .col-md-3 {
