@@ -144,19 +144,19 @@
     }
 
     #footer .site {
-
+        float: left;
       font-size:10px;
     }
     #footer .site p{
-
+        float: left;
       font-size:12px;
     }
     #footer .site h4{
 
       font-size: 22px;
     }
-    #footer .family {
-
+    #footer .family li{
+        float: left;
       font-size: 10px;
     }
     #footer .family h4{
@@ -375,19 +375,19 @@
   }
 
   #footer .site {
-
+      float: left;
     font-size:6px;
   }
   #footer .site p{
-
+      float: left;
     font-size:8px;
   }
   #footer .site h4{
 
     font-size: 18px;
   }
-  #footer .family {
-
+  #footer .family li{
+      float: left;
     font-size: 6px;
   }
   #footer .family h4{
@@ -749,7 +749,7 @@
   }
 
   #footer .family li{
-
+    float: left;
     font-size: 12px;
   }
   #footer .join {
