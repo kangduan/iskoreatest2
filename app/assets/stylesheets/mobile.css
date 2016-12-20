@@ -131,34 +131,33 @@
         margin-bottom: 10px;
         width: 33.3333%;
     }
-
-        #footer .site {
-
-          font-size:10px;
-        }
-        #footer .site p{
-
-          font-size:12px;
-        }
-        #footer .site h4{
-
-          font-size: 22px;
-        }
 */
     #footer .family {
         float: left;
         margin-bottom: 10px;
-        width: 50%;
+        width: 33.3333%;
     }
     #footer .join {
         float: left;
         margin-bottom: 10px;
-        width: 50%;
+        width: 33.3333%;
     }
 
+    #footer .site {
+
+      font-size:10px;
+    }
+    #footer .site p{
+
+      font-size:12px;
+    }
+    #footer .site h4{
+
+      font-size: 22px;
+    }
     #footer .family {
 
-      font-size: 15px;
+      font-size: 10px;
     }
     #footer .family h4{
 
@@ -166,7 +165,7 @@
     }
     #footer .join {
 
-      font-size: 15px;
+      font-size: 10px;
     }
     #footer .join h4{
 
@@ -367,12 +366,12 @@
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 50%;
+      width: 33.3333%;
   }
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 50%;
+      width: 33.3333%;
   }
 
   #footer .site {
@@ -387,9 +386,9 @@
 
     font-size: 18px;
   }
-  #footer .family li{
+  #footer .family {
 
-    font-size: 12px;
+    font-size: 6px;
   }
   #footer .family h4{
 
@@ -397,7 +396,7 @@
   }
   #footer .join {
 
-    font-size: 10px;
+    font-size: 6px;
   }
   #footer .join h4{
 
@@ -440,7 +439,19 @@
     margin-bottom: 30px;
     width: 50.0000%;
 }
+/*about-page businessmodel-section*/
+#prices-section .price-box {
+  float: left;
+  margin-bottom: 30px;
+  width: 50.0000%;
 
+}
+/*about-page business section*/
+#prices-section .col-md-3{
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+}
 
 /*product-page section*/
 #car-section .col-md-6{
@@ -586,7 +597,7 @@
     margin-top: 0;
   }
 
-	/* Prices*/
+	/* Prices */
 	.prices .price-box-featured .panel-footer {
 		box-shadow: none !important;
 	}
@@ -704,12 +715,12 @@
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 50%;
+      width: 40%;
   }
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 50%;
+      width: 100.0000%;
   }
   /*title*/
   #footer .site h4{
@@ -739,11 +750,11 @@
 
   #footer .family li{
 
-    font-size: 12px;
+    font-size: 14px;
   }
   #footer .join {
 
-    font-size: 12px;
+    font-size: 14px;
   }
   /*blog image*/
   #footer .join img{
@@ -791,7 +802,13 @@
     width: 100%;
 
   }
+  /*about-page businessmodel-section*/
+  #prices-section .col-md-3 {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
 
+  }
   /*title size*/
   h2 {
 
@@ -923,9 +940,13 @@
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 100%;
+      width: 42%;
   }
+  #footer .family li{
+     float: left;
+      margin-top: 25px;
 
+  }
   #footer .join {
       float: left;
       margin-bottom: 10px;
@@ -954,7 +975,8 @@
 
   #footer .family li{
 
-    font-size: 10px;
+    display: block;
+    font-size: 8px;
   }
   #footer .join {
 
@@ -997,7 +1019,13 @@
     margin-bottom: 10px;
     width: 100%;
   }
+  /*about-page businessmodel-section*/
+  #prices-section .col-md-3 {
+    float: left;
+    margin-bottom: 30px;
+    width: 50.0000%;
 
+  }
   /*title size*/
   h2 {
 
