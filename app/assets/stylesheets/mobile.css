@@ -725,27 +725,27 @@
   /*title*/
   #footer .site h4{
 
-    font-size: 14px;
+    font-size: 16px;
   }
   /*title*/
   #footer .family h4{
 
-    font-size: 14px;
+    font-size: 16px;
   }
   /*title*/
   #footer .join h4{
 
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #footer .site {
     float: left;
-    font-size: 12px;
+    font-size: 14px;
   }
   /*about us, rental product*/
   #footer .site p{
     float: left;
-    font-size:12px;
+    font-size:14px;
   }
 
   #footer .family li{
