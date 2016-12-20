@@ -766,7 +766,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	font-size: 40px;
 }
 .prices .panel-footer {
-	padding: 20px 10px;
+	padding: 20px 5px;
 }
 
 /* panel-default */
@@ -803,7 +803,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	top: 25px;
 	right: -35px;
 	text-align: center;
-	padding: 5px 20px;
+	padding: 5px 10px;
 	background: #FFF;
 	color: #E83F33;
 	-webkit-transform: rotate(45deg);
