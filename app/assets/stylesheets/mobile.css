@@ -143,12 +143,12 @@
         width: 33.3333%;
     }
 
-    #footer .site {
-        float: left;
+    #footer .site li{
+      float: left;
       font-size:10px;
     }
     #footer .site p{
-        float: left;
+      float: left;
       font-size:12px;
     }
     #footer .site h4{
@@ -156,15 +156,15 @@
       font-size: 22px;
     }
     #footer .family li{
-        float: left;
+      float: left;
       font-size: 10px;
     }
     #footer .family h4{
 
       font-size: 22px;
     }
-    #footer .join {
-
+    #footer .join li{
+      float: left;
       font-size: 10px;
     }
     #footer .join h4{
