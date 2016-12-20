@@ -1704,7 +1704,7 @@ p.footer {
 .timeline > li {
     margin-bottom: 20px;
     position: relative;
-    width: 45%;
+    width: 50%;
     float: left;
     clear: left;
 }
@@ -1723,7 +1723,7 @@ p.footer {
     clear: both;
 }
 .timeline > li > .timeline-panel {
-    width: calc(100% - 25px);
+    width: calc(100% - 35px);
     width: -moz-calc(100% - 25px);
     width: -webkit-calc(100% - 25px);
     float: left;
