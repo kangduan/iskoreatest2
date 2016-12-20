@@ -744,7 +744,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .partners img {
-	max-width: 100%;
+	max-width: 50%;
 	padding: 0 10px;
 }
 /* ===== End partners ===== */
@@ -789,7 +789,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 .price-box-featured {
 	/*z-index: 9;*/
 }
-.price-box-featured .panel {
+.price-box .price-box-featured .panel {
 	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.21);
 	-webkit-transform: scale(1.0);
 	-moz-transform: scale(1.0);
