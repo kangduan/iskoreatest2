@@ -135,12 +135,12 @@
     #footer .family {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 50%;
     }
     #footer .join {
         float: left;
         margin-bottom: 10px;
-        width: 33.3333%;
+        width: 50%;
     }
 
     #footer .site {
@@ -366,12 +366,12 @@
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 50%;
   }
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 33.3333%;
+      width: 50%;
   }
 
   #footer .site {
@@ -715,12 +715,12 @@
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 40%;
+      width: 50%;
   }
   #footer .join {
       float: left;
       margin-bottom: 10px;
-      width: 100.0000%;
+      width: 50%;
   }
   /*title*/
   #footer .site h4{
@@ -940,7 +940,7 @@
   #footer .family {
       float: left;
       margin-bottom: 10px;
-      width: 42%;
+      width: 100%;
   }
   #footer .family li{
      float: left;
