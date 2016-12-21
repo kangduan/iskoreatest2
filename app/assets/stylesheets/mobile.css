@@ -42,7 +42,10 @@
 @media only screen and (max-width : 1200px) {
 
 
+  hr {
 
+    width: 50%;
+  }
 	/* Text Carousel */
 	#text-carousel-intro-section .caption h1 {
 		font-size: 50px;
@@ -202,7 +205,10 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+  hr {
 
+    width: 50%;
+  }
   .navbar-nav > li > a{
 
     font-size: 10px;
@@ -483,6 +489,11 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
+ /*product hr*/
+  hr {
+
+    width: 50%;
+  }
 
 	/* Navbar brand */
 	.navbar-brand, .navbar-brand:focus {
@@ -842,8 +853,8 @@
 @media only screen and (max-width : 480px) {
 
   hr {
-    align:center;
-    width: 50%;
+
+    width: 100%;
   }
   #product-section .col-md-4{
     float: left;
