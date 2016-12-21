@@ -185,13 +185,15 @@ background: #f7f4f4 url('../../img/pat-bg.png') repeat;
 
 /* === Contact === */
 #contact-section {
-	background-color: #363940;
+	text-align:center;
+  background:url(../img/pw_maze_black_2X.png) left top repeat;
+	/*background-color: #363940;*/
 }
 #contact-section .contact .contact-form button {
-	background-color: #363940;
+/*background-color: #363940;*/
 }
 #contact-section .contact .contact-form button:hover {
-	background-color: #676D75;
+/*background-color: #676D75;*/
 }
 
 
