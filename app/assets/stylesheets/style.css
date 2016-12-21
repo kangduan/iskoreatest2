@@ -859,7 +859,7 @@ ul.social-list li a i {
 }
 #contact-section .contact .contact-form button {
 	width: 100%;
-	color: #000;
+	/*color: #000;*/
 	height: 40px;
 }
 #contact-section .contact .contact-form button:hover {
