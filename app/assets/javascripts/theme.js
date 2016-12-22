@@ -200,3 +200,9 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 });
+///////////////////////
+$(function() {
+$('.carousel slide').carousel({
+  interval: 5000
+});
+});
