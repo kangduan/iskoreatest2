@@ -202,7 +202,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 });
 ///////////////////////
 $(function() {
-$('.carousel slide').carousel({
+$('.carousel').carousel({
   interval: 5000
 });
 });
