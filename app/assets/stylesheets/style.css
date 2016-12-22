@@ -1951,8 +1951,9 @@ p.footer {
 .carousel-indicators .active {
 	width:10px;
 	height:10px;
-	background:#044fdb;
-	border-color:#044fdb;
+	/*#044fdb*/
+	background:#000;
+	border-color:#000;
 }
 
 .carousel-control {
@@ -1966,7 +1967,7 @@ p.footer {
 	opacity:0.85;
 }
 .carousel-control:hover {
-    color: #044fdb;
+    color: #000;
 }
 .carousel-control.right {
 	right:10px;
