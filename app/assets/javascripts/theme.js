@@ -188,7 +188,7 @@ $('.scrolltotop').click(function(){
     return false;
 });
 
-});zz
+});
 
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
