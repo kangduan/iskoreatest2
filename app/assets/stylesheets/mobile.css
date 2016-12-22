@@ -819,6 +819,9 @@
     width: 50%;
 
   }
+  #vision2-section h5{
+      font-size: 12px;
+  }
 
   /*title size*/
   h2 {
