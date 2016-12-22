@@ -171,6 +171,23 @@
 
       font-size: 22px;
     }
+    /*about-page*/
+    #vision2-section .total{
+
+      width: 20%;
+    }
+    #vision2-section .responsible{
+
+      width: 30%;
+    }
+    #vision2-section .needs{
+
+      width: 20%;
+    }
+    #vision2-section .satisfaction{
+
+      width: 30%;
+    }
     /*product-page section*/
     #car-section .col-md-6{
       float: left;
