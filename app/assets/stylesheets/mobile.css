@@ -451,6 +451,10 @@
     width: 50.0000%;
 }
 
+#vision2-section h5{
+    font-size: 15px;
+}
+
 .prices .price-box-featured .panel-footer {
   box-shadow: none !important;
 }
