@@ -202,6 +202,10 @@ section {
 	font-size: 14px;
 	font-weight: 600;
 }
+/*language*/
+.navbar-nav > li > a .language{
+	font-size: 12px;
+}
 .navbar-nav > li > i {
 	padding: 24px 0;
 	margin-left: 25px;
