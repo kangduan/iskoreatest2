@@ -200,9 +200,9 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 });
-///////////////////////
+/////////////////////
 $(function() {
-$('.carousel').carousel({
+$('#Carousel').carousel({
   interval: 5000
 });
 });
