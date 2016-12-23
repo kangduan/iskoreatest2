@@ -201,8 +201,3 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 });
 });
 /////////////////////
-$(function() {
-$('#Carousel').carousel({
-  interval: 5000
-});
-});
