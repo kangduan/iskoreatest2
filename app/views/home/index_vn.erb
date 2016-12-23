@@ -14,7 +14,7 @@
 		<!-- jquery.easing.min.js cdn -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 		<!--<script src="/assets/jquery.easing.min.js"></script>-->
-		<script src="/assets/jssor.slider.mini.js"></script>
+		<!--<script src="/assets/jssor.slider.mini.js"></script>-->
 		<script src="/assets/owl.carousel.min.js"></script>
 		<script src="/assets/theme.js"></script>
 		<script src="/assets/jquery.stellar.min.js"></script>
@@ -25,6 +25,7 @@
 		<script src="/assets/jquery.counterup.min.js"></script>
 		<script src="/assets/smoothscroll.js"></script>
 		<script src="/assets/bootstrap.min.js"></script>
+
 		<!-- Google Fonts  -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
@@ -42,13 +43,17 @@
 
 		<link rel="stylesheet" href="/assets/cool-gray.css">
 
+
+
+
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
 
-    <div class="page-loader"></div>   <!--Display loading image while page loads -->
+   <div class="page-loader"></div>   <!--Display loading image while page loads -->
     	<div class="body">
 
+<div class"container">
 				<header id="header" class="header-main">
 
 						<!-- Begin Navbar-->
@@ -70,15 +75,16 @@
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 										<ul class="nav navbar-nav navbar-right">
-												<li><a class="page-scroll" href="#header">Home</a></li>
+											<!--	<li><a class="page-scroll" href="#header">Home</a></li>-->
 												<li><a class="page-scroll" href="#about-section">About Us</a></li>
 												<li><a class="page-scroll" href="#product-section">Rental Products</a></li>
 												<li><a class="page-scroll" href="#recruit-section">Recruitment</a></li>
 												<!--<li><a class="page-scroll" href="#team-section">Team</a></li>-->
 												<!--<li><a class="page-scroll" href="#prices-section">Prices</a></li>-->
-												<li><a class="page-scroll" href="#contact-section">Contact</a></li>
+												<li><a class="page-scroll" href="#contact-section">Contacts</a></li>
 												<li class="divider"></li>
-												<li><a href="/">ENG-lang</a></li>
+
+											<li><a href="/home/index_vn">VN-lang</a></li>
 										</ul>
 
 								</div><!-- /.navbar-collapse-->
@@ -86,52 +92,56 @@
 							</div>
 						</nav>
 						<!-- End Navbar -->
+
 				</header>
-
+</div>
 				<!-- ========= END HEADER =========-->
+				<div id="slider" class="container">
+			        <div id="Carousel" class="carousel slide">
 
+			          <div class="carousel-inner">
+			            <article class="item active">
+			              <img src="/img/slide/create.png" height="450">
+			              <div class="carousel-caption">
 
-        	<!-- Begin text carousel intro section --><!-- style="background-image: url(img/slider-bg.jpg);"-->
-					<div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto; width: 1140px; height: 442px; overflow: hidden;">
+			              </div>
+			            </article>
+			             <article class="item">
+			              <img src="/img/slide/best4.png" height="450">
+			              <div class="carousel-caption">
 
-				<!-- Loading Screen -->
-				<div u="loading" style="position: absolute; top: 0px; left: 0px;">
-						<div style="filter: alpha(opacity=1); opacity:1; position: absolute; display: block; background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;">
-						</div>
-						<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+			              </div>
+			            </article>
+			            <article class="item">
+			              <img src="/img/slide/innovate.png" height="450">
+			              <div class="carousel-caption">
 
-						top: 0px; left: 0px;width: 100%;height:100%;">
-						</div>
-				</div>
+			              </div>
+			            </article>
+			          </div>
+			          <!-- Indicators -->
+			          <ol class="carousel-indicators">
+			            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+			            <li data-target="#Carousel" data-slide-to="1"></li>
+			            <li data-target="#Carousel" data-slide-to="2"></li>
+			          </ol>
+			          <!-- Controls -->
+			          <div class="carousel-controls">
+			              <a class="carousel-control left" href="#Carousel" data-slide="prev">
+			                <span class="glyphicon glyphicon-chevron-left"></span>
+			              </a>
+			              <a class="carousel-control right" href="#Carousel" data-slide="next">
+			                <span class="glyphicon glyphicon-chevron-right"></span>
+			              </a>
+			          </div>
+			        </div>
+			    </div>
+					<script>
+							$('#Carousel').carousel({
+									interval:   30000 //30 seconds
+							});
+		      </script>
 
-				<!-- Slides Container -->
-				<div u="slides" class="jssorslider" style="position: relative; left: 0px; top: 0px; width: 1140px; height: 442px;
-				overflow: hidden;">
-						<div>
-								<img u="image" src2="../img/slide/create.png" />
-						</div>
-						<div>
-								<img u="image" src2="../img/slide/best.png" />
-						</div>
-						<div>
-							<img u="image" src2="../img/slide/innovate.png" />
-						</div>
-				</div>
-
-				<!-- bullet navigator container -->
-				<div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;">
-						<!-- bullet navigator item prototype -->
-						<div u="prototype"></div>
-				</div>
-
-				<!-- Arrow Left -->
-				<span u="arrowleft" class="jssora11l" style="top: 123px; left: 8px;">
-				</span>
-				<!-- Arrow Right -->
-				<span u="arrowright" class="jssora11r" style="top: 123px; right: 8px;">
-				</span>
-		</div>
-		<!-- Jssor Slider End -->
 
 		<!-- Begin about section -->
 					<section id="about-section" class="page bg-style1">
@@ -298,8 +308,8 @@
 																						<a class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
 																								<span class="rotate-box-icon"><i class="fa fa-comments"></i></span>
 																								<div class="rotate-box-info">
-																										<h4><strong>Counsulting</strong></h4>
-																										<p>Consulting your company's asset management by korean, english, vietnamese.</p>
+																										<h4><strong>Consulting</strong></h4>
+																										<p>Consulting your company's asset management by Korean, English, Vietnamese.</p>
 																								</div>
 																						</a>
 																				</div>
@@ -322,7 +332,7 @@
                                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                                             <h2>Rental Products</h2>
                                             <div class="devider"></div>
-                                            <p class="subtitle">Rent to easily & reasonably</p>
+                                            <p class="subtitle">Rent easily & reasonably</p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,8 +340,8 @@
 
 																    <div id="products" class="row list-group">
 
-																			<div class="item col-md-6">
-															            <div class="thumbnail line-1">
+																			<div class="item col-md-4">
+															            <div class="thumbnail">
 															                <img class="img-responsive group list-group-image" src="/img/main/car-main.jpg" alt="" />
 															                <div class="caption">
 															                             <h5>CAR</h5>
@@ -339,8 +349,8 @@
 															                </div>
 															            </div>
 															        </div>
-																			<div class="item col-md-6">
-																					<div class="thumbnail line-1">
+																			<div class="item col-md-4">
+																					<div class="thumbnail">
 																							<img class="img-responsive group list-group-image" src="/img/main/pc-main.jpg" alt="" />
 																							<div class="caption">
 																													 <h5>PC</h5>
@@ -348,9 +358,18 @@
 																							</div>
 																					</div>
 																			</div>
+																			<div class="item col-md-4">
+																					<div class="thumbnail">
+																							<img class="img-responsive group list-group-image" src="/img/main/tmi-main.jpg" width="270" height="180" alt="" />
+																							<div class="caption">
+																													 <h5>TMI</h5>
+																													<a class="btn btn-dark" href="/home/product#tmi-section">View More</a>
+																							</div>
+																					</div>
+																			</div>
 
 																			<div class="item col-md-6">
-																					<div class="thumbnail line-2">
+																					<div class="thumbnail">
 																							<img class="img-responsive group list-group-image" src="/img/main/copy-main.jpg" alt="" />
 																							<div class="caption">
 																													 <h5>PHOTOCOPIER</h5>
@@ -359,27 +378,14 @@
 																					</div>
 																			</div>
 																			<div class="item col-md-6">
-																					<div class="thumbnail line-2">
+																					<div class="thumbnail">
 																							<img class="img-responsive group list-group-image" src="/img/main/lift-main.jpg" alt="" />
 																							<div class="caption">
-																													 <h5>LIFT</h5>
+																													 <h5>MAN-LIFT</h5>
 																													<a class="btn btn-dark" href="/home/product#manlift-section">View More</a>
 																							</div>
 																					</div>
 																			</div>
-																			<div class="col-md-2"></div>
-																			<!--
-																			<div class="item col-md-4">
-																					<div class="thumbnail line-2">
-																							<img class="img-responsive group list-group-image" src="/img/main/aj-main.jpg" alt="" />
-																							<div class="caption">
-																													 <h5>AJ 800</h5>
-																													<a class="btn btn-dark" href="/home/product#aj-section">View More</a>
-																							</div>
-																					</div>
-																			</div>
-																		-->
-
 																			</div>
 																    </div>
 																</div>
@@ -387,6 +393,9 @@
 														</div>
 											</div>
   						</section>
+
+
+
         <!-- End portfolio -->
 						<!-- product section
 <script>
@@ -530,10 +539,11 @@ $(document).ready(function() {
             </section>
             <!-- End team-->
 
+<div class="container">
 
-            <!-- Begin partners -->
+            <!-- Begin partners
             <section id="partners-section">
-                <!-- Begin page header-->
+                <!-- Begin page header
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
@@ -618,32 +628,33 @@ $(document).ready(function() {
 						-->
 							<div class="extra-space-l"></div>
                 <!-- End page header	-->
+								<!--
                 <div class="container" align="center">
                     <div id="owl-partners" class="owl-carousel" style="align-items: center;">
-                        <img class="img-responsive" src="img/partners/cj-logo.png" alt="img">
-                        <img class="img-responsive" style="margin-top:20px;" src="img/partners/doosan-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:20px;" src="img/partners/lg-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:20px;" src="img/partners/samsung-logo.png" alt="img">
-												<img class="img-responsive" src="img/partners/samsungdisplay-logo.png" height="100px;" alt="img">
-												<img class="img-responsive" src="img/partners/samsungwelstory-logo.png" width="150px;"height="70px;" alt="img">
-                        <img class="img-responsive" src="img/partners/shinhan-logo.png" alt="img">
-												<img class="img-responsive" src="img/partners/woori-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:20px;" src="img/partners/kb-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:30px;" src="img/partners/ibk-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:25px;" src="img/partners/hansae-logo.png" alt="img">
-												<img class="img-responsive" src="img/partners/welcron-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:35px;"src="img/partners/hanjin-logo.png" alt="img">
-												<img class="img-responsive" style="margin-top:35px;" contenteditable=""src="img/partners/platel-logo.png" alt="img">
-												<img class="img-responsive" src="img/partners/lock-logo.png" alt="img">
+                        <img class="img-responsive" src="/img/partners/cj-logo.png" alt="img">
+                        <img class="img-responsive" style="margin-top:20px;" src="/img/partners/doosan-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:20px;" src="/img/partners/lg-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:20px;" src="/img/partners/samsung-logo.png" alt="img">
+												<img class="img-responsive" src="/img/partners/samsungdisplay-logo.png" height="100px;" alt="img">
+												<img class="img-responsive" src="/img/partners/samsungwelstory-logo.png" width="150px;"height="70px;" alt="img">
+                        <img class="img-responsive" src="/img/partners/shinhan-logo.png" alt="img">
+												<img class="img-responsive" src="/img/partners/woori-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:20px;" src="/img/partners/kb-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:30px;" src="/img/partners/ibk-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:25px;" src="/img/partners/hansae-logo.png" alt="img">
+												<img class="img-responsive" src="/img/partners/welcron-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:35px;"src="/img/partners/hanjin-logo.png" alt="img">
+												<img class="img-responsive" style="margin-top:35px;" contenteditable=""src="/img/partners/platel-logo.png" alt="img">
+												<img class="img-responsive" src="/img/partners/lock-logo.png" alt="img">
 
                     </div>
                 </div>
-
+							-->
 
 					<!-- End counter up -->
             </section>
             <!-- End partners -->
-
+</div>
 
 
 
@@ -676,11 +687,11 @@ $(document).ready(function() {
 								<div class="pull-left">
 
 								<ul class="nav nav-tabs">
-									<li class="active"><a href="#business" data-toggle="tab"><i class="fa fa-user"></i> Business Management</a></li>
-									<li><a href="#sales" data-toggle="tab"><i class="fa fa-user"></i> Sales</a></li>
-									<li><a href="#copy" data-toggle="tab"><i class="fa fa-user"></i> PhotoCopier Engineer</a></li>
-									<li><a href="#man" data-toggle="tab"><i class="fa fa-user"></i> Man-lift Engineer</a></li>
-									<li><a href="#driver" data-toggle="tab"><i class="fa fa-user"></i> Driver</a></li>
+									<li class="active"><a href="#business" data-toggle="tab"><i class="fa fa-user"></i> <strong>Business</strong></a></li>
+									<li><a href="#sales" data-toggle="tab"><i class="fa fa-user"></i> <strong>Sales</strong></a></li>
+									<li><a href="#copy" data-toggle="tab"><i class="fa fa-user"></i> <strong>PhotoCopier Engineer</strong></a></li>
+									<li><a href="#man" data-toggle="tab"><i class="fa fa-user"></i> <strong>Man-lift Engineer</strong></a></li>
+									<li><a href="#driver" data-toggle="tab"><i class="fa fa-user"></i> <strong>Driver</strong></a></li>
 								</ul>
 
 
@@ -695,7 +706,7 @@ $(document).ready(function() {
 						<div class="panel-body">
 							<div class="tab-content">
 
-                <div class="tab-pane fade in active" id="business">
+                <div class="tab-pane fade in active" id="business" style="border: 3px solid #dddddd;">
 
 									<table class="table table-striped" style="table-layout:fixed;">
 									<thead>
@@ -725,7 +736,7 @@ $(document).ready(function() {
 								</div>
 
 
-							<div class="tab-pane fade" id="sales">
+							<div class="tab-pane fade" id="sales" style="border: 3px solid #dddddd;">
 
 									<table class="table table-striped" style="table-layout:fixed;">
 									<thead>
@@ -761,7 +772,7 @@ $(document).ready(function() {
 
 								</div>
 
-								<div class="tab-pane fade" id="copy">
+								<div class="tab-pane fade" id="copy" style="border: 3px solid #dddddd;">
 
 										<table class="table table-striped" style="table-layout:fixed;">
 										<thead>
@@ -780,7 +791,7 @@ $(document).ready(function() {
 									  </table>
 
 									</div>
-									<div class="tab-pane fade" id="man">
+									<div class="tab-pane fade" id="man" style="border: 3px solid #dddddd;">
 
 											<table class="table table-striped" style="table-layout:fixed;">
 												<thead>
@@ -800,7 +811,7 @@ $(document).ready(function() {
 
 
 										</div>
-										<div class="tab-pane fade" id="driver">
+										<div class="tab-pane fade" id="driver" style="border: 3px solid #dddddd;">
 
 
 												<table class="table table-striped" style="table-layout:fixed;">
@@ -822,8 +833,12 @@ $(document).ready(function() {
 
 											</div>
 
-							</div>
 
+
+							</div>
+							<div align="center" style="margin-top:15px;">
+								<li><i class="fa fa-envelope"></i><strong>&nbsp;&nbsp;&nbsp;job&nbsp;apply&nbsp; :&nbsp;&nbsp;&nbsp;ytkim@korearental.co.kr</strong></li>
+							</div>
 						</div>
 
 					</div>
@@ -905,6 +920,7 @@ $(document).ready(function() {
 		-->
             <!-- End social section -->
 
+<div class="container">
             <!-- Begin contact section --> <!-- style="background-image: url(img/map-bg.jpg);"-->
 			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5">
             <div class="cover"></div>
@@ -913,9 +929,9 @@ $(document).ready(function() {
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                            <h2>Contacts</h2>
+                            <h2><font color="#fff">Contacts</font></h2>
                             <div class="devider"></div>
-                            <p class="subtitle">All to contact us</p>
+                            <p class="subtitle"><font color="#fff">All to contact us</font></p>
                         </div>
                     </div>
                 </div>
@@ -925,33 +941,50 @@ $(document).ready(function() {
                     <div class="container">
                     	<div class="row col-md-12">
 
+												<div class="row">
+													<div class="container">
                             <div class="col-md-6 address">
                                 <div class="contact-info">
-                                    <h4><u color="white">Hanoi Headquarter Address</u></h4>
+                                    <h4>Hanoi Headquarter Office</h4>
                                     <ul class="contact-address">
 			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Head Office : <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14th Floor. Keangnam Hanoi Landmark Tower, plot E6,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CauGiay new urban area, Me tri, Nam Tu Liem, Hanoi.</li>
-																	<li><i class="fa fa-phone"></i>&nbsp;KOR : 070-4694-0619,&nbsp;&nbsp;1480&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : +84-(0)4-6282-3031</li>
-																	<li><i class="fa fa-mobile fa-lg"></i>&nbsp; Tel. : +84-(0)12-8233-1131 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +84-(0)96-935-0613</li>
-			                            <li><i class="fa fa-envelope"></i>&nbsp;KOR : ytkim@korearental.co.kr <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; jyhwang@korearental.co.kr<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VN : jyhwang@korearental.co.kr</li>
+																	<li><i class="fa fa-phone"></i>&nbsp;KOR :  +82-2-3450-2375&nbsp;&nbsp;/&nbsp;&nbsp;+84-(0)12-8233-1131<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : +84-(0)4-6282-3031</li>
+			                            <li><i class="fa fa-envelope"></i>&nbsp; ytkim@korearental.co.kr
 
 			                        </ul>
                                 </div>
                             </div>
 
+														<div class="col-md-6 map" align="center" text-align="center">
 
+																		<h4>Hanoi Head Office Location</h4>
+																		<iframe class="hanoimap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.397121886777!2d105.78198556501896!3d21.01679043600487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab54e29650c5%3A0x453b5c2a98dc5e98!2z6rK964KoIO2VmOuFuOydtCDrnpzrk5zrp4jtgawg7YOA7JuMIEtlYW5nbmFtLCBN4buFIFRyw6wsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504326355"
+			 width="400" height="400" frameborder="0" style="border:2px;" allowfullscreen></iframe>
+
+														</div>
+													</div>
+
+														<div class="container" style="margin-top:30px;">
 														<div class="col-md-6 address">
                                 <div class="contact-info">
-                                    <h4><u color="white">Hochiminh Branch Address</u></h4>
+                                    <h4>Hochiminh Branch Office</h4>
                                     <ul class="contact-address">
 			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp;HCM Branch : <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6F, CJ Building 2Bis-4-6 Le Thanh Ton, Ben Nghe Ward, Dist 1</li>
-			                            <li><i class="fa fa-phone"></i>&nbsp;KOR : 070-4694-1223,&nbsp;&nbsp;1481<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : +84-(0)8-3521-0051~3</li>
-																	<li><i class="fa fa-mobile fa-lg"></i>&nbsp; Tel. : +84-(0)12-6774-0633 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +84-(0)12-0212-0844</li>
-			                            <li><i class="fa fa-envelope"></i>&nbsp;KOR : shjang@korearental.co.kr <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ytjung@korearental.co.kr<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VN : shjang@korearental.co.kr</li>
-																	</li>
+			                            <li><i class="fa fa-phone"></i>&nbsp;KOR : +82-2-3450-2376&nbsp;&nbsp;/&nbsp;&nbsp;+84-(0)12-6774-0633<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VN : +84-(0)8-3521-0051~3</li>
+			                            <li><i class="fa fa-envelope"></i>&nbsp; shjang@korearental.co.kr
 
 			                              </ul>
                                 </div>
                             </div>
+														<div class="col-md-6 map" align="center" text-align="center">
+
+																	<h4>HCM Branch Office Location</h4>
+																	<iframe class="hochiminhmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3806698532544!2d106.70350971489194!3d10.782128692317649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f494ab1a7ab%3A0xca5d3f36e8edd13!2zQ0ogQnVpbGRpbmcsIEzDqiBUaMOhbmggVMO0biwgQuG6v24gTmdow6ksIFF14bqtbiAxLCBI4buTIENow60gTWluaCwg67Kg7Yq464Ko!5e0!3m2!1sko!2skr!4v1478504391172"
+			 width="400" height="400" frameborder="0" style="border:2px;" allowfullscreen></iframe>
+
+														</div>
+													</div>
+												</div>
 												<!--
                         	<div class="col-sm-6">
                                 <div class="contact-form">
@@ -976,7 +1009,7 @@ $(document).ready(function() {
                     </div> <!-- /.container -->
 
 										<div class="extra-space-l"></div>
-
+<!--
 										<div class="container">
                     	<div class="row">
                             <div class="col-md-6 map">
@@ -995,40 +1028,47 @@ $(document).ready(function() {
 
                             </div>
 
-                        </div> <!-- /.row -->
-                    </div> <!-- /.container -->
+                        </div>  /.row
+                    </div>  /.container -->
                 </div>
             </section>
-            <!-- End contact section -->
+</div>
+
+	<div class="container">
+						<!-- End contact section -->
 						<footer id="footer" class="clearfix">
+
 						      <div id="footer-widgets">
 
-						        <div class="container">
+
 
 						        <div id="footer-wrapper">
 
-						          <div class="row">
+						          <div class="container">
+												<!--
 												<div class="col-md-4 site">
 	 						            <div id="recent-posts-3" class="widget widgetFooter widget_recent_entries">
+
 	 						                    <h4 class="widgettitle">SiteMap :</h4>
 
 																	<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries row">
-																		<p>About us</p>
-																	<ul class="bottom_ul pull-left">
-																		<li><a href="/home/about#vision-section">Group Vision</a></li>
-																		<li><a href="/home/about#history-section">Company History</a></li>
+																		<p style="margin-bottom:5px;">About us</p>
+																	<ul class="bottom_ul">
+																		<li><a href="/home/about#vision-section">Vision</a></li>
+																		<li><a href="/home/about#history-section">History</a></li>
 																		<li><a href="/home/about#rental-section">Rental System</a></li>
 	 															  </ul>
 	 															  </div>
 
 																<div id="recent-posts-3" class="widget widgetFooter widget_recent_entries row">
-																	<p>Rental Products</p>
+																	<p style="margin-bottom:5px;">Rental Products</p>
 																	<ul class="bottom_ul">
 
 																		<li><a href="/home/product#car-section">Car</a></li>
 																		<li><a href="/home/product#pc-section">PC</a></li>
 																		<li><a href="/home/product#copy-section">PhotoCopier</a></li>
 																		<li><a href="/home/product#manlift-section">Lift</a></li>
+																		<li><a href="/home/product#tmi-section">TMI</a></li>
 
 
 																	</ul>
@@ -1037,31 +1077,32 @@ $(document).ready(function() {
 
 																	<ul class="bottom_ul">
 																		<li><a class="page-scroll" href="#recruit-section">Recruitment</a></li>
-																		<li><a class="page-scroll" href="#contact-section">Contact</a></li>
+																		<li><a class="page-scroll" href="#contact-section">Contacts</a></li>
 
 																	</ul>
 																</div>
 
-	 							 			  </div> <!-- end widget1 -->
-											</div> <!-- col-md-4 -->
+	 							 			     </div>  end widget1
+											</div>  col-md-4 -->
 
-												<div class="col-md-4 col-sm-6 family" style="margin-bottom:20px;">
+												<div class="col-md-6 family" style="margin-bottom:20px;">
 						              <div id="meta-3" class="widget widgetFooter widget_meta">
 						              <h4 class="widgettitle">Family Site :</h4>
 						              <ul>
 						    		  <li><a href="http://www.korearental.co.kr/" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL KOREA</a></li>
 									    <li><a href="http://www.krcchina.com/index.asp" target="_blank"><i class="fa fa-arrow-circle-right"></i> KOREA RENTAL CHINA</a></li>
-									    <li><a href="http://www.isdongseo.co.kr/main/" target="_blank"><i class="fa fa-arrow-circle-right"></i> IS DONGSEO</a></li>
+									    <li><a href="http://www.isdongseo.co.kr/main/" target="_blank"><i class="fa fa-arrow-circle-right"></i> IS DONGSEO Co., Ltd</a></li>
 											<li><a href="http://www.inushaus.com/main/index.asp" target="_blank"><i class="fa fa-arrow-circle-right"></i> INUS</a></li>
 						             </ul>
 											 	</div>
 					             </div> <!-- end widget1 -->
 
-										<div class="col-md-4 col-sm-6 join">
+										<div class="col-md-6 join">
 											<div id="meta-3" class="widget widgetFooter widget_meta">
 											<h4 class="widgettitle">Join Us :</h4>
 
-												 <li><a href="https://www.facebook.com/iskorearentalvina" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA</a></li><br><br>
+											<li><a href="https://www.facebook.com/iskorearentalvina" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA FACEBOOK</a></li><br><br>
+											<li><a href="http://blog.naver.com/krc15601" target="_blank"><img src="/img/blogger-logo-silhouette.png"> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA BLOG</a></li><br><br>
 												 <div class="center"><button data-toggle="modal" data-target="#email1" class="btn btn-yellow btn-sm">Send Message</button></div>
 
 
@@ -1072,9 +1113,9 @@ $(document).ready(function() {
 
 						 </div><!-- end row -->
 
-						          </div> <!-- end #footer-wrapper -->
 
-						        </div> <!-- end .container -->
+
+						        </div> <!-- footer wrapper -->
 
 						        </div> <!-- end #footer-widgets -->
 
@@ -1083,7 +1124,7 @@ $(document).ready(function() {
 						        <div class="container">
 						          <div class="row">
 						            <div class="col-md-8 copyright">
-						             © 2016 Copy right IS_KOREARENTAL_VINA Corp.
+						             © Copyright IS_KOREARENTAL_VINA Corp.
 						            </div>
 
 						          </div> <!-- end .row -->
@@ -1091,6 +1132,7 @@ $(document).ready(function() {
 						      </div>
 
 						    </footer>
+		</div>
             <!-- End footer -->
 
             <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
