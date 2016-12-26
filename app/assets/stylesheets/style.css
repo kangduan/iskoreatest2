@@ -430,8 +430,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .rotate-box-2.square-icon .rotate-box-icon {
-	width: 75px;
-	height: 75px;
+	width: 65px;
+	height: 65px;
 	line-height: 75px;
 	font-size: 36px;
 }
@@ -1620,7 +1620,7 @@ nav2 ul li a:hover {
 .teb-icon-edit{ height: 250px; width: 250px; margin: 0 auto; color:#5DCA88;}
 .teb-icon-edit i{font-size: 170px}
 */
-/*client section*/
+/*client section
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
 @import url(http://fonts.googleapis.com/css?family=Squada+One);
 
@@ -1680,6 +1680,7 @@ nav2 ul li a:hover {
   x-index: -3;
 	border-radius: 4px;
 }
+*/
 /*about-page history-section*/
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
@@ -1691,7 +1692,7 @@ p.footer {
 }
 
 /* -----------------------------------------------
- * Timeline
+ * about-page history section Timeline
  * --------------------------------------------- */
  .timeline {
     list-style: none;
