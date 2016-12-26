@@ -934,7 +934,7 @@ ul.imp-links li a {
     padding-top: 30px;
     clear: both;
     color: #AAA;
-    display: block;
+    display: inline-block;
 }
 
 #footer .widgettitle {
