@@ -129,7 +129,7 @@ section {
 }
 .parallax {
 	position: relative;
-	background-position: center;
+	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
