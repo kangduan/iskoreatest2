@@ -1952,8 +1952,8 @@ p.footer {
 	width:10px;
 	height:10px;
 	/*blue color: #044fdb*/
-	background:#ff7200;
-	border-color:#ff7200;
+	background:#ffbf00;
+	border-color:#ffbf00;
 }
 
 .carousel-control {
@@ -1964,7 +1964,7 @@ p.footer {
 	top:auto;
 	left:auto;
 	bottom:12px;
-	/*opacity:0.85;*/
+	opacity:0.85;
 }
 .carousel-control:hover {
     color: #044fdb;
