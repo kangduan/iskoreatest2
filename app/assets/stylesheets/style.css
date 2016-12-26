@@ -1964,7 +1964,7 @@ p.footer {
 	top:auto;
 	left:auto;
 	bottom:12px;
-	opacity:0.3;
+	/*opacity:0.85;*/
 }
 .carousel-control:hover {
     color: #044fdb;
