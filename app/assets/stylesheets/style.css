@@ -1597,7 +1597,7 @@ nav2 ul li a:hover {
     background: #fff;
     border-color: #fff;
 }
-/*about-page group-vision section*/
+/*about-page group-vision section
 #service{ padding: 96px 0px;}
 #service .block-top{text-align: center;}
 #service .service-header{margin: 0px}
@@ -1619,7 +1619,7 @@ nav2 ul li a:hover {
 .edit-tab-content{}
 .teb-icon-edit{ height: 250px; width: 250px; margin: 0 auto; color:#5DCA88;}
 .teb-icon-edit i{font-size: 170px}
-
+*/
 /*client section*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
 @import url(http://fonts.googleapis.com/css?family=Squada+One);
@@ -1964,7 +1964,7 @@ p.footer {
 	top:auto;
 	left:auto;
 	bottom:12px;
-	opacity:0.85;
+	opacity:0.3;
 }
 .carousel-control:hover {
     color: #044fdb;
@@ -1983,9 +1983,8 @@ p.footer {
 	bottom:60px;
 	left:0;
 	padding:20px;
-
 	text-align:left;
-  	height:auto;
+  height:auto;
 	max-width:540px;
 
 }
