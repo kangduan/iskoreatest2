@@ -430,8 +430,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .rotate-box-2.square-icon .rotate-box-icon {
-	width: 65px;
-	height: 65px;
+	width: 75px;
+	height: 75px;
 	line-height: 75px;
 	font-size: 36px;
 }
