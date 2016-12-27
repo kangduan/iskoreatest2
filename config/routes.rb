@@ -6,11 +6,6 @@ Rails.application.routes.draw do
   root 'home#index'
   post 'home/write'
 
-  #posting
-  post 'home/board'
-  #replying
-  post 'home/reply_board'
-
   get 'home/index'
   get 'home/about'
   get 'home/product'
@@ -18,6 +13,11 @@ Rails.application.routes.draw do
   get 'home/index_vn'
   get 'home/about_vn'
   get 'home/product_vn'
+  #posting
+  #post 'home/board'
+  #replying
+  #post 'home/reply_board'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
