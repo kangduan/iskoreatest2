@@ -1998,8 +1998,8 @@ p.footer {
 
 }
 /*site map && langduage dropdown menu*/
-.dropdown-menu>li>a {
-    color:#fff;
+.dropdown {
+	color:#fff;
 }
 .dropdown-menu>li>a :hover{
     color:#ff0000;
