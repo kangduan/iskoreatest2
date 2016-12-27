@@ -2007,7 +2007,7 @@ p.footer {
     color:#ff0000;
 }
 .dropdown ul.dropdown-menu {
-		background-color: #2d2d2d;
+		background-color: #000;
     border-radius:4px;
     box-shadow:none;
     margin-top:20px;
