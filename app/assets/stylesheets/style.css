@@ -2001,6 +2001,9 @@ p.footer {
 .dropdown-menu>li>a {
     color:#fff;
 }
+.dropdown-menu>li>a :hover{
+    color:#ff0000;
+}
 .dropdown ul.dropdown-menu {
 		background-color: #000;
     border-radius:4px;
