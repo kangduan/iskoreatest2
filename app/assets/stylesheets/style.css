@@ -2002,11 +2002,12 @@ p.footer {
 .dropdown-menu>li>a {
     color:#fff;
 }
-.dropdown-menu>li>a :hover{
+.dropdown-menu>li>a:hover
+{
     color:#ff0000;
 }
 .dropdown ul.dropdown-menu {
-		background-color: #000;
+		background-color: #2d2d2d;
     border-radius:4px;
     box-shadow:none;
     margin-top:20px;
