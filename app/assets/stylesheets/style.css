@@ -2000,14 +2000,14 @@ p.footer {
 /*site map && langduage dropdown menu*/
 
 .dropdown-menu>li>a {
-    color:#fff;
+  /*  color:#fff;*/
 }
 .dropdown-menu>li>a:hover
 {
-    color:#ff0000;
+  /*  color:#ff0000;*/
 }
 .dropdown ul.dropdown-menu {
-		background-color: #000;
+		/*background-color: #000;*/
     border-radius:4px;
     box-shadow:none;
     margin-top:20px;
