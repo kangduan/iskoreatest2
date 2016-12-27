@@ -2012,7 +2012,7 @@ p.footer {
     margin-top:20px;
     width:300px;
 }
-.dropdown ul.dropdown-menu:before {
+.dropdown ul.dropdown-menu2:before {
     content: "";
     border-bottom: 10px solid #fff;
     border-right: 10px solid transparent;
@@ -2022,7 +2022,7 @@ p.footer {
     right: 16px;
     z-index: 10;
 }
-.dropdown ul.dropdown-menu:after {
+.dropdown ul.dropdown-menu2:after {
     content: "";
     border-bottom: 12px solid #ccc;
     border-right: 12px solid transparent;
