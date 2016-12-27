@@ -2007,8 +2007,8 @@ p.footer {
   /*  color:#ff0000;*/
 }
 .dropdown ul.dropdown-menu {
-		/*background-color: #000;*/
-		background:url(../img/pw_maze_black_2X.png) left top repeat;
+		background-color: #000;
+		/*background:url(../img/pw_maze_black_2X.png) left top repeat;*/
     border-radius:4px;
     box-shadow:none;
     margin-top:20px;
