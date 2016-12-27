@@ -1999,14 +1999,14 @@ p.footer {
 }
 /*site map && langduage dropdown menu*/
 .dropdown-menu>li>a {
-    color:#000;
+    color:#fff;
 }
 .dropdown ul.dropdown-menu {
-		color:#000;
+		background-color: #000;
     border-radius:4px;
     box-shadow:none;
     margin-top:20px;
-    width:300px;
+    width:100px;
 }
 .dropdown ul.dropdown-menu:before {
     content: "";
