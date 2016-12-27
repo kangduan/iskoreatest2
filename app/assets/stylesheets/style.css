@@ -1998,16 +1998,11 @@ p.footer {
 
 }
 /*site map && langduage dropdown menu*/
-.dropdown {
-    background:#fff;
-    border:2px solid #cccccc;
-    border-radius:4px;
-    width:300px;
-}
 .dropdown-menu>li>a {
-    color:#428bca;
+    color:#000;
 }
 .dropdown ul.dropdown-menu {
+		color:#000;
     border-radius:4px;
     box-shadow:none;
     margin-top:20px;
