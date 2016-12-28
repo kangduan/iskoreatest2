@@ -1878,6 +1878,10 @@ p.footer {
         left: -14px;
         right: auto;
     }
+		.timeline > .timeline-body {
+
+			font-size: 15px;
+		}
     .timeline > li.timeline-inverted {
         float: left;
         clear: left;
