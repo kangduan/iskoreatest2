@@ -135,12 +135,12 @@ section {
 	-webkit-background-size: cover;
   	background-size: cover;
 }
-@media only screen and (max-width : 1200px) {
-#header {
 
+#header {
+	 position: relative;
 	 height: 68px;
  }
- }
+
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
 .text-white { color: #FFF; }
@@ -149,6 +149,7 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
+	position: relative;
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
