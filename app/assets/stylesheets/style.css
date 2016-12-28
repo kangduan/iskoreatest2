@@ -138,6 +138,7 @@ section {
 
 #header {
    align: center;
+	 width: 1150px;
 	 height: 68px;
  }
 /* ===== Begin text colors ===== */
@@ -148,9 +149,6 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
-  width: 1150px;
-	clear: both;
-	float: left;
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
