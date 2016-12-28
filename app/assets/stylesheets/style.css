@@ -147,6 +147,7 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
+	width: 80%;
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -206,6 +207,7 @@ section {
 .navbar-nav > li > a .language{
 	font-size: 12px;
 }
+
 .navbar-nav > li > i {
 	padding: 24px 0;
 	margin-left: 25px;
