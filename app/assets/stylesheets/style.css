@@ -1703,7 +1703,6 @@ p.footer {
  * about-page history section Timeline
  * --------------------------------------------- */
  .timeline {
-	 font-family: 'Roboto', Helvetica, Arial, sans-serif;
     list-style: none;
     padding: 20px 0;
     position: relative;
@@ -1815,6 +1814,8 @@ p.footer {
 
 }
 .timeline-body > p, .timeline-body > ul {
+	  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	  float: left;
     padding: 10px 15px;
     margin-bottom: 0;
 }
