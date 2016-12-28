@@ -147,7 +147,7 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
-	width: 80%;
+
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -158,7 +158,7 @@ section {
 	 box-shadow:0 4px 5px -3px #ececec;
 
 }
-.navbar .container {
+.navbar .container .navbar > .container{
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -207,7 +207,6 @@ section {
 .navbar-nav > li > a .language{
 	font-size: 12px;
 }
-
 .navbar-nav > li > i {
 	padding: 24px 0;
 	margin-left: 25px;
