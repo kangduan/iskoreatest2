@@ -137,7 +137,7 @@ section {
 }
 
 #header {
-	 height: 68px;
+	/* height: 68px;*/
  }
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
