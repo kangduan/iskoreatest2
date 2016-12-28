@@ -137,7 +137,7 @@ section {
 }
 
 #header {
-	 position: relative;
+
 	 height: 68px;
  }
 
@@ -149,7 +149,6 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
-	position: relative;
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
