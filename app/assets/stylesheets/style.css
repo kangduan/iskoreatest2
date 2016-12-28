@@ -147,6 +147,7 @@ section {
 .text-dark { color: #000; }
 
 /* ===== Begin navbar ===== */
+@media only screen and (max-width : 1200px) {
 .navbar {
 	margin: 0;
 	border: none;
@@ -225,11 +226,6 @@ section {
 	right: 0 !important;
 	left: auto !important;
 }
-.navbar-default {
-	margin-left: 225px;
-	width: 1150px;
-
-}
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 	background-color: transparent;
 }
@@ -297,6 +293,8 @@ section {
 }
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
+}
+
 }
 /* ===== End navbar ===== */
 
