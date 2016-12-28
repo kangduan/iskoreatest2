@@ -135,10 +135,11 @@ section {
 	-webkit-background-size: cover;
   	background-size: cover;
 }
-
+@media only screen and (max-width : 1200px) {
 #header {
 
 	 height: 68px;
+ }
  }
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
@@ -147,7 +148,6 @@ section {
 .text-dark { color: #000; }
 
 /* ===== Begin navbar ===== */
-@media only screen and (max-width : 1200px) {
 .navbar {
 	margin: 0;
 	border: none;
@@ -293,8 +293,6 @@ section {
 }
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
-}
-
 }
 /* ===== End navbar ===== */
 
