@@ -137,8 +137,7 @@ section {
 }
 
 #header {
-   align: center;
-	 width: 1150px;
+
 	 height: 68px;
  }
 /* ===== Begin text colors ===== */
@@ -225,6 +224,11 @@ section {
 .dropdown-right {
 	right: 0 !important;
 	left: auto !important;
+}
+.navbar-default {
+
+	width: 1150px;
+
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 	background-color: transparent;
