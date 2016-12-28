@@ -158,7 +158,11 @@ section {
 	 box-shadow:0 4px 5px -3px #ececec;
 
 }
-.navbar .container .navbar > .container{
+.navbar .container {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+nav {
 	padding-left: 50px;
 	padding-right: 50px;
 }
