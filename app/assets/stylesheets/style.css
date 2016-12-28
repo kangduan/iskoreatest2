@@ -1814,6 +1814,7 @@ p.footer {
 
 }
 .timeline-body > p, .timeline-body > ul {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
     padding: 10px 15px;
     margin-bottom: 0;
 }
