@@ -156,6 +156,7 @@ section {
 	transition: all 0.2s ease-in-out;
 	 box-shadow:0 4px 5px -3px #ececec;
 	 width: 1170px;
+	 align: center;
 
 }
 .navbar .container {
