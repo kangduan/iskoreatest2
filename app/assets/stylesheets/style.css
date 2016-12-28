@@ -1703,6 +1703,7 @@ p.footer {
  * about-page history section Timeline
  * --------------------------------------------- */
  .timeline {
+	 font-family: 'Roboto', Helvetica, Arial, sans-serif;
     list-style: none;
     padding: 20px 0;
     position: relative;
