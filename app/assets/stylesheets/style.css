@@ -147,7 +147,9 @@ section {
 
 /* ===== Begin navbar ===== */
 .navbar {
-
+  width: 1020px;
+	clear: both;
+	float: left;
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.2s ease-in-out;
