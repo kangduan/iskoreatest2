@@ -137,7 +137,7 @@ section {
 }
 
 #header {
-	/* height: 68px;*/
+	 height: 68px;
  }
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
@@ -146,6 +146,8 @@ section {
 .text-dark { color: #000; }
 
 /* ===== Begin navbar ===== */
+@media (min-width: 1200px) and (max-width:1170px) {
+
 .navbar {
 	margin: 0;
 	border: none;
@@ -291,6 +293,7 @@ section {
 }
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
+}
 }
 /* ===== End navbar ===== */
 
