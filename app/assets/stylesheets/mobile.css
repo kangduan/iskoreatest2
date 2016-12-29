@@ -222,11 +222,6 @@
   /*main nav font-size*/
   .navbar-nav > li > a{
 
-    font-size: 8px;
-  }
-  /*vn*/
-  .navbar-nav > li > a > .vn{
-
     font-size: 6px;
   }
   /*car, pc, tmi, photocopier, manlift letter font-size*/
