@@ -1784,7 +1784,7 @@ p.footer {
     z-index: 100;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
+    float: left;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
     border-left-width: 0;
@@ -1830,8 +1830,8 @@ p.footer {
     text-decoration: none;
 }
 .timeline > li.timeline-inverted {
-    float: right;
-    clear: right;
+    float: left;
+    clear: left;
 
 }
 .timeline > li:nth-child(2) {
