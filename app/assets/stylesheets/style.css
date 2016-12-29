@@ -1973,7 +1973,7 @@ p.footer {
 
 .carousel-control {
 	/*background:	#47a447;*/
-	color:#fff;
+	color:#ffffff;
 	width:30px;
 	height:30px;
 	top:auto;
@@ -1982,7 +1982,7 @@ p.footer {
 	opacity:0.85;
 }
 .carousel-control:hover {
-		color: #000000;
+		color: #ffffff;
     /*color: #0000ff;*/
 }
 .carousel-control.right {
