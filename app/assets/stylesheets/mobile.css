@@ -224,6 +224,11 @@
 
     font-size: 8px;
   }
+  /*vn*/
+  .navbar-nav > li > a > .vn{
+
+    font-size: 6px;
+  }
   /*car, pc, tmi, photocopier, manlift letter font-size*/
   #product-section h5{
 
