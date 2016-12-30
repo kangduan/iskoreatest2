@@ -222,14 +222,14 @@
   /*main nav font-size*/
   .navbar-nav > li > a{
 
-    font-size: 7px;
+    font-size: 8px;
   }
   /*main nav logo-size*/
   .navbar-brand {
-    width: 120px;
+    width: 110px;
   }
   .navbar-default .navbar-brand {
-  	 background-size: 120px;
+  	 background-size: 110px;
   }
   /*car, pc, tmi, photocopier, manlift letter font-size*/
   #product-section h5{
