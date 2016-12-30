@@ -224,6 +224,10 @@
 
     font-size: 4px;
   }
+  /*main nav logo-size*/
+  .navbar-brand {
+    width: 120px;
+  }
   /*car, pc, tmi, photocopier, manlift letter font-size*/
   #product-section h5{
 
