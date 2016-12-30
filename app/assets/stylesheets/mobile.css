@@ -228,8 +228,8 @@
   .navbar-brand {
     width: 120px;
   }
-  .navbar-brand img{
-    width: 100px;
+  .navbar-default .navbar-brand {
+  	 background-size: 100px;
   }
   /*car, pc, tmi, photocopier, manlift letter font-size*/
   #product-section h5{
