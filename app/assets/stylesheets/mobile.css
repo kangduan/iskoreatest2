@@ -64,6 +64,7 @@
       margin-bottom: 30px;
       width: 33.3333%;
   }
+  /*product-section*/
   #product-section .col-md-4{
     float: left;
     margin-bottom: 30px;
@@ -74,14 +75,24 @@
     margin-bottom: 30px;
     width: 50%;
   }
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 50%;
+  }
+  #footer .join {
+      float: left;
+      margin-bottom: 10px;
+      width: 50%;
+  }
 
-  /*Clients*/
+  /*Clients
   #partners-section .col-md-6 {
       float: left;
       margin-bottom: 10px;
       width: 50.0000%;
   }
-
+*/
   /*about-page history-section*/
   #cta-section .col-md-6 {
       float: left;
@@ -94,12 +105,13 @@
     font-size: 15px;
 
   }
-  /*about-history section*/
+  /*about-history section
   #services-section .col-md-3 {
       float: left;
       margin-bottom: 30px;
       width: 25%;
   }
+  */
 
 	/* Team
 	.team-item .team-triangle {
@@ -133,16 +145,7 @@
         width: 33.3333%;
     }
 */
-    #footer .family {
-        float: left;
-        margin-bottom: 10px;
-        width: 50%;
-    }
-    #footer .join {
-        float: left;
-        margin-bottom: 10px;
-        width: 50%;
-    }
+
 /*
     #footer .site {
 
@@ -173,13 +176,13 @@
 
       font-size: 22px;
     }
-    /*about-history section*/
+    /*about-history section
     #services-section .col-md-3 {
         float: left;
         margin-bottom: 30px;
         width: 25%;
     }
-
+*/
     /*product-page section*/
     #car-section .col-md-6{
       float: left;
@@ -231,6 +234,7 @@
   .navbar-default .navbar-brand {
   	 background-size: 110px;
   }
+
   /*car, pc, tmi, photocopier, manlift letter font-size*/
   #product-section h5{
 
@@ -257,11 +261,84 @@
     width: 100%;
 
   }
+  /*about-section*/
+  #about-section h4 {
+      font-size: 18px;
+  }
+  /*Contact*/
+  #contact-section .address{
 
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  #contact-section .contact-info h4{
+
+    font-size: 20px;
+  }
+  #contact-section .contact-info li{
+
+    font-size: 12px;
+  }
+  /*map size*/
+  #contact-section iframe {
+
+      width: 300px;
+      height: 300px;
+  }
+  #contact-section .map{
+
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  /*footer*/
+  #footer .family {
+      float: left;
+      margin-bottom: 10px;
+      width: 50%;
+  }
+  #footer .join {
+      float: left;
+      margin-bottom: 10px;
+      width: 50%;
+  }
+  #footer .family {
+
+    font-size: 12px;
+  }
+  #footer .family h4{
+
+    font-size: 18px;
+  }
+  #footer .join {
+
+    font-size: 12px;
+  }
+  #footer .join h4{
+
+    font-size: 18px;
+  }
+  /*blog image*/
+  #footer .join img{
+
+    width: 10px;
+    height: 10px;
+  }
   /*about-page business model-section*/
   #prices-section h3 {
     font-size: 22px;
-
+  }
+  #prices-section .col-md-3 {
+    float: left;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  #prices-section img {
+    width: 180px;
+    height: 80px;
   }
   /*client section
   #menu {
@@ -315,18 +392,6 @@
 		box-shadow: none !important;
 	}
 */
-
-/*about-page business model*/
-#prices-section .col-md-3 {
-  float: left;
-  margin-bottom: 10px;
-  width: 50%;
-}
-#prices-section img {
-  width: 180px;
-  height: 80px;
-
-}
 	/* Parallax background */
 	.parallax {
 		background-attachment: scroll !important;
@@ -362,51 +427,6 @@
 	}
 */
 
-  /*about-section*/
-  #about-section h4 {
-      font-size: 18px;
-  }
-  /*Contact*/
-
-  #contact-section .address{
-
-    float: left;
-    margin-bottom: 10px;
-    width: 50%;
-  }
-
-  #contact-section .contact-info h4{
-
-    font-size: 20px;
-  }
-  #contact-section .contact-info li{
-
-    font-size: 12px;
-  }
-  /*map size*/
-  #contact-section iframe {
-
-      width: 300px;
-      height: 300px;
-  }
-  #contact-section .map{
-
-    float: left;
-    margin-bottom: 10px;
-    width: 50%;
-  }
-
-  /*footer*/
-  #footer .family {
-      float: left;
-      margin-bottom: 10px;
-      width: 50%;
-  }
-  #footer .join {
-      float: left;
-      margin-bottom: 10px;
-      width: 50%;
-  }
   /*
   #footer .site {
       float: left;
@@ -427,28 +447,6 @@
     font-size: 18px;
   }
   */
-  #footer .family {
-
-    font-size: 12px;
-  }
-  #footer .family h4{
-
-    font-size: 18px;
-  }
-  #footer .join {
-
-    font-size: 12px;
-  }
-  #footer .join h4{
-
-    font-size: 18px;
-  }
-  /*blog image*/
-  #footer .join img{
-
-    width: 10px;
-    height: 10px;
-  }
 
 /*vision-section
 #service .service-header p{font-size: 15px}
@@ -516,9 +514,6 @@
   margin-bottom: 10px;
   width: 50%;
 }
-
-
-
 
 }
 
@@ -689,7 +684,7 @@
   #product-section .btn{
     padding:2px 10px;
   }
-  /*client section*/
+  /*client section
   #menu {
 
     width: 600px;
@@ -712,17 +707,19 @@
 
     font-size: 8px;
   }
-	/* Partners & Foter */
+  */
+	/* Partners & Foter
 	#partners-section, footer {
 		text-align: center;
 	}
+  */
   #recruit-section .tab-pane{
     font-size: 12px;
   }
   #recruit-section li{
     font-size: 13px;
   }
-  /* Facts (counter up) */
+  /* Facts (counter up)
   #partners-section p{
     font-size: 15px;
   }
@@ -732,7 +729,7 @@
   .counter-up .fact-inner .fa-3x {
     font-size: 30px;
   }
-
+*/
   /*Contact*/
 
   #contact-section .address{
@@ -933,8 +930,7 @@
     padding: 0.8px 6px;
   }
   /*partner-section logo font size*/
-  /*client section*/
-
+  /*client section
   #menu {
 
     width: 340px;
@@ -957,6 +953,7 @@
 
     font-size: 7px;
   }
+  */
   #recruit-section .tab-pane{
     font-size: 10px;
   }
@@ -964,13 +961,14 @@
     font-size: 9px;
   }
 
-  /* Facts (counter up) */
+  /* Facts (counter up)
   .counter-up .fact-inner .counter {
     font-size: 30px;
   }
   .counter-up .fact-inner .fa-3x {
     font-size: 24px;
   }
+  */
   /*Contact*/
   /*Contact*/
   #contact-section .address {
@@ -1051,9 +1049,6 @@
     width: 10px;
     height: 10px;
   }
-
-
-
   /*about-page businessmodel-section*/
   #prices-section h3 {
     font-size: 18px;
