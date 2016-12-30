@@ -535,6 +535,13 @@
 	.navbar-brand, .navbar-brand:focus {
 		margin-left: 10px;
 	}
+  /*main nav logo-size*/
+  .navbar-brand {
+    width: 130px;
+  }
+  .navbar-default .navbar-brand {
+     background-size: 130px;
+  }
 
 	/* Navbar toggle button */
 	.navbar-toggle {
@@ -895,6 +902,13 @@
   hr {
 
     width: 100%;
+  }
+  /*main nav logo-size*/
+  .navbar-brand {
+    width: 120px;
+  }
+  .navbar-default .navbar-brand {
+     background-size: 120px;
   }
   #product-section .col-md-4{
     float: left;
