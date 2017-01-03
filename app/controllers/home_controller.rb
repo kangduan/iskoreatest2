@@ -31,6 +31,7 @@ class HomeController < ApplicationController
   def product
     @posts = Post.all
   end
+
   def board
 
       post = Post.new
