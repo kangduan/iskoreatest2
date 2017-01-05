@@ -247,7 +247,7 @@ section {
 }
 
 /* Navbar fixed */
-.navbar-default .navbar-fixed-top .container {
+ .navbar-fixed-top .container {
 
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -255,7 +255,9 @@ section {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-
+.navbar-default {
+	z-index: 9999;
+}
 .navbar-shrink {
 	z-index: 9999;
 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
