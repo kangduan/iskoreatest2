@@ -494,25 +494,40 @@
   margin-bottom: 10px;
   width: 50%;
 }
+#car-section table{
+  font-size: 16px;
+}
 #pc-section .col-md-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
+}
+#pc-section table{
+  font-size: 16px;
 }
 #copy-section .col-md-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
 }
+#copy-section table{
+  font-size: 16px;
+}
 #manlift-section .col-md-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
 }
+#manlift-section table{
+  font-size: 16px;
+}
 #tmi-section .col-md-6{
   float: left;
   margin-bottom: 10px;
   width: 50%;
+}
+#tmi-section table{
+  font-size: 16px;;
 }
 
 }
@@ -870,11 +885,17 @@
     margin-bottom: 10px;
     width: 100%;
   }
+  #car-section table{
+    font-size: 14px;
+  }
 
   #pc-section .col-md-6{
     float: left;
     margin-bottom: 10px;
     width: 100%;
+  }
+  #pc-section table{
+    font-size: 14px;
   }
 
   #copy-section .col-md-6{
@@ -882,17 +903,26 @@
     margin-bottom: 10px;
     width: 100%;
   }
+  #copy-section table{
+    font-size: 14px;
+  }
 
   #manlift-section .col-md-6{
     float: left;
     margin-bottom: 10px;
     width: 100%;
   }
+  #manlift-section table{
+    font-size: 14px;
+  }
 
   #tmi-section .col-md-6{
     float: left;
     margin-bottom: 10px;
     width: 100%;
+  }
+  #tmi-section table{
+    font-size: 14px;
   }
 
 
