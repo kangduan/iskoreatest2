@@ -495,7 +495,7 @@
   width: 50%;
 }
 #car-section table{
-  font-size: 16px;
+  font-size: 12px;
 }
 #pc-section .col-md-6{
   float: left;
@@ -503,7 +503,7 @@
   width: 50%;
 }
 #pc-section table{
-  font-size: 16px;
+  font-size: 12px;
 }
 #copy-section .col-md-6{
   float: left;
@@ -511,7 +511,7 @@
   width: 50%;
 }
 #copy-section table{
-  font-size: 16px;
+  font-size: 12px;
 }
 #manlift-section .col-md-6{
   float: left;
@@ -519,7 +519,7 @@
   width: 50%;
 }
 #manlift-section table{
-  font-size: 16px;
+  font-size: 12px;
 }
 #tmi-section .col-md-6{
   float: left;
@@ -527,7 +527,7 @@
   width: 50%;
 }
 #tmi-section table{
-  font-size: 16px;;
+  font-size: 12px;
 }
 
 }
