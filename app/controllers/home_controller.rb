@@ -8,21 +8,21 @@ class HomeController < ApplicationController
     @email = params[:email]
     @content = params[:content]
     @phone = params[:phone]
-    mg_client = Mailgun::Client.new("key-f3481f72d0dd510c5af1543033732a1b")
+    mg_client = Mailgun::Client.new("key-ac89645311d8534bb27750e824ad715a")
 
     message_params =  {
                    from: @email,
-                   to:   'shjang@korearental.co.kr',
+                   to:   'duanea0606@gmail.com',
                    subject: @name,
                    text:    @content
                   }
 
-                  result = mg_client.send_message('sandboxf8f8102b92ba414e81315b1e522a853d.mailgun.org', message_params).to_h!
+                  result = mg_client.send_message('sandbox165c26fd72294c21b95418c845d11557.mailgun.org', message_params).to_h!
 
                   message_id = result['id']
                   message = result['message']
 
-            redirect_to root_path, notice: 'Message was sent.'
+            redirect_to '/'
   end
 
 
