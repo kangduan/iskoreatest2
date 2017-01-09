@@ -1089,7 +1089,7 @@ $(document).ready(function() {
 										<div class="col-md-6 join">
 											<div id="meta-3" class="widget widgetFooter widget_meta">
 											<h4 class="widgettitle">Tham gia :</h4>
-											li><a href="https://www.facebook.com/iskorearentalvina" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA FACEBOOK</a></li><br><br>
+											<li><a href="https://www.facebook.com/iskorearentalvina" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_VINA FACEBOOK</a></li><br><br>
 											<li><a href="https://www.facebook.com/KoreaRental/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_KOREA FACEBOOK</a></li><br><br>
 											<li><a href="http://blog.naver.com/krc15601" target="_blank"><img src="/img/blogger-logo-silhouette.png"> &nbsp;&nbsp;&nbsp; IS_KOREARENTAL_KOREA BLOG</a></li><br><br>
 											<!-- message button -->
@@ -1140,7 +1140,7 @@ $(document).ready(function() {
 														<textarea class="form-control input-lg" rows="5" name="content" placeholder="message (please write your phone number)" required></textarea>
 												</div>
 												<div align="center">
-												 <button type="submit" class="btn btn-lg" data-wow-delay="0.8s">Send</button>
+												 <button type="submit" id="sending" class="btn btn-lg" data-wow-delay="0.8s">Send</button>
 											  </div>
 										</form>
 								</div>
@@ -1155,6 +1155,10 @@ $(document).ready(function() {
 						</div>
 
 					</div>
+					<!-- email success alert -->
+					<script>
+					$('#sending').click( function() { alert('send message success!'); });
+					</script>
 
 			</div><!-- body -->
     </body>
