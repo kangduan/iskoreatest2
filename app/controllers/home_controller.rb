@@ -22,7 +22,7 @@ class HomeController < ApplicationController
                   message_id = result['id']
                   message = result['message']
 
-            redirect_to "/"
+            redirect_to root_path, notice: 'Message was sent.'
   end
 
 
