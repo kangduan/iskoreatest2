@@ -8,7 +8,7 @@ class HomeController < ApplicationController
     @email = params[:email]
     @content = params[:content]
     @phone = params[:phone]
-    mg_client = Mailgun::Client.new("key-ac89645311d8534bb27750e824ad715a")
+    mg_client = Mailgun::Client.new("key-47e99f7436499cd1eca02fb2d76a032c")
 
     message_params =  {
                    from: @email,
@@ -17,7 +17,7 @@ class HomeController < ApplicationController
                    text:    @content
                   }
 
-                  result = mg_client.send_message('sandbox165c26fd72294c21b95418c845d11557.mailgun.org', message_params).to_h!
+                  result = mg_client.send_message('sandbox5785dd6d827044c6a6914279b3c35f83.mailgun.org', message_params).to_h!
 
                   message_id = result['id']
                   message = result['message']
