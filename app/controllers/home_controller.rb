@@ -22,8 +22,6 @@ class HomeController < ApplicationController
                   message_id = result['id']
                   message = result['message']
 
-                  #send message success
-                  render js: "alert('Message send success!!');"
                   redirect_to '/'
   end
 
