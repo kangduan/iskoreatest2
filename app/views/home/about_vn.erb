@@ -45,6 +45,9 @@
 		<link rel="stylesheet" href="/assets/mobile.css">
 		<!-- color css file -->
 		<link rel="stylesheet" href="/assets/cool-gray.css">
+		<!-- validation -->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
 
 </head>
     <body data-spy="scroll" data-target="#main-navbar">
@@ -589,20 +592,20 @@
 									</div>
 									<div class="modal-body">
 										<div class="contact-form">
-												<form role="form" action="/home/write" method="post">
-														<div class="form-group">
-																<input type="text" class="form-control input-lg" name="name" placeholder="your name (or company name)" required>
-														</div>
-														<div class="form-group">
-																<input type="email" class="form-control input-lg" name="email" placeholder="your e-mail" required>
-														</div>
-														<div class="form-group">
-																<textarea class="form-control input-lg" rows="5" name="content" placeholder="message (please write your phone number)" required></textarea>
-														</div>
-														<div align="center">
-														 <button type="submit" class="btn btn-lg" data-wow-delay="0.8s">Send</button>
-													  </div>
-												</form>
+											<form action="/home/write" method="POST" role="form" id="contact-form" class="contact-form">
+												<div class="form-group">
+															<input type="text" class="form-control" name="name" autocomplete="off" id="Name" placeholder="Company Name">
+												</div>
+												<div class="form-group">
+															<input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Your E-mail">
+												</div>
+												<div class="form-group">
+															<textarea class="form-control textarea" rows="5" name="content" id="Message" placeholder="Message( + phone number )"></textarea>
+												</div>
+												<div align="center">
+													<button type="submit" class="btn main-btn">Send a message</button>
+												</div>
+										 </form>
 										</div>
 
 									</div>
