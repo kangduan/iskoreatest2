@@ -22,6 +22,8 @@ class HomeController < ApplicationController
                   message_id = result['id']
                   message = result['message']
 
+                  respond_to do |format|
+                  format.js { render :js => "message send success!" }
                   redirect_to '/'
   end
 
