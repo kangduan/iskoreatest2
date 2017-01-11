@@ -2006,6 +2006,7 @@ p.footer {
 line-height: 50px;
 top: 0px;
 }
+/*modal front*/
 .modal {
 	z-index: 9999;
 }
