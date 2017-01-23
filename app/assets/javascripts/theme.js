@@ -141,6 +141,13 @@ $('.counter').counterUp({
     time: 2000
 });
 
+
+//slide image count//
+$(function() {
+    $('#Carousel').carousel({
+        interval:   10000 //7 seconds
+    });
+</script>
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////
