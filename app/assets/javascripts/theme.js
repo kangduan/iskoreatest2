@@ -89,7 +89,7 @@ $("#owl-intro-text").owlCarousel({
     navigation : false,
     navigationText : false,
     pagination : true
-})
+});
 
 
 // Partner carousel
@@ -102,14 +102,14 @@ $("#owl-partners").owlCarousel({
     autoPlay : 2000,
     stopOnHover : false,
     pagination : false
-})
+});
 
 // Testimonials carousel
 $("#owl-testimonial").owlCarousel({
     singleItem : true,
     pagination : true,
     autoHeight : true
-})
+});
 
 });
 ////////////////////////////////////////////////////////////////////
