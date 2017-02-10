@@ -49,7 +49,7 @@ var cbpAnimatedHeader = (function() {
 
     init();
 
-})();
+});
 });
 
 
@@ -72,7 +72,7 @@ $('body').scrollspy({
 $(function() {
 $(window).load(function() {
     // Animate loader off screen
-    $(".page-loader").fadeOut("Slow");
+    $(".page-loader").fadeOut("fast");
 });
 });
 
@@ -141,11 +141,6 @@ $('.counter').counterUp({
     time: 2000
 });
 
-// slide image time interval //
-$(function() {
-  $('#Carousel').carousel({
-      interval:   7000
-  });
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////
