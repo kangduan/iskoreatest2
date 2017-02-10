@@ -189,7 +189,12 @@ $('.scrolltotop').click(function(){
 });
 
 });
-
+//slide interval time
+$(function() {
+    $('#Carousel').carousel({
+        interval:   7000 //7 seconds
+    });
+});
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
 ////////////////////////////////////////////////////////////////////
