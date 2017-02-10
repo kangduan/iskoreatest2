@@ -141,6 +141,11 @@ $('.counter').counterUp({
     time: 2000
 });
 
+// slide image time interval //
+$(function() {
+  $('#Carousel').carousel({
+      interval:   7000
+  });
 });
 
 ////////////////////////////////////////////////////////////////////////////////////////////
